@@ -6,7 +6,7 @@ name: Java CI with Gradle
 on:
   schedule:
 #    定时执行 17:00 UTC
-    - cron: '0 17 * * *'
+    - cron: '10 17 * * 1-7'
 #  push:
 #    branches: [ master ]
 #   pull_request:
