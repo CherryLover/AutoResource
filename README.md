@@ -9,6 +9,7 @@
 
 ## 功能
 -[x] 抓取 [Bing](https://cn.bing.com/) 每日图片
+
 -[x] 抓取 [Unsplash](https://unsplash.com/) 每日图片
 
 ## 使用
@@ -16,18 +17,18 @@
 1. Fork 本仓库；
 2. 注册购买阿里云 oss；
 3. 在自己的本仓库副本的 Settings -> Secrets -> New Secrets 依次配置下列内容「注意单次拼写」。
-   - endPoint
+   - endPoint    
      阿里云 oss 地址
-   - ossKey
+   - ossKey    
      阿里云 oss 访问 Key
-   - ossSecret
+   - ossSecret    
      阿里云 oss 访问 Secret
-   - bucketName
+   - bucketName    
      阿里云 oss BucketName
-   - dir
+   - dir    
      阿里云仓库存储的文件夹
-   - actions
-     目前仅支持参数`Bing`
-   - gitToken
+   - actions    
+     目前仅支持参数`Bing`，用于抓取 Bing 的每日图片
+   - gitToken    
      用于更新仓库所用
      
