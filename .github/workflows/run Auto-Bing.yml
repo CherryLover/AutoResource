@@ -28,7 +28,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{endPoint}} ${{ossKey}} ${{ossSecret}} ${{bucketName}} ${{dir}} ${{actions}}
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{secrets.endPoint}} ${{secrets.ossKey}} ${{secrets.ossSecret}} ${{secrets.bucketName}} ${{secrets.dir}} ${{secrets.actions}}
     - name: Commit files
       run: |
         git config --local user.email "jiangjiwei0322@outlook.com"
