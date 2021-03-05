@@ -28,7 +28,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{secrets.endPoint}} ${{secrets.ossKey}} ${{secrets.ossSecret}} ${{secrets.bucketName}} ${{secrets.dir}} ${{secrets.actions}}
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{secrets.END_POINT}} ${{secrets.OSS_KEY}} ${{secrets.OSS_SECRET}} ${{secrets.BUCKET_NAME}} ${{secrets.DIR}} ${{secrets.ACTIONS}}
     - name: Commit files
       run: |
         git config --local user.email "jiangjiwei0322@outlook.com"
@@ -38,5 +38,5 @@ jobs:
     - name: Push Change
       uses: ad-m/github-push-action@mast
       with:
-        github_token: ${{secrets.gitToken}}
+        github_token: ${{secrets.GIT_TOKEN}}
         branch: main
