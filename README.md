@@ -8,9 +8,9 @@
 4. 配置 GitHub Action 进行自动化执行 
 
 ## 功能
--[x] 抓取 [Bing](https://cn.bing.com/) 每日图片
+- [X] 抓取 [Bing](https://cn.bing.com/) 每日图片
 
--[x] 抓取 [Unsplash](https://unsplash.com/) 每日图片
+- [ ] 抓取 [Unsplash](https://unsplash.com/) 每日图片
 
 ## 使用
 ### 自行搭建
