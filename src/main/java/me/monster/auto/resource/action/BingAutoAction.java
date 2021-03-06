@@ -49,8 +49,8 @@ public class BingAutoAction implements AutoAction {
             url = url.substring(0, url.indexOf("&"));
             // 图片时间
             String endDate = lastImg.getEnddate();
-            LocalDate localDate = LocalDate.parse(endDate, DateTimeFormatter.BASIC_ISO_DATE);
-            endDate = localDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
+//            LocalDate localDate = LocalDate.parse(endDate, DateTimeFormatter.BASIC_ISO_DATE);
+//            endDate = localDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
             // 图片版权
             String copyright = lastImg.getCopyright();
             String copyRightLink = BING_URL + lastImg.getCopyrightlink();

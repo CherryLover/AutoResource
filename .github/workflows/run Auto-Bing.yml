@@ -14,9 +14,6 @@ on:
 #   pull_request:
 #     branches: [ master ]
 
-env:
-  ENDPOINT: ${{ secrets.END_POINT }}
-
 jobs:
   build:
 
@@ -33,10 +30,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: |
-        echo "this is job1"
-        echo "$ENDPOINT"
-        java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar oss-cn-shanghai.aliyuncs.com ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} monster-image-backup auto_image_store Bing
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar oss-cn-shanghai.aliyuncs.com ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} monster-image-backup auto_image_store Bing
     - name: Commit files
       run: |
         git config --local user.email "jiangjiwei0322@outlook.com"
