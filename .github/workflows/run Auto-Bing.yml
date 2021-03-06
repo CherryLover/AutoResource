@@ -4,15 +4,15 @@
 name: Java CI with Gradle
 
 on:
-  issue_comment:
-    types: [created, deleted]
   schedule:
-#    定时执行 17:00 UTC
-    - cron: '40 7 * * 0-6'
-  push:
-   branches: [ master ]
+#    定时执行 16:10 UTC
+    - cron: '10 16 * * 0-6'
+#  push:
+#   branches: [ master ]
 #   pull_request:
 #     branches: [ master ]
+#  issue_comment:
+#    types: [created, deleted]
 
 jobs:
   build:
@@ -37,8 +37,8 @@ jobs:
         git config --local user.name "jiangjiwei"
         git add BingImage.json
         git commit -m "update image store"
-        git config pull.rebase true
-        git pull
+#        git config pull.rebase true
+#        git pull
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
