@@ -6,5 +6,13 @@
     "copyRightLink": "https://cn.bing.com/search?q=%e5%8a%9b%e6%8b%93%e6%b2%b3&form=hpcapt&mkt=zh-cn",
     "fileName": "2021-03-05.jpg",
     "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-05.jpg"
+  },
+  {
+    "url": "https://cn.bing.com/th?id=OHR.PadarIsland_EN-US0491336626_UHD.jpg",
+    "endDate": "2021-03-07",
+    "copyright": "Komodo National Park, Indonesia (© Thrithot/Adobe Stock)",
+    "copyRightLink": "https://cn.bing.com/search?q=komodo+national+park&form=hpcapt&filters=HpDate%3a%2220210306_0800%22",
+    "fileName": "2021-03-07_Here there be dragons.jpg",
+    "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-07_Here there be dragons.jpg"
   }
 ]
