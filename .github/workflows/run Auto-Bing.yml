@@ -4,9 +4,11 @@
 name: Java CI with Gradle
 
 on:
+  issue_comment:
+    types: [created]
   schedule:
 #    定时执行 17:00 UTC
-    - cron: '20 8 * * 0-6'
+    - cron: '40 7 * * 0-6'
 #  push:
 #    branches: [ master ]
 #   pull_request:
