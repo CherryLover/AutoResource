@@ -14,6 +14,9 @@ on:
 #   pull_request:
 #     branches: [ master ]
 
+env:
+  ENDPOINT: ${{secrets.END_POINT}}
+
 jobs:
   build:
 
@@ -30,9 +33,10 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      with:
-        endPoint: ${{secrets.END_POINT}}
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar "$END_POINT" ${{secrets.OSS_KEY}} ${{secrets.OSS_SECRET}} ${{secrets.BUCKET_NAME}} ${{secrets.DIR}} ${{secrets.ACTIONS}}
+      run: |
+        echo "this is job1"
+        echo $ENDPOINT
+#        java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar "$END_POINT" ${{secrets.OSS_KEY}} ${{secrets.OSS_SECRET}} ${{secrets.BUCKET_NAME}} ${{secrets.DIR}} ${{secrets.ACTIONS}}
     - name: Commit files
       run: |
         git config --local user.email "jiangjiwei0322@outlook.com"
