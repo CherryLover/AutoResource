@@ -42,6 +42,9 @@ public class OssHelper {
         }
         String ossPath = basePath + storePath + File.separator + fileName;
         OSS ossClient = new OSSClientBuilder().build(formatEndPoint(false), keyId, secret);
+        if (ossClient == null) {
+            throw new IllegalArgumentException("Oss init has wrong " + keyId);
+        }
         InputStream inputStream = new URL(link).openStream();
         PutObjectRequest putObjectRequest = new PutObjectRequest(bucket, ossPath, inputStream);
         ossClient.putObject(putObjectRequest);
