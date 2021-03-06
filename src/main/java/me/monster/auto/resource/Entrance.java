@@ -16,7 +16,6 @@ public class Entrance {
 
     // args order: endPoint ossKey ossSecret bucketName dir actions{bing, unsplash}
     public static void main(String[] args) {
-        System.out.println("run in " + System.getProperty("user.dir"));
         if (args == null || args.length != 6) {
             throw new IllegalArgumentException("no args");
         }
@@ -27,6 +26,8 @@ public class Entrance {
         String bucketName = args[3];
         String dir = args[4];
         String action = args[5];
+
+        System.out.println("run in " + System.getProperty("user.dir") + " " + action);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
