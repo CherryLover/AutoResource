@@ -37,6 +37,7 @@ jobs:
         git config --local user.name "jiangjiwei"
         git add BingImage.json
         git commit -m "update image store"
+        git pull
     - name: Push Change
       uses: ad-m/github-push-action@master
       with:
