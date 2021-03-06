@@ -15,7 +15,7 @@ on:
 #     branches: [ master ]
 
 env:
-  ENDPOINT: ${{secrets.END_POINT}}
+  ENDPOINT: ${{ secrets.END_POINT }}
 
 jobs:
   build:
@@ -36,7 +36,7 @@ jobs:
       run: |
         echo "this is job1"
         echo "$ENDPOINT"
-        java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar "$END_POINT" ${{secrets.OSS_KEY}} ${{secrets.OSS_SECRET}} ${{secrets.BUCKET_NAME}} ${{secrets.DIR}} ${{secrets.ACTIONS}}
+        java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar "$END_POINT" ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{secrets.BUCKET_NAME}} ${{ secrets.DIR }} ${{ secrets.ACTIONS }}
 #    - name: Commit files
 #      run: |
 #        git config --local user.email "jiangjiwei0322@outlook.com"
