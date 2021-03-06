@@ -27,7 +27,7 @@ public class Entrance {
         String dir = args[4];
         String action = args[5];
 
-        System.out.println("run in " + System.getProperty("user.dir") + " " + action);
+        System.out.println("endPoint " + endPoint + " action " + action);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
