@@ -38,8 +38,8 @@ jobs:
         git add BingImage.json
         git commit -m "update image store"
         git pull
-    - name: Push Change
-      uses: ad-m/github-push-action@master
+    - name: Push changes
+      uses:  ad-m/github-push-action@master
       with:
-        github_token: ${{secrets.MY_GIT_TOKEN}}
+        github_token: ${{ secrets.MY_GIT_TOKEN }}
         branch: main
