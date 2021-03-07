@@ -7,8 +7,8 @@ on:
   schedule:
 #    定时执行 16:10 UTC
     - cron: '10 16 * * 0-6'
-#   push:
-#    branches: [ master ]
+   push:
+    branches: [ master ]
 #   pull_request:
 #     branches: [ master ]
 #  issue_comment:

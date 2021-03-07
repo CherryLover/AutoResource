@@ -2,23 +2,18 @@ package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 import me.monster.auto.resource.FileUtils;
 import me.monster.auto.resource.HttpUtils;
 import me.monster.auto.resource.OssHelper;
-import me.monster.auto.resource.bean.BingImageElement;
-import me.monster.auto.resource.bean.RspBingImgEle;
-import me.monster.auto.resource.bean.RspBingList;
+import me.monster.auto.resource.bean.BingImageVo;
+import me.monster.auto.resource.bean.RspBingVo;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @description
@@ -30,7 +25,8 @@ public class BingAutoAction implements AutoAction {
     private static final String BING_URL = "https://cn.bing.com";
 
     private OssHelper mOssHelper;
-    private BingImageElement mNewElement;
+    private BingImageVo.BingImageElement mNewElement;
+    private RspBingVo.RspBingImgEle mLastImg;
 
     @Override
     public void setup(String endPoint, String ossKey, String ossSecret, String bucketName, String dir) {
@@ -41,30 +37,28 @@ public class BingAutoAction implements AutoAction {
     public void fetchInfo() {
         try {
             String httpContent = HttpUtils.getHttpContent(BING_API);
-            RspBingList rspList = new Gson().fromJson(httpContent, RspBingList.class);
-            RspBingImgEle lastImg = rspList.getLast();
+            RspBingVo rspList = new Gson().fromJson(httpContent, RspBingVo.class);
+            mLastImg = rspList.getLast();
 
             // 图片地址
-            String url = BING_URL + lastImg.getUrl();
+            String url = BING_URL + mLastImg.getUrl();
             url = url.substring(0, url.indexOf("&"));
             // 图片时间
-            String endDate = lastImg.getEnddate();
-//            LocalDate localDate = LocalDate.parse(endDate, DateTimeFormatter.BASIC_ISO_DATE);
-//            endDate = localDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
+            String endDate = mLastImg.getEnddate();
+            LocalDate localDate = LocalDate.parse(endDate, DateTimeFormatter.BASIC_ISO_DATE);
+            endDate = localDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
             // 图片版权
-            String copyright = lastImg.getCopyright();
-            String copyRightLink = BING_URL + lastImg.getCopyrightlink();
+            String copyright = mLastImg.getCopyright();
+            String copyRightLink = BING_URL + mLastImg.getCopyrightlink();
 
-            mNewElement = new BingImageElement(url, endDate, copyright);
+            mNewElement = new BingImageVo.BingImageElement(url, endDate, copyright);
             mNewElement.copyRightLink = copyRightLink;
 
-            if (lastImg.getTitle().isEmpty()) {
+            if (mLastImg.getTitle().isEmpty()) {
                 mNewElement.fileName = mNewElement.endDate + ".jpg";
             } else {
-                mNewElement.fileName = mNewElement.endDate + "_" + lastImg.getTitle() + ".jpg";
+                mNewElement.fileName = mNewElement.endDate + "_" + mLastImg.getTitle() + ".jpg";
             }
-            mNewElement.ossPath = mOssHelper.save(url, mNewElement.fileName);
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -78,20 +72,21 @@ public class BingAutoAction implements AutoAction {
         }
         try {
             String content = FileUtils.getContent(getStoreFilePath());
-
-            Type typeOfImageElement = new TypeToken<List<BingImageElement>>() {
-            }.getType();
             Gson gson = new GsonBuilder()
                     .setPrettyPrinting()
                     .disableHtmlEscaping()
                     .create();
+            mNewElement.ossPath = mOssHelper.save(mNewElement.url, mNewElement.fileName);
 
-            List<BingImageElement> imageList = gson.fromJson(content, typeOfImageElement);
-            if (imageList == null) {
-                imageList = new ArrayList<>();
+            BingImageVo bingImageVo = gson.fromJson(content, BingImageVo.class);
+            if (bingImageVo.containDay(mLastImg.getEnddate())) {
+                System.out.println("contain " + mLastImg.getEnddate() +" now finish current action run");
+                return;
             }
-            imageList.add(mNewElement);
-            String json = gson.toJson(imageList);
+            bingImageVo.appendList(mNewElement);
+            bingImageVo.appendDay(mLastImg.getEnddate());
+
+            String json = gson.toJson(bingImageVo);
             Files.write(Paths.get(getStoreFilePath()), json.getBytes(StandardCharsets.UTF_8));
 
         } catch (IOException e) {
