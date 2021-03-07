@@ -37,6 +37,8 @@ jobs:
         git config --local user.name "jiangjiwei"
         git add BingImage.json
         git commit -m "update image store"
+        git add BingImage.md
+        git commit -m "update image md file"
 #        git config pull.rebase true
 #        git pull
     - name: Push changes
