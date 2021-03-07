@@ -6,14 +6,16 @@ import me.monster.auto.resource.FileUtils;
 import me.monster.auto.resource.HttpUtils;
 import me.monster.auto.resource.OssHelper;
 import me.monster.auto.resource.bean.BingImageVo;
+import me.monster.auto.resource.bean.MdImage;
 import me.monster.auto.resource.bean.RspBingVo;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @description
@@ -87,7 +89,13 @@ public class BingAutoAction implements AutoAction {
             bingImageVo.appendDay(mLastImg.getEnddate());
 
             String json = gson.toJson(bingImageVo);
-            Files.write(Paths.get(getStoreFilePath()), json.getBytes(StandardCharsets.UTF_8));
+            FileUtils.rewriteFile(getStoreFilePath(), json);
+
+            List<MdImage> images = new ArrayList<>(bingImageVo.getDayInfoList().size());
+            for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
+                images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));
+            }
+            FileUtils.writeImageMdFile(getImagePreviewFilePath(), images);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -95,7 +103,12 @@ public class BingAutoAction implements AutoAction {
     }
 
     @Override
-    public String getStoreFilePath() {
-        return System.getProperty("user.dir") + "/BingImage.json";
+    public Path getStoreFilePath() {
+        return Paths.get(System.getProperty("user.dir") + "/BingImage.json");
+    }
+
+    @Override
+    public Path getImagePreviewFilePath() {
+        return Paths.get(System.getProperty("user.dir") + "/BingImage.md");
     }
 }

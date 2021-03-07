@@ -1,5 +1,7 @@
 package me.monster.auto.resource.action;
 
+import java.nio.file.Path;
+
 /**
  * @description
  * @author: Created jiangjiwei in 2021/3/5 6:07 下午
@@ -11,5 +13,7 @@ public interface AutoAction {
 
     void storeMetaInfo();
 
-    String getStoreFilePath();
+    Path getStoreFilePath();
+
+    Path getImagePreviewFilePath();
 }

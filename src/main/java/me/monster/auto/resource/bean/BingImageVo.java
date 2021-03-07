@@ -17,6 +17,9 @@ public class BingImageVo {
 
     public boolean containDay(String endDate) {
         Integer integer = getDayStoreMap().get(endDate);
+        if (integer == null) {
+            return false;
+        }
         return integer == DAY_STORE_MAP_EXISTS;
     }
 
@@ -28,7 +31,7 @@ public class BingImageVo {
         return dayStoreMap == null ? dayStoreMap = new HashMap<>() : dayStoreMap;
     }
 
-    private List<BingImageElement> getDayInfoList() {
+    public List<BingImageElement> getDayInfoList() {
         return dayInfoList == null ? dayInfoList = new ArrayList<>() : dayInfoList;
     }
 
