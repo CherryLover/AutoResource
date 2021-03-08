@@ -1,6 +1,7 @@
 {
   "dayStoreMap": {
-    "20210308": 1
+    "20210308": 1,
+    "20210309": 1
   },
   "dayInfoList": [
     {
@@ -10,6 +11,14 @@
       "copyRightLink": "https://cn.bing.com/search?q=great+blue+heron&form=hpcapt&filters=HpDate%3a%2220210307_0800%22",
       "fileName": "2021-03-08_Finding a balance between wetlands and water treatment.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-08_Finding a balance between wetlands and water treatment.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.NotoriousRBG_EN-US0765557260_UHD.jpg",
+      "endDate": "2021-03-09",
+      "copyright": "View of the Notorious RBG mural by the street artist Elle in New York City (© lev radin/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=international+women%27s+day&form=hpcapt&filters=HpDate%3a%2220210308_0800%22",
+      "fileName": "2021-03-09_A notorious advocate for women.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-09_A notorious advocate for women.jpg"
     }
   ]
 }
