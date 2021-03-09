@@ -35,6 +35,10 @@ public class BingImageVo {
         return dayInfoList == null ? dayInfoList = new ArrayList<>() : dayInfoList;
     }
 
+    public void appendList(BingImageElement element, int index) {
+        getDayInfoList().add(index,element);
+    }
+
     public void appendList(BingImageElement element) {
         getDayInfoList().add(element);
     }

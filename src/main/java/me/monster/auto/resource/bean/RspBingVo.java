@@ -1,5 +1,6 @@
 package me.monster.auto.resource.bean;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,6 +15,10 @@ public class RspBingVo {
             return new RspBingImgEle();
         }
         return images.get(0);
+    }
+
+    public List<RspBingImgEle> getImages() {
+        return images == null ? images = new ArrayList<>() : images;
     }
 
     public static class RspBingImgEle {

@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import me.monster.auto.resource.FileUtils;
 import me.monster.auto.resource.HttpUtils;
 import me.monster.auto.resource.OssHelper;
+import me.monster.auto.resource.TimeUtils;
 import me.monster.auto.resource.bean.BingImageVo;
 import me.monster.auto.resource.bean.MdImage;
 import me.monster.auto.resource.bean.RspBingVo;
@@ -12,8 +13,6 @@ import me.monster.auto.resource.bean.RspBingVo;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,8 +26,7 @@ public class BingAutoAction implements AutoAction {
     private static final String BING_URL = "https://cn.bing.com";
 
     private OssHelper mOssHelper;
-    private BingImageVo.BingImageElement mNewElement;
-    private RspBingVo.RspBingImgEle mLastImg;
+    private RspBingVo mRspBingVo;
 
     @Override
     public void setup(String endPoint, String ossKey, String ossSecret, String bucketName, String dir) {
@@ -39,28 +37,7 @@ public class BingAutoAction implements AutoAction {
     public void fetchInfo() {
         try {
             String httpContent = HttpUtils.getHttpContent(BING_API);
-            RspBingVo rspList = new Gson().fromJson(httpContent, RspBingVo.class);
-            mLastImg = rspList.getLast();
-
-            // 图片地址
-            String url = BING_URL + mLastImg.getUrl();
-            url = url.substring(0, url.indexOf("&"));
-            // 图片时间
-            String endDate = mLastImg.getEnddate();
-            LocalDate localDate = LocalDate.parse(endDate, DateTimeFormatter.BASIC_ISO_DATE);
-            endDate = localDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
-            // 图片版权
-            String copyright = mLastImg.getCopyright();
-            String copyRightLink = BING_URL + mLastImg.getCopyrightlink();
-
-            mNewElement = new BingImageVo.BingImageElement(url, endDate, copyright);
-            mNewElement.copyRightLink = copyRightLink;
-
-            if (mLastImg.getTitle().isEmpty()) {
-                mNewElement.fileName = mNewElement.endDate + ".jpg";
-            } else {
-                mNewElement.fileName = mNewElement.endDate + "_" + mLastImg.getTitle() + ".jpg";
-            }
+            mRspBingVo = new Gson().fromJson(httpContent, RspBingVo.class);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -69,44 +46,89 @@ public class BingAutoAction implements AutoAction {
 
     @Override
     public void storeMetaInfo() {
-        if (mNewElement == null) {
-            return;
-        }
         try {
-            String content = FileUtils.getContent(getStoreFilePath().toString());
+            String json = FileUtils.getContent(getStoreFilePath().toString());
             Gson gson = new GsonBuilder()
                     .setPrettyPrinting()
                     .disableHtmlEscaping()
                     .create();
-            mNewElement.ossPath = mOssHelper.save(mNewElement.url, mNewElement.fileName);
 
-            BingImageVo bingImageVo = gson.fromJson(content, BingImageVo.class);
-            if (bingImageVo.containDay(mLastImg.getEnddate())) {
-                System.out.println("contain " + mLastImg.getEnddate() +" now finish current action run");
-                bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
-
-                String json = gson.toJson(bingImageVo);
-                FileUtils.rewriteFile(getStoreFilePath(), json);
-
-                FileUtils.updateTime(getImagePreviewFilePath());
-                return;
+            BingImageVo bingImageVo = gson.fromJson(json, BingImageVo.class);
+            if (bingImageVo == null) {
+                bingImageVo = new BingImageVo();
             }
-            bingImageVo.appendList(mNewElement);
-            bingImageVo.appendDay(mLastImg.getEnddate());
-
-            bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
-            String json = gson.toJson(bingImageVo);
-            FileUtils.rewriteFile(getStoreFilePath(), json);
-
-            List<MdImage> images = new ArrayList<>(bingImageVo.getDayInfoList().size());
-            for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
-                images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));
+            if (bingImageVo.getDayInfoList().isEmpty()) {
+                storeAllPicture(gson, bingImageVo);
+            } else {
+                storePicture(gson, bingImageVo);
             }
-            FileUtils.writeImageMdFile(getImagePreviewFilePath(), images);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    // 全量保存图片
+    private void storeAllPicture(Gson gson, BingImageVo bingImageVo) throws IOException {
+        for (RspBingVo.RspBingImgEle image : mRspBingVo.getImages()) {
+            BingImageVo.BingImageElement element = xferBingImageVo(image, true);
+
+            bingImageVo.appendList(element);
+            bingImageVo.appendDay(image.getEnddate());
+        }
+
+        writeJsonStoreFile(gson, bingImageVo);
+        writeMdPreviewFile(bingImageVo);
+    }
+
+    private BingImageVo.BingImageElement xferBingImageVo(RspBingVo.RspBingImgEle image, boolean ossSave) throws IOException {
+        String url = BING_URL + image.getUrl();
+        url = url.substring(0, url.indexOf("&"));
+        BingImageVo.BingImageElement element = new BingImageVo.BingImageElement(url, TimeUtils.formatEndDate(image.getEnddate()), image.getCopyright());
+        element.copyRightLink = BING_URL + image.getCopyrightlink();
+
+        if (image.getTitle().isEmpty()) {
+            element.fileName = element.endDate + ".jpg";
+        } else {
+            element.fileName = element.endDate + "_" + image.getTitle() + ".jpg";
+        }
+        if (ossSave) {
+            element.ossPath = mOssHelper.save(element.url, element.fileName);
+        }
+        return element;
+    }
+
+    // 增量保存图片
+    private void storePicture(Gson gson, BingImageVo bingImageVo) throws IOException {
+        RspBingVo.RspBingImgEle lastImg = mRspBingVo.getLast();
+        BingImageVo.BingImageElement newElement = xferBingImageVo(mRspBingVo.getLast(), false);
+        if (bingImageVo.containDay(lastImg.getEnddate())) {
+            System.out.println("contain " + lastImg.getEnddate() +" now finish current action run");
+            writeJsonStoreFile(gson, bingImageVo);
+
+            FileUtils.updateTime(getImagePreviewFilePath());
+            return;
+        }
+        newElement.ossPath = mOssHelper.save(newElement.url, newElement.fileName);
+        bingImageVo.appendList(newElement, 0);
+        bingImageVo.appendDay(lastImg.getEnddate());
+
+        writeJsonStoreFile(gson, bingImageVo);
+        writeMdPreviewFile(bingImageVo);
+    }
+
+    private void writeJsonStoreFile(Gson gson, BingImageVo bingImageVo) throws IOException {
+        bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
+        String json = gson.toJson(bingImageVo);
+        FileUtils.rewriteFile(getStoreFilePath(), json);
+    }
+
+    private void writeMdPreviewFile(BingImageVo bingImageVo) throws IOException {
+        List<MdImage> images = new ArrayList<>(bingImageVo.getDayInfoList().size());
+        for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
+            images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));
+        }
+        FileUtils.writeImageMdFile(getImagePreviewFilePath(), images);
     }
 
     @Override
