@@ -1,7 +1,8 @@
 {
   "dayStoreMap": {
     "20210308": 1,
-    "20210309": 1
+    "20210309": 1,
+    "20210310": 1
   },
   "dayInfoList": [
     {
@@ -19,7 +20,15 @@
       "copyRightLink": "https://cn.bing.com/search?q=international+women%27s+day&form=hpcapt&filters=HpDate%3a%2220210308_0800%22",
       "fileName": "2021-03-09_A notorious advocate for women.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-09_A notorious advocate for women.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RollingHills_EN-US0930573674_UHD.jpg",
+      "endDate": "2021-03-10",
+      "copyright": "Foothills of the Diablo Range in the East Bay region of Northern California (© Jeff Lewis/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=diablo+foothills&form=hpcapt&filters=HpDate%3a%2220210309_0800%22",
+      "fileName": "2021-03-10_Spring comes to the Diablo foothills.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-10_Spring comes to the Diablo foothills.jpg"
     }
   ],
-  "updateTime": "1615257525480"
+  "updateTime": "1615282252306"
 }
