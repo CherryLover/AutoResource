@@ -72,6 +72,7 @@ public class FileUtils {
         Files.delete(mdFilePath);
         Files.createFile(mdFilePath);
         if (split.length < 2) {
+            Files.write(mdFilePath, split[0].getBytes(StandardCharsets.UTF_8));
             Files.write(mdFilePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
             Files.write(mdFilePath, (UPDATE_SP + TimeUtils.currentTime()).getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
             return;
