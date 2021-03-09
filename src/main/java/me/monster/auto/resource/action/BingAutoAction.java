@@ -73,7 +73,7 @@ public class BingAutoAction implements AutoAction {
             return;
         }
         try {
-            String content = FileUtils.getContent(getStoreFilePath());
+            String content = FileUtils.getContent(getStoreFilePath().toString());
             Gson gson = new GsonBuilder()
                     .setPrettyPrinting()
                     .disableHtmlEscaping()
@@ -83,11 +83,18 @@ public class BingAutoAction implements AutoAction {
             BingImageVo bingImageVo = gson.fromJson(content, BingImageVo.class);
             if (bingImageVo.containDay(mLastImg.getEnddate())) {
                 System.out.println("contain " + mLastImg.getEnddate() +" now finish current action run");
+                bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
+
+                String json = gson.toJson(bingImageVo);
+                FileUtils.rewriteFile(getStoreFilePath(), json);
+
+                FileUtils.updateTime(getImagePreviewFilePath());
                 return;
             }
             bingImageVo.appendList(mNewElement);
             bingImageVo.appendDay(mLastImg.getEnddate());
 
+            bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
             String json = gson.toJson(bingImageVo);
             FileUtils.rewriteFile(getStoreFilePath(), json);
 

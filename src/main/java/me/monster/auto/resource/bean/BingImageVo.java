@@ -1,6 +1,5 @@
 package me.monster.auto.resource.bean;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +13,7 @@ public class BingImageVo {
     public static final int DAY_STORE_MAP_EXISTS = 1;
     private Map<String, Integer> dayStoreMap;
     private List<BingImageElement> dayInfoList;
+    private String updateTime;
 
     public boolean containDay(String endDate) {
         Integer integer = getDayStoreMap().get(endDate);
@@ -37,6 +37,10 @@ public class BingImageVo {
 
     public void appendList(BingImageElement element) {
         getDayInfoList().add(element);
+    }
+
+    public void setUpdateTime(String updateTime) {
+        this.updateTime = updateTime;
     }
 
     public static class BingImageElement {
