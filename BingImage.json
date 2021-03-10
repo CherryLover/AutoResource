@@ -2,7 +2,8 @@
   "dayStoreMap": {
     "20210308": 1,
     "20210309": 1,
-    "20210310": 1
+    "20210310": 1,
+    "20210311": 1
   },
   "dayInfoList": [
     {
@@ -28,7 +29,15 @@
       "copyRightLink": "https://cn.bing.com/search?q=diablo+foothills&form=hpcapt&filters=HpDate%3a%2220210309_0800%22",
       "fileName": "2021-03-10_Spring comes to the Diablo foothills.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-10_Spring comes to the Diablo foothills.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.HarrietTubman_EN-US1054261891_UHD.jpg",
+      "endDate": "2021-03-11",
+      "copyright": "'Step on Board,' the Harriet Tubman Memorial, sculpted by Fern Cunningham, in Boston, Massachusetts (© Anthony Pleva/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Harriet+Tubman+Day&form=hpcapt&filters=HpDate%3a%2220210310_0800%22",
+      "fileName": "2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg"
     }
   ],
-  "updateTime": "1615282252306"
+  "updateTime": "1615368666247"
 }
