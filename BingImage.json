@@ -1,0 +1,79 @@
+{
+  "dayStoreMap": {
+    "20210311": 1,
+    "20210305": 1,
+    "20210304": 1,
+    "20210307": 1,
+    "20210306": 1,
+    "20210309": 1,
+    "20210308": 1,
+    "20210310": 1
+  },
+  "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.HarrietTubman_EN-US1054261891_UHD.jpg",
+      "endDate": "2021-03-11",
+      "copyright": "'Step on Board,' the Harriet Tubman Memorial, sculpted by Fern Cunningham, in Boston, Massachusetts (© Anthony Pleva/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Harriet+Tubman+Day&form=hpcapt&filters=HpDate%3a%2220210310_0800%22",
+      "fileName": "2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RollingHills_EN-US0930573674_UHD.jpg",
+      "endDate": "2021-03-10",
+      "copyright": "Foothills of the Diablo Range in the East Bay region of Northern California (© Jeff Lewis/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=diablo+foothills&form=hpcapt&filters=HpDate%3a%2220210309_0800%22",
+      "fileName": "2021-03-10_Spring comes to the Diablo foothills.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-10_Spring comes to the Diablo foothills.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.NotoriousRBG_EN-US0765557260_UHD.jpg",
+      "endDate": "2021-03-09",
+      "copyright": "View of the Notorious RBG mural by the street artist Elle in New York City (© lev radin/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=international+women%27s+day+rbg&FORM=hpcapt&filters=HpDate%3a%2220210308_0800%22",
+      "fileName": "2021-03-09_A notorious advocate for women.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-09_A notorious advocate for women.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Wakodahatchee_EN-US0593250314_UHD.jpg",
+      "endDate": "2021-03-08",
+      "copyright": "Great blue herons in the Wakodahatchee Wetlands, Delray Beach, Florida (© Marie Hickman/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=great+blue+heron&form=hpcapt&filters=HpDate%3a%2220210307_0800%22",
+      "fileName": "2021-03-08_Finding a balance between wetlands and water treatment.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-08_Finding a balance between wetlands and water treatment.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PadarIsland_EN-US0491336626_UHD.jpg",
+      "endDate": "2021-03-07",
+      "copyright": "Komodo National Park, Indonesia (© Thrithot/Adobe Stock)",
+      "copyRightLink": "https://cn.bing.com/search?q=komodo+national+park&form=hpcapt&filters=HpDate%3a%2220210306_0800%22",
+      "fileName": "2021-03-07_Here there be dragons.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-07_Here there be dragons.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MinasdeRioTinto_EN-US0408244151_UHD.jpg",
+      "endDate": "2021-03-06",
+      "copyright": "Mineral-laden water in the Rio Tinto, Minas de Riotinto mining area, Huelva province, Andalusia, Spain (© David Santiago Garcia/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=rio+tinto+river+spain&form=hpcapt&filters=HpDate%3a%2220210305_0800%22",
+      "fileName": "2021-03-06_Reflecting on one of the world's strangest rivers.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-06_Reflecting on one of the world's strangest rivers.jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Comma_EN-US0289421685_UHD.jpg",
+      "endDate": "2021-03-05",
+      "copyright": "Nusa Dua coast with breakwater, Bali, Indonesia (© Dkart/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=national+grammar+day&form=hpcapt&filters=HpDate%3a%2220210304_0800%22",
+      "fileName": "2021-03-05_The most wonderful day of the year. Period..jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-05_The most wonderful day of the year. Period..jpg"
+    },
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WWDLions_EN-US0205102042_UHD.jpg",
+      "endDate": "2021-03-04",
+      "copyright": "Female lions in the forest surrounding Lake Nakuru, Kenya (© Scott Davis/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=World+Wildlife+Day+2021&form=hpcapt&filters=HpDate%3a%2220210303_0800%22",
+      "fileName": "2021-03-04_Climb a tree for wild animals and plants.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
+    }
+  ],
+  "updateTime": "1615370080121"
+}
