@@ -8,9 +8,18 @@
     "20210309": 1,
     "20210308": 1,
     "20210310": 1,
-    "20210312": 1
+    "20210312": 1,
+    "20210313": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.AztecNewYear_EN-US8147148173_UHD.jpg",
+      "endDate": "2021-03-13",
+      "copyright": "A balloon flies over the Pyramid of the Sun at sunrise in Teotihuacan, Mexico (© Marco Ugarte/AP Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=aztec+new+year&form=hpcapt&filters=HpDate%3a%2220210312_0800%22",
+      "fileName": "2021-03-13_Ringing in the new year at Teotihuacan.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-13_Ringing in the new year at Teotihuacan.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CapePerpetua_EN-US1381606733_UHD.jpg",
       "endDate": "2021-03-12",
@@ -84,5 +93,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1615455094722"
+  "updateTime": "1615541447766"
 }
