@@ -9,9 +9,18 @@
     "20210308": 1,
     "20210310": 1,
     "20210312": 1,
-    "20210313": 1
+    "20210313": 1,
+    "20210314": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Rhododendron_EN-US8246366006_UHD.jpg",
+      "endDate": "2021-03-14",
+      "copyright": "Common rhododendrons in Semper Forest Park, Rügen, Germany (© Sandra Bartocha/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=Rhododendrons&form=hpcapt&filters=HpDate%3a%2220210313_0800%22",
+      "fileName": "2021-03-14_All hail the 'king of shrubs'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-14_All hail the 'king of shrubs'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AztecNewYear_EN-US8147148173_UHD.jpg",
       "endDate": "2021-03-13",
@@ -93,5 +102,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1615597478635"
+  "updateTime": "1615684126379"
 }
