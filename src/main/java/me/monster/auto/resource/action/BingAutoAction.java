@@ -95,7 +95,7 @@ public class BingAutoAction implements AutoAction {
             System.out.println("contain " + lastImg.getEnddate() +" now finish current action run");
             writeJsonStoreFile(gson, bingImageVo);
 
-            FileUtils.updateTime(getImagePreviewFilePath());
+            FileUtils.updateTime(getPreviewFilePath());
             return;
         }
         newElement.ossPath = checkSaveOss(newElement.url, newElement.fileName);
@@ -130,7 +130,7 @@ public class BingAutoAction implements AutoAction {
         for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
             images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));
         }
-        FileUtils.writeImageMdFile(getImagePreviewFilePath(), images);
+        FileUtils.writeImageMdFile(getPreviewFilePath(), images);
     }
 
     @Override
@@ -139,7 +139,7 @@ public class BingAutoAction implements AutoAction {
     }
 
     @Override
-    public Path getImagePreviewFilePath() {
+    public Path getPreviewFilePath() {
         return Paths.get(System.getProperty("user.dir") + "/BingImage.md");
     }
 }
