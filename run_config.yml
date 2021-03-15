@@ -1,0 +1,22 @@
+#格式：以 with 开始，解析支持的指令类型组
+run:
+  with: [ Bing, Unsplash ]
+
+  #支持的指令类型，*** 为从 GitHub Secret 配置中获取
+  Bing:
+    with: [ endPoint, ossKey, ossSecret, bucketName, dir ]
+    endPoint: oss-cn-shanghai.aliyuncs.com
+    ossKey: *
+    ossSecret: *
+    bucketName: monster-image-backup
+    dir: auto_image_store
+
+  Unsplash:
+    with: [ unsplashKey,endPoint, ossKey, ossSecret, bucketName, dir ]
+    unsplashKey: *
+    endPoint: oss-cn-shanghai.aliyuncs.com
+    ossKey: *
+    ossSecret: *
+    bucketName: monster-image-backup
+    dir: auto_image_store
+
