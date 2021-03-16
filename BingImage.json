@@ -11,9 +11,18 @@
     "20210312": 1,
     "20210313": 1,
     "20210314": 1,
-    "20210315": 1
+    "20210315": 1,
+    "20210316": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MassapequaOwl_EN-US8469635086_UHD.jpg",
+      "endDate": "2021-03-16",
+      "copyright": "Screech owl resting in a tree cavity, Massapequa Preserve, Long Island, New York (© Vicki Jauron, Babylon and Beyond Photography/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=eastern+screech+owl&FORM=hpcapt&filters=HpDate%3a%2220210315_0700%22",
+      "fileName": "2021-03-16_Every day is Napping Day for this screech owl.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-16_Every day is Napping Day for this screech owl.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.LyonAstronomical_EN-US8367377789_UHD.jpg",
       "endDate": "2021-03-15",
@@ -111,5 +120,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1615770373198"
+  "updateTime": "1615856708722"
 }
