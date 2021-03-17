@@ -12,9 +12,18 @@
     "20210313": 1,
     "20210314": 1,
     "20210315": 1,
-    "20210316": 1
+    "20210316": 1,
+    "20210317": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BifengxiaPanda_EN-US8585443782_UHD.jpg",
+      "endDate": "2021-03-17",
+      "copyright": "Giant panda cub at Bifengxia Panda Base, Sichuan, China (© Suzi Eszterhas/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=Giant+panda&form=hpcapt&filters=HpDate%3a%2220210316_0700%22",
+      "fileName": "2021-03-17_Why does this panda cub look so happy?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-17_Why does this panda cub look so happy?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MassapequaOwl_EN-US8469635086_UHD.jpg",
       "endDate": "2021-03-16",
@@ -120,5 +129,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1615856708722"
+  "updateTime": "1615943187494"
 }
