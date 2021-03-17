@@ -11,8 +11,21 @@ import java.util.Date;
  */
 public class TimeUtils {
 
+    /**
+     * 返回当前时间
+     * @return yyyy-MM-dd HH:mm:ss
+     */
     public static String currentTime() {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return format.format(new Date(System.currentTimeMillis()));
+    }
+
+    /**
+     * 返回当前时间
+     * @return yyyy-MM-dd
+     */
+    public static String currentDay() {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         return format.format(new Date(System.currentTimeMillis()));
     }
 
