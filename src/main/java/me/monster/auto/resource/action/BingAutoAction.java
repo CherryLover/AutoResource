@@ -21,6 +21,7 @@ public class BingAutoAction implements AutoAction {
 
     private static final String BING_API = "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&nc=1612409408851&pid=hp&FORM=BEHPTB&uhd=1&uhdwidth=3840&uhdheight=2160";
     private static final String BING_URL = "https://cn.bing.com";
+    public static final String BING_TITLE = "Bing Images";
 
     private RspBingVo mRspBingVo;
 
@@ -130,7 +131,7 @@ public class BingAutoAction implements AutoAction {
         for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
             images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));
         }
-        FileUtils.writeImageMdFile(getPreviewFilePath(), images);
+        FileUtils.writeImageMdFile(getPreviewFilePath(), BING_TITLE, images);
     }
 
     @Override

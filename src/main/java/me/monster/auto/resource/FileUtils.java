@@ -19,6 +19,10 @@ public class FileUtils {
 
     public static String getContent(String path) throws IOException {
         File file = new File(path);
+        if (!file.exists()) {
+            file.createNewFile();
+            return "";
+        }
         InputStream inputStream = new FileInputStream(file);
         BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
         byte[] buffer = new byte[1024];
@@ -30,28 +34,44 @@ public class FileUtils {
         return sb.toString();
     }
 
-    public static void writeImageMdFile(Path filePath, List<MdImage> imgList) throws IOException {
+    public static void writeImageMdFile(Path filePath, String title, List<MdImage> imgList) throws IOException {
+        writeImageMdFile(filePath, title, null, imgList);
+    }
+
+    public static final int IMG_MD_PREVIEW_SPAN_COUNT = 3;
+
+    public static void writeImageMdFile(Path filePath, String title, String[] tableTitle, List<MdImage> imgList) throws IOException {
         if (!Files.exists(filePath)) {
             Files.createFile(filePath);
         }
-        Files.write(filePath, "# Bing Images".getBytes());
+        title = "# " + title;
+        Files.write(filePath, title.getBytes());
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, imgList.get(0).getLargeFormat().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
-        Files.write(filePath, "|      |      |      |".getBytes(), StandardOpenOption.APPEND);
+        StringBuilder sb = new StringBuilder();
+        if (tableTitle == null || tableTitle.length != IMG_MD_PREVIEW_SPAN_COUNT) {
+            sb.append("|      |      |      |");
+        } else {
+            sb.append("|");
+            for (String s : tableTitle) {
+                sb.append("   ").append(s).append("   |");
+            }
+        }
+        Files.write(filePath, sb.toString().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, "| :----: | :----: | :----: |".getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
         int i = 1;
         for (MdImage images : imgList) {
             Files.write(filePath, ("|" + images.toString()).getBytes(), StandardOpenOption.APPEND);
-            if (i % 3 == 0) {
+            if (i % IMG_MD_PREVIEW_SPAN_COUNT == 0) {
                 Files.write(filePath, "|".getBytes(), StandardOpenOption.APPEND);
                 Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
             }
             i++;
         }
-        if (i % 3 != 1) {
+        if (i % IMG_MD_PREVIEW_SPAN_COUNT != 1) {
             Files.write(filePath, "|".getBytes(), StandardOpenOption.APPEND);
         }
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
