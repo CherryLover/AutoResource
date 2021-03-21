@@ -16,9 +16,18 @@
     "20210317": 1,
     "20210318": 1,
     "20210319": 1,
-    "20210320": 1
+    "20210320": 1,
+    "20210321": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ParnidisSundial_EN-US9491593439_UHD.jpg",
+      "endDate": "2021-03-21",
+      "copyright": "Sundial on Parnidis Dune, Curonian Spit, Lithuania (© amoklv/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=curonian+spit+dunes&form=hpcapt&filters=HpDate%3a%2220210320_0700%22",
+      "fileName": "2021-03-21_It's time for spring.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-21_It's time for spring.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MagneticIsland_EN-US9412695841_UHD.jpg",
       "endDate": "2021-03-20",
@@ -156,5 +165,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1616202373720"
+  "updateTime": "1616289016313"
 }
