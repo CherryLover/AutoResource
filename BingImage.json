@@ -17,9 +17,18 @@
     "20210318": 1,
     "20210319": 1,
     "20210320": 1,
-    "20210321": 1
+    "20210321": 1,
+    "20210322": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.HallesWood_EN-US9545891830_UHD.jpg",
+      "endDate": "2021-03-22",
+      "copyright": "Bluebell flowers carpet the Hallerbos forest floor, Flanders, Belgium (© Jason Langley/plainpicture)",
+      "copyRightLink": "https://cn.bing.com/search?q=hallerbos+forest&FORM=hpcapt&filters=HpDate%3a%2220210321_0700%22",
+      "fileName": "2021-03-22_A glimpse of the 'Blue Forest'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-22_A glimpse of the 'Blue Forest'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ParnidisSundial_EN-US9491593439_UHD.jpg",
       "endDate": "2021-03-21",
@@ -165,5 +174,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1616289016313"
+  "updateTime": "1616375294562"
 }
