@@ -26,11 +26,25 @@ public class UnsplashImageVo {
         getImgs().add(0, imgVo);
     }
 
+    public void insertAllImg(List<ImgVo> imgs) {
+        for (int i = imgs.size() - 1; i >= 0; i--) {
+            ImgVo imgVo = imgs.get(i);
+            insertImg(imgVo);
+        }
+    }
+
+    public void addImage(ImgVo vo) {
+        getImgs().add(vo);
+    }
+
     public void update() {
         this.update = String.valueOf(System.currentTimeMillis());
     }
 
     public static class ImgVo {
+        private String orientation;
+        private String date;
+
         private int view;
         private int download;
         private int like;
@@ -45,6 +59,22 @@ public class UnsplashImageVo {
         private String imgPage;
 
         private RspUnsplash.UrlsBean imgs;
+
+        public String getOrientation() {
+            return orientation;
+        }
+
+        public String getDate() {
+            return date;
+        }
+
+        public void setDate(String date) {
+            this.date = date;
+        }
+
+        public void setOrientation(String orientation) {
+            this.orientation = orientation;
+        }
 
         public int getView() {
             return view;
@@ -135,7 +165,7 @@ public class UnsplashImageVo {
         }
 
         public String getShareInfoMdString() {
-            return "<br />" + TimeUtils.currentDay() + "<br />" + "下载：" +
+            return "<br />" + date + "<br />" + "下载：" +
                     download +
                     " 喜欢：" +
                     like +
