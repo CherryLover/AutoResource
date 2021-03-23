@@ -55,8 +55,12 @@ public class Entrance {
             if (autoAction == null) {
                 throw new IllegalArgumentException("no " + action + " AutoAction implement");
             }
-            autoAction.fetchInfo();
-            autoAction.storeMetaInfo();
+            if (autoAction.isSync()) {
+
+            } else {
+                autoAction.fetchInfo();
+                autoAction.storeMetaInfo();
+            }
         }
 
     }

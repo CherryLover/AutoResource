@@ -156,4 +156,9 @@ public class UnsplashImgAutoAction implements AutoAction {
     public Path getPreviewFilePath() {
         return Paths.get(System.getProperty("user.dir") + "/UnsplashImage.md");
     }
+
+    @Override
+    public boolean isSync() {
+        return true;
+    }
 }

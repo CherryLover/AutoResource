@@ -143,4 +143,9 @@ public class BingAutoAction implements AutoAction {
     public Path getPreviewFilePath() {
         return Paths.get(System.getProperty("user.dir") + "/BingImage.md");
     }
+
+    @Override
+    public boolean isSync() {
+        return false;
+    }
 }
