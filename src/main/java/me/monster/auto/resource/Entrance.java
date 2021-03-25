@@ -3,6 +3,7 @@ package me.monster.auto.resource;
 import com.google.gson.Gson;
 import me.monster.auto.resource.action.AutoAction;
 import me.monster.auto.resource.action.BingAutoAction;
+import me.monster.auto.resource.action.UnsplashImgAutoAction;
 import me.monster.auto.resource.bean.RunConfig;
 
 import java.io.IOException;
@@ -45,9 +46,12 @@ public class Entrance {
 
         List<String> actionList = new ArrayList<>();
         actionList.add(ACTION_BING);
+        actionList.add(ACTION_UNSPLASH);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
+        actionMap.put(ACTION_UNSPLASH, new UnsplashImgAutoAction());
+
 
         for (String action : actionList) {
             AutoAction autoAction = actionMap.get(action);
