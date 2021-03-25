@@ -22,7 +22,12 @@ public class OssHelper {
         if (!aliOss.isAvailable()) {
             return "";
         }
-        String ossPath = aliOss.getOssSaveFolder() + File.separator + dir + File.separator + fileName;
+        String ossPath;
+        if (RuntimeUtils.isDebug()) {
+            ossPath = aliOss.getOssSaveFolder() + File.separator + dir + File.separator + "Debug" + File.separator + fileName;
+        } else {
+            ossPath = aliOss.getOssSaveFolder() + File.separator + dir + File.separator + fileName;
+        }
         OSS ossClient = new OSSClientBuilder().build(formatEndPoint(aliOss.getEndPoint(), null), aliOss.getOssKey(), aliOss.getOssSecret());
         if (ossClient == null) {
             throw new IllegalArgumentException("Oss init has wrong " + aliOss.getOssKey());
