@@ -1,9 +1,14 @@
 package me.monster.auto.resource;
 
+import com.google.gson.Gson;
 import me.monster.auto.resource.action.AutoAction;
 import me.monster.auto.resource.action.BingAutoAction;
+import me.monster.auto.resource.bean.RunConfig;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -13,31 +18,46 @@ import java.util.Map;
 public class Entrance {
 
     public static final String ACTION_BING = "Bing";
+    public static final String ACTION_UNSPLASH = "Unsplash";
 
-    // args order: endPoint ossKey ossSecret bucketName dir actions{bing, unsplash}
+    // args order: ossKey ossSecret unsplash_client_id
     public static void main(String[] args) {
-        if (args == null || args.length != 6) {
-            throw new IllegalArgumentException("no args");
+        try {
+            String config = FileUtils.getContent("RunConfig.json");
+            RunConfig runConfig = new Gson().fromJson(config, RunConfig.class);
+            for (int i = 0; i < args.length; i++) {
+                switch (i) {
+                    case 0:
+                        runConfig.getAliOss().setOssKey(args[i]);
+                        break;
+                    case 1:
+                        runConfig.getAliOss().setOssSecret(args[i]);
+                        break;
+                    case 2:
+                        runConfig.getUnsplash().setClientId(args[i]);
+                        break;
+                }
+            }
+            DataHolder.getInstance().setRunConfig(runConfig);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
-        String endPoint = args[0];
-        String ossKey = args[1];
-        String ossSecret = args[2];
-        String bucketName = args[3];
-        String dir = args[4];
-        String action = args[5];
-
-        System.out.println("endPoint " + endPoint + " action " + action);
+        List<String> actionList = new ArrayList<>();
+        actionList.add(ACTION_BING);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
-        AutoAction autoAction = actionMap.get(action);
 
-        if (autoAction == null) {
-            throw new IllegalArgumentException("no " + action + " AutoAction implement");
+        for (String action : actionList) {
+            AutoAction autoAction = actionMap.get(action);
+
+            if (autoAction == null) {
+                throw new IllegalArgumentException("no " + action + " AutoAction implement");
+            }
+            autoAction.fetchInfo();
+            autoAction.storeMetaInfo();
         }
-        autoAction.setup(endPoint, ossKey, ossSecret, bucketName, dir);
-        autoAction.fetchInfo();
-        autoAction.storeMetaInfo();
+
     }
 }

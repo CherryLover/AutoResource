@@ -1,0 +1,16 @@
+{
+  "Bing": {
+    "saveOss": true
+  },
+  "Unsplash": {
+    "saveOss": false,
+    "clientId": ""
+  },
+  "AliOss": {
+    "endPoint": "oss-cn-shanghai.aliyuncs.com",
+    "ossKey": "",
+    "ossSecret": "",
+    "bucketName": "monster-image-backup",
+    "ossSaveFolder": "auto_image_store"
+  }
+}

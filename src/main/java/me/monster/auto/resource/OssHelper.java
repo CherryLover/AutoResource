@@ -3,6 +3,7 @@ package me.monster.auto.resource;
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.model.PutObjectRequest;
+import me.monster.auto.resource.bean.RunConfig;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,51 +15,28 @@ import java.net.URL;
  * @author: Created jiangjiwei in 2021/3/5 4:14 下午
  */
 public class OssHelper {
-    private String endPoint = "";
+    public static final String FOLDER_BING = "bing";
 
-    private String keyId = "";
-    private String secret = "";
-
-    private String bucket = "";
-
-    private String basePath = "";
-
-    private String storePath = "";
-
-    public OssHelper(String endPoint, String keyId, String secret, String bucket, String basePath, String storePath) {
-        this.endPoint = endPoint;
-        this.keyId = keyId;
-        this.secret = secret;
-        this.bucket = bucket;
-        this.basePath = basePath;
-        this.storePath = storePath;
-    }
-
-    public String save(String link, String fileName) throws IOException {
-        if (isEmpty(endPoint) || isEmpty(keyId) || isEmpty(secret)
-                || isEmpty(bucket) || isEmpty(basePath) || isEmpty(storePath)
-                || isEmpty(link)) {
+    public static String save(String dir, String link, String fileName) throws IOException {
+        RunConfig.AliOssConfig aliOss = DataHolder.getInstance().getRunConfig().getAliOss();
+        if (!aliOss.isAvailable()) {
             return "";
         }
-        String ossPath = basePath + storePath + File.separator + fileName;
-        OSS ossClient = new OSSClientBuilder().build(formatEndPoint(false), keyId, secret);
+        String ossPath = aliOss.getOssSaveFolder() + File.separator + dir + File.separator + fileName;
+        OSS ossClient = new OSSClientBuilder().build(formatEndPoint(aliOss.getEndPoint(), null), aliOss.getOssKey(), aliOss.getOssSecret());
         if (ossClient == null) {
-            throw new IllegalArgumentException("Oss init has wrong " + keyId);
+            throw new IllegalArgumentException("Oss init has wrong " + aliOss.getOssKey());
         }
         InputStream inputStream = new URL(link).openStream();
-        PutObjectRequest putObjectRequest = new PutObjectRequest(bucket, ossPath, inputStream);
+        PutObjectRequest putObjectRequest = new PutObjectRequest(aliOss.getBucketName(), ossPath, inputStream);
         ossClient.putObject(putObjectRequest);
-        return formatEndPoint(true) + File.separator + ossPath;
+        return formatEndPoint(aliOss.getEndPoint(), aliOss.getBucketName()) + File.separator + ossPath;
     }
 
-    private boolean isEmpty(String text) {
-        return text == null || text.isEmpty() || "null".equals(text);
-    }
-
-    private String formatEndPoint(boolean withBucket) {
+    private static String formatEndPoint(String endPoint, String bucketName) {
         String url = "https://";
-        if (withBucket) {
-            url = url + bucket +".";
+        if (bucketName != null) {
+            url = url + bucketName + ".";
         }
         url = url + endPoint;
         return url;
