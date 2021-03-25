@@ -1,7 +1,5 @@
 package me.monster.auto.resource.bean;
 
-import me.monster.auto.resource.TimeUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package me.monster.auto.resource;
+package me.monster.auto.resource.tool;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;

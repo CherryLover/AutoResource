@@ -1,4 +1,4 @@
-package me.monster.auto.resource;
+package me.monster.auto.resource.tool;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;

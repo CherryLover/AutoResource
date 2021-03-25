@@ -2,7 +2,6 @@ package me.monster.auto.resource.tool;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import me.monster.auto.resource.HttpUtils;
 import me.monster.auto.resource.bean.RspUnsplash;
 
 import java.io.IOException;

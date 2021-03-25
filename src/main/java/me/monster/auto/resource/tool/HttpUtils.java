@@ -1,4 +1,4 @@
-package me.monster.auto.resource;
+package me.monster.auto.resource.tool;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

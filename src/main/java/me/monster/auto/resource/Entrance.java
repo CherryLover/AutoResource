@@ -5,6 +5,8 @@ import me.monster.auto.resource.action.AutoAction;
 import me.monster.auto.resource.action.BingAutoAction;
 import me.monster.auto.resource.action.UnsplashImgAutoAction;
 import me.monster.auto.resource.bean.RunConfig;
+import me.monster.auto.resource.tool.DataHolder;
+import me.monster.auto.resource.tool.FileUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package me.monster.auto.resource;
+package me.monster.auto.resource.tool;
 
 import me.monster.auto.resource.bean.RunConfig;
 
