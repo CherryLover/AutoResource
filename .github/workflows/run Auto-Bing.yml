@@ -36,9 +36,11 @@ jobs:
         git config --local user.email "jiangjiwei0322@outlook.com"
         git config --local user.name "jiangjiwei"
         git add BingImage.json
-        git commit -m "update image store"
         git add BingImage.md
-        git commit -m "update image md file"
+        git commit -m "update bing image and preivew file"
+        git add UnsplashImage.json
+        git add UnsplashImage.md
+        git commit -m "update unsplash image and preivew file"
 #        git config pull.rebase true
 #        git pull
     - name: Push changes
