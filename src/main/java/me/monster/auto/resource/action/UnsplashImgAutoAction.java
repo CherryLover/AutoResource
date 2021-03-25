@@ -2,6 +2,8 @@ package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import me.monster.auto.resource.bean.RunConfig;
+import me.monster.auto.resource.tool.DataHolder;
 import me.monster.auto.resource.tool.FileUtils;
 import me.monster.auto.resource.tool.TimeUtils;
 import me.monster.auto.resource.bean.MdImage;
@@ -28,6 +30,7 @@ public class UnsplashImgAutoAction implements AutoAction {
     public static final String[] ORIENTATION_ITEMS = {"landscape", "portrait", "squarish"};
     public static final String[] QUERY_ITEMS = {"wallpapers", "nature", "people", "architecture", "current-events", "fashion", "film", "travel", "textures-patterns", "animals", "food-drink"};
     public static final String UNSPLASH_TITLE = "Unsplash Images";
+    public static final String CLIENT_ID = "client_id";
     public static final String[] MD_PREVIEW_TABLE_TITLE = {"Landscape", "Portrait", "Squarish"};
     private final Map<String, String> queryMap;
 
@@ -55,6 +58,12 @@ public class UnsplashImgAutoAction implements AutoAction {
 
     @Override
     public void fetchInfo() {
+        RunConfig runConfig = DataHolder.getInstance().getRunConfig();
+        if (!runConfig.getUnsplash().isAvailable()) {
+            System.out.println("no Unsplash Client id");
+            return;
+        }
+        queryMap.put(CLIENT_ID, runConfig.getUnsplash().getClientId());
         String[] urlArray = new String[3];
         for (int i = 0; i < ORIENTATION_ITEMS.length; i++) {
             queryMap.put(URL_ARGS_ORIENTATION, ORIENTATION_ITEMS[i]);

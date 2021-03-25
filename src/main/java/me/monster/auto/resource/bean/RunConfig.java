@@ -1,5 +1,7 @@
 package me.monster.auto.resource.bean;
 
+import me.monster.auto.resource.tool.StringUtils;
+
 import java.util.Objects;
 
 /**
@@ -45,7 +47,11 @@ public class RunConfig {
         }
 
         public boolean isAvailable() {
-            return Objects.nonNull(clientId);
+            return StringUtils.isNotEmpty(clientId);
+        }
+
+        public String getClientId() {
+            return clientId;
         }
     }
 
@@ -85,19 +91,11 @@ public class RunConfig {
         }
 
         public boolean isAvailable() {
-            return isNotEmpty(endPoint)
-                    && isNotEmpty(ossKey)
-                    && isNotEmpty(ossSecret)
-                    && isNotEmpty(bucketName)
-                    && isNotEmpty(ossSaveFolder);
-        }
-
-        private boolean isEmpty(String text) {
-            return Objects.isNull(text) || "".equals(text);
-        }
-
-        private boolean isNotEmpty(String text) {
-            return !isEmpty(text);
+            return StringUtils.isNotEmpty(endPoint)
+                    && StringUtils.isNotEmpty(ossKey)
+                    && StringUtils.isNotEmpty(ossSecret)
+                    && StringUtils.isNotEmpty(bucketName)
+                    && StringUtils.isNotEmpty(ossSaveFolder);
         }
     }
 }
