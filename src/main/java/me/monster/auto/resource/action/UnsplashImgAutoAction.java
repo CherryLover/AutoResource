@@ -54,11 +54,6 @@ public class UnsplashImgAutoAction implements AutoAction {
     }
 
     @Override
-    public void setup(String endPoint, String ossKey, String ossSecret, String bucketName, String dir) {
-        fetchInfo();
-    }
-
-    @Override
     public void fetchInfo() {
         String[] urlArray = new String[3];
         for (int i = 0; i < ORIENTATION_ITEMS.length; i++) {
