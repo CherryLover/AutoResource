@@ -8,7 +8,7 @@ on:
 #    定时执行 00:10 UTC, 08:10 GMT+8
     - cron: '10 0 * * 0-6'
   push:
-    branches: [ master, develop ]
+    branches: [ master ]
 #   pull_request:
 #     branches: [ master ]
 #  issue_comment:
@@ -41,10 +41,8 @@ jobs:
         git add UnsplashImage.json
         git add UnsplashImage.md
         git commit -m "update unsplash image and preivew file"
-#        git config pull.rebase true
-#        git pull
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.MY_GIT_TOKEN }}
-        branch: develop
+        branch: master
