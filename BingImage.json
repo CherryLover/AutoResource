@@ -25,9 +25,18 @@
     "20210326": 1,
     "20210327": 1,
     "20210328": 1,
-    "20210329": 1
+    "20210329": 1,
+    "20210330": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Reynisfjara_EN-US7429542895_UHD.jpg",
+      "endDate": "2021-03-30",
+      "copyright": "Reynisdrangar (basalt rock formations) on Reynisfjara Beach, Iceland (© Cavan Images/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=reynisdrangar&FORM=hpcapt&filters=HpDate%3a%2220210329_0700%22",
+      "fileName": "2021-03-30_Rising up from the black sand like rock gods.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-30_Rising up from the black sand like rock gods.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.JeffersonCherries_EN-US7147255858_UHD.jpg",
       "endDate": "2021-03-29",
@@ -237,5 +246,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1616980841658"
+  "updateTime": "1617066993707"
 }
