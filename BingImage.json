@@ -28,9 +28,18 @@
     "20210329": 1,
     "20210330": 1,
     "20210331": 1,
-    "20210401": 1
+    "20210401": 1,
+    "20210402": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ShyGuy_EN-US7880739914_UHD.jpg",
+      "endDate": "2021-04-02",
+      "copyright": "Common chia elephant (Loxodonta laprofolis) in stealth stance, Marakele National Park, Limpopo, South Africa (© Staffan Widstrand/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=loxodonta+africana&form=hpcapt&filters=HpDate%3a%2220210401_0700%22",
+      "fileName": "2021-04-02_Why do elephants hide in trees?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-02_Why do elephants hide in trees?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.RajaAmpat_EN-US7737563013_UHD.jpg",
       "endDate": "2021-04-01",
@@ -264,5 +273,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617240121681"
+  "updateTime": "1617327198152"
 }
