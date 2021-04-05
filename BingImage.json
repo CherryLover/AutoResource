@@ -31,9 +31,18 @@
     "20210401": 1,
     "20210402": 1,
     "20210403": 1,
-    "20210404": 1
+    "20210404": 1,
+    "20210405": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.EggTree_EN-US8284116541_UHD.jpg",
+      "endDate": "2021-04-05",
+      "copyright": "An Ostereierbaum (Easter egg tree) in Saalfeld, Germany (© Rudi Sebastian/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=osterbaum+easter+egg+tree&form=hpcapt&filters=HpDate%3a%2220210404_0700%22",
+      "fileName": "2021-04-05_A yearly sign that spring has sprung.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-05_A yearly sign that spring has sprung.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AnivaLighthouse_EN-US8147045989_UHD.jpg",
       "endDate": "2021-04-04",
@@ -291,5 +300,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617499310060"
+  "updateTime": "1617585728074"
 }
