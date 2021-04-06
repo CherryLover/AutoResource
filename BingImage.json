@@ -32,9 +32,18 @@
     "20210402": 1,
     "20210403": 1,
     "20210404": 1,
-    "20210405": 1
+    "20210405": 1,
+    "20210406": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SautduBrot_EN-US8410506080_UHD.jpg",
+      "endDate": "2021-04-06",
+      "copyright": "Saut du Brot stone bridge in the Areuse Gorge, Neuchâtel, Switzerland (© Andreas Gerth/eStock Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=Brot-Dessous%2c+Switzerland&form=hpcapt&filters=HpDate%3a%2220210405_0700%22",
+      "fileName": "2021-04-06_Once upon a time there was a bridge….jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-06_Once upon a time there was a bridge….jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.EggTree_EN-US8284116541_UHD.jpg",
       "endDate": "2021-04-05",
@@ -300,5 +309,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617585728074"
+  "updateTime": "1617672037532"
 }
