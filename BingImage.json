@@ -33,9 +33,18 @@
     "20210403": 1,
     "20210404": 1,
     "20210405": 1,
-    "20210406": 1
+    "20210406": 1,
+    "20210407": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Olympics125_EN-US8602188549_UHD.jpg",
+      "endDate": "2021-04-07",
+      "copyright": "The Acropolis of Athens, Greece (© Lucky-photographer/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=modern+olympic+games+greece&FORM=hpcapt&filters=HpDate%3a%2220210406_0700%22",
+      "fileName": "2021-04-07_On the rebirth of the Olympic Games.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-07_On the rebirth of the Olympic Games.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SautduBrot_EN-US8410506080_UHD.jpg",
       "endDate": "2021-04-06",
@@ -309,5 +318,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617672037532"
+  "updateTime": "1617758457817"
 }
