@@ -34,9 +34,18 @@
     "20210404": 1,
     "20210405": 1,
     "20210406": 1,
-    "20210407": 1
+    "20210407": 1,
+    "20210408": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WillowNewGrowth_EN-US3318398276_UHD.jpg",
+      "endDate": "2021-04-08",
+      "copyright": "Willow tree in early spring, Minnesota (© Jim Brandenburg/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=willow+(salix)&FORM=hpcapt&filters=HpDate%3a%2220210407_0700%22",
+      "fileName": "2021-04-08_A willowy welcome to spring.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-08_A willowy welcome to spring.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Olympics125_EN-US8602188549_UHD.jpg",
       "endDate": "2021-04-07",
@@ -318,5 +327,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617758457817"
+  "updateTime": "1617845002804"
 }
