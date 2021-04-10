@@ -36,9 +36,18 @@
     "20210406": 1,
     "20210407": 1,
     "20210408": 1,
-    "20210409": 1
+    "20210409": 1,
+    "20210410": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.HovenweepDarkSky_EN-US6328400931_UHD.jpg",
+      "endDate": "2021-04-10",
+      "copyright": "Square Tower Group in Hovenweep National Monument, Utah (© Brad McGinley Photography/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=hovenweep+national+monument&form=hpcapt&filters=HpDate%3a%2220210409_0700%22",
+      "fileName": "2021-04-10_A timeless view of the night sky.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-10_A timeless view of the night sky.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TetraoTetrix_EN-US8933698445_UHD.jpg",
       "endDate": "2021-04-09",
@@ -336,5 +345,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1617931043775"
+  "updateTime": "1618017580411"
 }
