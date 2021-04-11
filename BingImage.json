@@ -37,9 +37,18 @@
     "20210407": 1,
     "20210408": 1,
     "20210409": 1,
-    "20210410": 1
+    "20210410": 1,
+    "20210411": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SiblingBears_EN-US6609087772_UHD.jpg",
+      "endDate": "2021-04-11",
+      "copyright": "Grizzly bear cub siblings playing in Denali National Park and Preserve, Alaska (© Ron Niebrugge/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=grizzly+bears&form=hpcapt&filters=HpDate%3a%2220210410_0700%22",
+      "fileName": "2021-04-11_Bear cubs roughhouse on Siblings Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-11_Bear cubs roughhouse on Siblings Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.HovenweepDarkSky_EN-US6328400931_UHD.jpg",
       "endDate": "2021-04-10",
@@ -345,5 +354,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618017580411"
+  "updateTime": "1618104310811"
 }
