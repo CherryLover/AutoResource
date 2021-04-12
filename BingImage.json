@@ -38,9 +38,18 @@
     "20210408": 1,
     "20210409": 1,
     "20210410": 1,
-    "20210411": 1
+    "20210411": 1,
+    "20210412": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.YoshinoyamaSpring_EN-US6772406506_UHD.jpg",
+      "endDate": "2021-04-12",
+      "copyright": "Mount Yoshino, Nara Prefecture, Japan (© Sean Pavone/iStock/Getty Images Plus)",
+      "copyRightLink": "https://cn.bing.com/search?q=Mount+Yoshino+sakura&form=hpcapt&filters=HpDate%3a%2220210411_0700%22",
+      "fileName": "2021-04-12_The mountain of 30,000 sakura.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-12_The mountain of 30,000 sakura.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SiblingBears_EN-US6609087772_UHD.jpg",
       "endDate": "2021-04-11",
@@ -354,5 +363,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618104310811"
+  "updateTime": "1618190576438"
 }
