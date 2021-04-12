@@ -1,6 +1,7 @@
 package me.monster.auto.resource.tool;
 
 import me.monster.auto.resource.bean.MdImage;
+import me.monster.auto.resource.bean.MdInfo;
 
 import java.io.*;
 import java.net.URL;
@@ -17,6 +18,7 @@ import java.util.List;
  */
 public class FileUtils {
     public static final String UPDATE_SP = "更新时间：";
+    public static final int IMG_MD_PREVIEW_SPAN_COUNT = 3;
 
     public static String getContent(String path) throws IOException {
         File file = new File(path);
@@ -38,8 +40,6 @@ public class FileUtils {
     public static void writeImageMdFile(Path filePath, String title, List<MdImage> imgList) throws IOException {
         writeImageMdFile(filePath, title, null, imgList);
     }
-
-    public static final int IMG_MD_PREVIEW_SPAN_COUNT = 3;
 
     public static void writeImageMdFile(Path filePath, String title, String[] tableTitle, List<MdImage> imgList) throws IOException {
         if (!Files.exists(filePath)) {
@@ -78,6 +78,39 @@ public class FileUtils {
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, System.lineSeparator().getBytes(), StandardOpenOption.APPEND);
         Files.write(filePath, (UPDATE_SP + TimeUtils.currentTime()).getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
+    }
+
+    public static void writeInfoMdFile(Path filePath, MdInfo mdInfo) throws IOException {
+        if (!Files.exists(filePath)) {
+            Files.createFile(filePath);
+        }
+        StringBuilder sb = new StringBuilder();
+        // 标题
+        sb.append("# ").append(mdInfo.getFileTitle());
+        sb.append(System.lineSeparator());
+
+        // 表头
+        sb.append("|");
+        for (String s : mdInfo.getTableTitle()) {
+            sb.append("   ").append(s).append("   |");
+        }
+        sb.append(System.lineSeparator());
+
+        sb.append("|");
+        for (String s : mdInfo.getTableTitle()) {
+            sb.append(" :---- |");
+        }
+        sb.append(System.lineSeparator());
+
+        // 表格内容
+        for (int i = 0; i < mdInfo.getInfoItemList().size(); i++) {
+            MdInfo.MdInfoItem item = mdInfo.getInfoItemList().get(i);
+            sb.append("| ").append(item.getDate()).append(" ").append("| ").append(item.getContent()).append(" ").append("| ").append("     ").append(" |").append('\n');
+        }
+        sb.append(System.lineSeparator());
+        // 更新时间
+        sb.append(UPDATE_SP).append(mdInfo.getUpdateTime());
+        Files.write(filePath, sb.toString().getBytes());
     }
 
     public static void rewriteFile(Path path, String content) throws IOException {
