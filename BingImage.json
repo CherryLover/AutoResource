@@ -40,9 +40,18 @@
     "20210410": 1,
     "20210411": 1,
     "20210412": 1,
-    "20210413": 1
+    "20210413": 1,
+    "20210414": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WatPhraSiSanphet_EN-US6931344989_UHD.jpg",
+      "endDate": "2021-04-14",
+      "copyright": "Wat Phra Si Sanphet, Ayutthaya Historical Park, Ayutthaya, Thailand (© travelstock44/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=wat+phra+si+sanphet&form=hpcapt&filters=HpDate%3a%2220210413_0700%22",
+      "fileName": "2021-04-14_Ruins of a royal temple.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-14_Ruins of a royal temple.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.YurisNight_EN-US6858652982_UHD.jpg",
       "endDate": "2021-04-13",
@@ -372,5 +381,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618277008036"
+  "updateTime": "1618363092304"
 }
