@@ -43,9 +43,18 @@
     "20210413": 1,
     "20210414": 1,
     "20210415": 1,
-    "20210416": 1
+    "20210416": 1,
+    "20210417": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.DaliMuseum_EN-US9901160892_UHD.jpg",
+      "endDate": "2021-04-17",
+      "copyright": "Dalí Theatre-Museum in Figueres, Spain (© Valerija Polakovska/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=%2bdali+theater-museum&form=hpcapt&filters=HpDate%3a%2220210416_0700%22",
+      "fileName": "2021-04-17_'A theatrical dream'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-17_'A theatrical dream'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.JackieRobinson_EN-US7103495692_UHD.jpg",
       "endDate": "2021-04-16",
@@ -399,5 +408,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618536064078"
+  "updateTime": "1618622307091"
 }
