@@ -44,9 +44,18 @@
     "20210414": 1,
     "20210415": 1,
     "20210416": 1,
-    "20210417": 1
+    "20210417": 1,
+    "20210418": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.NewRiverGorge_EN-US7524399883_UHD.jpg",
+      "endDate": "2021-04-18",
+      "copyright": "New River Gorge Bridge in the New River Gorge National Park and Preserve, West Virginia (© Entropy Workshop/iStock/Getty Images Plus)",
+      "copyRightLink": "https://cn.bing.com/search?q=New+River+Gorge+National+Park&form=hpcapt&filters=HpDate%3a%2220210417_0700%22",
+      "fileName": "2021-04-18_A river runs through it.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-18_A river runs through it.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.DaliMuseum_EN-US9901160892_UHD.jpg",
       "endDate": "2021-04-17",
@@ -408,5 +417,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618622307091"
+  "updateTime": "1618708996616"
 }
