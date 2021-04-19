@@ -45,9 +45,18 @@
     "20210415": 1,
     "20210416": 1,
     "20210417": 1,
-    "20210418": 1
+    "20210418": 1,
+    "20210419": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MontalbanoElicona_EN-US7629651237_UHD.jpg",
+      "endDate": "2021-04-19",
+      "copyright": "Montalbano Elicona, Messina, Sicily, Italy (© Antonino Bartuccio/SOPA Collection/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Montalbano+Elicona+Sicily&form=hpcapt&filters=HpDate%3a%2220210418_0700%22",
+      "fileName": "2021-04-19_In Sicily, history is everywhere.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-19_In Sicily, history is everywhere.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.NewRiverGorge_EN-US7524399883_UHD.jpg",
       "endDate": "2021-04-18",
@@ -417,5 +426,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618708996616"
+  "updateTime": "1618795246734"
 }
