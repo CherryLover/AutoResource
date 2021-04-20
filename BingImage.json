@@ -46,9 +46,18 @@
     "20210416": 1,
     "20210417": 1,
     "20210418": 1,
-    "20210419": 1
+    "20210419": 1,
+    "20210420": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Mobula_EN-US7757384682_UHD.jpg",
+      "endDate": "2021-04-20",
+      "copyright": "Large school of Munk's devil rays seen from the air, Gulf of California, Mexico (© Mark Carwardine/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=Mobula+munkiana&form=hpcapt&filters=HpDate%3a%2220210419_0700%22",
+      "fileName": "2021-04-20_Rays on parade.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-20_Rays on parade.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MontalbanoElicona_EN-US7629651237_UHD.jpg",
       "endDate": "2021-04-19",
@@ -426,5 +435,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618795246734"
+  "updateTime": "1618881633305"
 }
