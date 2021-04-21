@@ -47,9 +47,18 @@
     "20210417": 1,
     "20210418": 1,
     "20210419": 1,
-    "20210420": 1
+    "20210420": 1,
+    "20210421": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Ceking_EN-US7899895685_UHD.jpg",
+      "endDate": "2021-04-21",
+      "copyright": "Tegallalang Rice Terraces, Ubud, Bali, Indonesia (© Michele Falzone/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=%2btegallalang+rice+terrace&FORM=hpcapt&filters=HpDate%3a%2220210420_0700%22",
+      "fileName": "2021-04-21_Terraced fields of green.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-21_Terraced fields of green.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Mobula_EN-US7757384682_UHD.jpg",
       "endDate": "2021-04-20",
@@ -435,5 +444,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618881633305"
+  "updateTime": "1618968057063"
 }
