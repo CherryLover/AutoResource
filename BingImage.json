@@ -48,9 +48,18 @@
     "20210418": 1,
     "20210419": 1,
     "20210420": 1,
-    "20210421": 1
+    "20210421": 1,
+    "20210422": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SaoJorgeMadeira_EN-US8002002726_UHD.jpg",
+      "endDate": "2021-04-22",
+      "copyright": "The north coast of Madeira, Portugal (© Hemis/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=madeira+island&form=hpcapt&filters=HpDate%3a%2220210421_0700%22",
+      "fileName": "2021-04-22_Exploring the 'Pearl of the Atlantic'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-22_Exploring the 'Pearl of the Atlantic'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Ceking_EN-US7899895685_UHD.jpg",
       "endDate": "2021-04-21",
@@ -444,5 +453,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1618968057063"
+  "updateTime": "1619054487397"
 }
