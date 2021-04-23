@@ -49,9 +49,18 @@
     "20210419": 1,
     "20210420": 1,
     "20210421": 1,
-    "20210422": 1
+    "20210422": 1,
+    "20210423": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MississippiRiver_EN-US2192534174_UHD.jpg",
+      "endDate": "2021-04-23",
+      "copyright": "Mississippi River on the border between Arkansas and Mississippi (© NASA)",
+      "copyRightLink": "https://cn.bing.com/search?q=earth+day&form=hpcapt&filters=HpDate%3a%2220210422_0700%22",
+      "fileName": "2021-04-23_Gazing down on planet Earth.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-23_Gazing down on planet Earth.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SaoJorgeMadeira_EN-US8002002726_UHD.jpg",
       "endDate": "2021-04-22",
@@ -453,5 +462,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1619054487397"
+  "updateTime": "1619141033055"
 }
