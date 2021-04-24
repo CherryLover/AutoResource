@@ -50,9 +50,18 @@
     "20210420": 1,
     "20210421": 1,
     "20210422": 1,
-    "20210423": 1
+    "20210423": 1,
+    "20210424": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BatlloJordi_EN-US0619227174_UHD.jpg",
+      "endDate": "2021-04-24",
+      "copyright": "Casa Batlló in Barcelona, Catalonia, Spain (© Marco Arduino/Sime/eStock Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=casa+batllo&form=hpcapt&filters=HpDate%3a%2220210423_0700%22",
+      "fileName": "2021-04-24_A house of grand scale(s).jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-24_A house of grand scale(s).jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MississippiRiver_EN-US2192534174_UHD.jpg",
       "endDate": "2021-04-23",
@@ -462,5 +471,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1619141033055"
+  "updateTime": "1619227333143"
 }
