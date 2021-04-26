@@ -52,9 +52,18 @@
     "20210422": 1,
     "20210423": 1,
     "20210424": 1,
-    "20210425": 1
+    "20210425": 1,
+    "20210426": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.AdelieDiving_EN-US0845944074_UHD.jpg",
+      "endDate": "2021-04-26",
+      "copyright": "Adélie penguins diving off an iceberg in Antarctica (© Mike Hill/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=ad%c3%a9lie+penguin&form=hpcapt&filters=HpDate%3a%2220210425_0700%22",
+      "fileName": "2021-04-26_One giant leap for penguins.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-26_One giant leap for penguins.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ChollaGarden_EN-US0706816050_UHD.jpg",
       "endDate": "2021-04-25",
@@ -480,5 +489,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1619314482884"
+  "updateTime": "1619400661083"
 }
