@@ -58,9 +58,18 @@
     "20210428": 1,
     "20210429": 1,
     "20210430": 1,
-    "20210501": 1
+    "20210501": 1,
+    "20210502": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.GGTeaGarden_EN-US1647173456_UHD.jpg",
+      "endDate": "2021-05-02",
+      "copyright": "Cherry blossoms at the Japanese Tea Garden in Golden Gate Park, San Francisco, California (© luisascanio/iStock/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=japanese+tea+garden+san+francisco&form=hpcapt&filters=HpDate%3a%2220210501_0700%22",
+      "fileName": "2021-05-02_It's Asian American and Pacific Islander Heritage Month.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-02_It's Asian American and Pacific Islander Heritage Month.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SpiritHarlem_EN-US1474494856_UHD.jpg",
       "endDate": "2021-05-01",
@@ -534,5 +543,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1619832263139"
+  "updateTime": "1619919183519"
 }
