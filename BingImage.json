@@ -59,9 +59,18 @@
     "20210429": 1,
     "20210430": 1,
     "20210501": 1,
-    "20210502": 1
+    "20210502": 1,
+    "20210503": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LaughingZebras_EN-US1800178960_UHD.jpg",
+      "endDate": "2021-05-03",
+      "copyright": "Burchell's zebra stallions, Rietvlei Nature Reserve, South Africa (© Richard Du Toit/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=world+laughter+day&form=hpcapt&filters=HpDate%3a%2220210502_0700%22",
+      "fileName": "2021-05-03_Happy World Laughter Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-03_Happy World Laughter Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.GGTeaGarden_EN-US1647173456_UHD.jpg",
       "endDate": "2021-05-02",
@@ -543,5 +552,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1619919183519"
+  "updateTime": "1620005114220"
 }
