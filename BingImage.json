@@ -60,9 +60,18 @@
     "20210430": 1,
     "20210501": 1,
     "20210502": 1,
-    "20210503": 1
+    "20210503": 1,
+    "20210504": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.TeacherHeart_EN-US1874465116_UHD.jpg",
+      "endDate": "2021-05-04",
+      "copyright": "Poster for Teacher Appreciation Week by 12-year-old Caroline Holt, 7th-grade student at the Bush School, Seattle, Washington (© Caroline Holt/Eugenia Chang)",
+      "copyRightLink": "https://cn.bing.com/search?q=teacher+appreciation+week&form=hpcapt&filters=HpDate%3a%2220210503_0700%22",
+      "fileName": "2021-05-04_It's Teacher Appreciation Week.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-04_It's Teacher Appreciation Week.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.LaughingZebras_EN-US1800178960_UHD.jpg",
       "endDate": "2021-05-03",
@@ -552,5 +561,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1620005114220"
+  "updateTime": "1620091122484"
 }
