@@ -65,9 +65,18 @@
     "20210505": 1,
     "20210506": 1,
     "20210507": 1,
-    "20210508": 1
+    "20210508": 1,
+    "20210509": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LimosaLimosa_EN-US4076563094_UHD.jpg",
+      "endDate": "2021-05-09",
+      "copyright": "Black-tailed godwits, Netherlands (© Edward van Altena/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=black-tailed+godwit&form=hpcapt&filters=HpDate%3a%2220210508_0700%22",
+      "fileName": "2021-05-09_World Migratory Bird Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-09_World Migratory Bird Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MaineWetland_EN-US3940841989_UHD.jpg",
       "endDate": "2021-05-08",
@@ -159,7 +168,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Wensleydale_EN-US0930314934_UHD.jpg",
       "endDate": "2021-04-27",
-      "copyright": "Wensleydale, Yorkshire Dales National Park, North Yorkshire, England (© Guy Edwardes/Minden Pictures)",
+      "copyright": "Wensleydale, Yorkshire Dales National Park, North Yorkshire, England (�� Guy Edwardes/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=wensleydale+england&form=hpcapt&filters=HpDate%3a%2220210426_0700%22",
       "fileName": "2021-04-27_'Cheese! We'll go somewhere where there's cheese!'.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-27_'Cheese! We'll go somewhere where there's cheese!'.jpg"
@@ -597,5 +606,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1620436733352"
+  "updateTime": "1620523360788"
 }
