@@ -67,9 +67,18 @@
     "20210507": 1,
     "20210508": 1,
     "20210509": 1,
-    "20210510": 1
+    "20210510": 1,
+    "20210511": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Hokulea_EN-US8698576653_UHD.jpg",
+      "endDate": "2021-05-11",
+      "copyright": "The Hōkūle'a, a traditional Hawaiian voyaging canoe, departs for a 3-year voyage from Honolulu, Hawaii, on May 17, 2014 (© Reuters/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Hokule%27a&form=hpcapt&filters=HpDate%3a%2220210510_0700%22",
+      "fileName": "2021-05-11_An ancient sailing tradition takes to the water.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-11_An ancient sailing tradition takes to the water.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.OtterMom_EN-US8059433484_UHD.jpg",
       "endDate": "2021-05-10",
@@ -615,5 +624,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1620609762895"
+  "updateTime": "1620696141444"
 }
