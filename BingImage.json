@@ -68,9 +68,18 @@
     "20210508": 1,
     "20210509": 1,
     "20210510": 1,
-    "20210511": 1
+    "20210511": 1,
+    "20210512": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.GrinnellGlacier_EN-US4427090483_UHD.jpg",
+      "endDate": "2021-05-12",
+      "copyright": "Grinnell Lake, Glacier National Park, Montana (© Pung/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Glacier+National+Park&form=hpcapt&filters=HpDate%3a%2220210511_0700%22",
+      "fileName": "2021-05-12_'The Crown of the Continent'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-12_'The Crown of the Continent'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Hokulea_EN-US8698576653_UHD.jpg",
       "endDate": "2021-05-11",
@@ -624,5 +633,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1620696141444"
+  "updateTime": "1620782620452"
 }
