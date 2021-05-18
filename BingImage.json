@@ -74,9 +74,18 @@
     "20210514": 1,
     "20210515": 1,
     "20210516": 1,
-    "20210517": 1
+    "20210517": 1,
+    "20210518": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Alesund_EN-US7597098434_UHD.jpg",
+      "endDate": "2021-05-18",
+      "copyright": "Ålesund, Norway (© AWL Images/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=%c3%85lesund%2c+Norway&form=hpcapt&filters=HpDate%3a%2220210517_0700%22",
+      "fileName": "2021-05-18_Happy Syttende Mai!.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-18_Happy Syttende Mai!.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Guatape_EN-US7463341939_UHD.jpg",
       "endDate": "2021-05-17",
@@ -678,5 +687,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621215026629"
+  "updateTime": "1621301554339"
 }
