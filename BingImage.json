@@ -76,9 +76,18 @@
     "20210516": 1,
     "20210517": 1,
     "20210518": 1,
-    "20210519": 1
+    "20210519": 1,
+    "20210520": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RoanRhododendron_EN-US8777664012_UHD.jpg",
+      "endDate": "2021-05-20",
+      "copyright": "Fallen rhododendron petals line a trail through Pisgah National Forest, North Carolina (© aheflin/Getty Images Plus)",
+      "copyRightLink": "https://cn.bing.com/search?q=pisgah+national+forest&form=hpcapt&filters=HpDate%3a%2220210519_0700%22",
+      "fileName": "2021-05-20_A path lain with petals.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-20_A path lain with petals.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PompidouMalaga_EN-US7695811401_UHD.jpg",
       "endDate": "2021-05-19",
@@ -696,5 +705,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621387503336"
+  "updateTime": "1621473881739"
 }
