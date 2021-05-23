@@ -79,9 +79,18 @@
     "20210519": 1,
     "20210520": 1,
     "20210521": 1,
-    "20210522": 1
+    "20210522": 1,
+    "20210523": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CapeofTossa_EN-US6969132211_UHD.jpg",
+      "endDate": "2021-05-23",
+      "copyright": "The medieval walled town in Tossa de Mar, Catalonia, Spain (© dleiva/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=tossa+de+mar+spain&form=hpcapt&filters=HpDate%3a%2220210522_0700%22",
+      "fileName": "2021-05-23_Blue paradise on the Costa Brava.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-23_Blue paradise on the Costa Brava.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.WhoopingCranes_EN-US5576295451_UHD.jpg",
       "endDate": "2021-05-22",
@@ -723,5 +732,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621646884842"
+  "updateTime": "1621734055229"
 }
