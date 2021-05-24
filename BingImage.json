@@ -80,9 +80,18 @@
     "20210520": 1,
     "20210521": 1,
     "20210522": 1,
-    "20210523": 1
+    "20210523": 1,
+    "20210524": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RoseRoom_EN-US7194472524_UHD.jpg",
+      "endDate": "2021-05-24",
+      "copyright": "The renovated Rose Main Reading Room, New York Public Library Main Branch, New York City (© Sascha Kilmer/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=new+york+public+library+main+branch&form=hpcapt&filters=HpDate%3a%2220210523_0700%22",
+      "fileName": "2021-05-24_A palace for the public.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-24_A palace for the public.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CapeofTossa_EN-US6969132211_UHD.jpg",
       "endDate": "2021-05-23",
@@ -732,5 +741,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621734055229"
+  "updateTime": "1621820295221"
 }
