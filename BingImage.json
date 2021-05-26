@@ -82,9 +82,18 @@
     "20210522": 1,
     "20210523": 1,
     "20210524": 1,
-    "20210525": 1
+    "20210525": 1,
+    "20210526": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.TowelDay_EN-US7748070759_UHD.jpg",
+      "endDate": "2021-05-26",
+      "copyright": "Sperm whale off the coast of Roseau, Dominica, in the Caribbean Sea (© Tony Wu/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=sperm+whale&form=hpcapt&filters=HpDate%3a%2220210525_0700%22",
+      "fileName": "2021-05-26_An improbable tribute for Towel Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-26_An improbable tribute for Towel Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AarhusInfinite_EN-US7607613784_UHD.jpg",
       "endDate": "2021-05-25",
@@ -750,5 +759,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621906489424"
+  "updateTime": "1621994142571"
 }
