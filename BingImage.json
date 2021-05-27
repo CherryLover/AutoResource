@@ -83,9 +83,18 @@
     "20210523": 1,
     "20210524": 1,
     "20210525": 1,
-    "20210526": 1
+    "20210526": 1,
+    "20210527": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.TearDropEclipse_EN-US7861293677_UHD.jpg",
+      "endDate": "2021-05-27",
+      "copyright": "The total lunar eclipse of April 4, 2015, photographed over Monument Valley, Utah (© Alan Dyer/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=total+lunar+eclipse&FORM=hpcapt&filters=HpDate%3a%2220210526_0700%22",
+      "fileName": "2021-05-27_Behold the blood moon.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-27_Behold the blood moon.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TowelDay_EN-US7748070759_UHD.jpg",
       "endDate": "2021-05-26",
@@ -759,5 +768,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1621994142571"
+  "updateTime": "1622081272524"
 }
