@@ -84,9 +84,18 @@
     "20210524": 1,
     "20210525": 1,
     "20210526": 1,
-    "20210527": 1
+    "20210527": 1,
+    "20210528": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ICanHearIt_EN-US7945824197_UHD.jpg",
+      "endDate": "2021-05-28",
+      "copyright": "'I Can Hear It,' an installation by artist Ivars Drulle on the beach by the villages of Middelkerke and Westende, Belgium (© Arterra Picture Library/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=triennial+of+contemporary+art+by+the+sea+beaufort&form=hpcapt&filters=HpDate%3a%2220210527_0700%22",
+      "fileName": "2021-05-28_Listening to the sea.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-28_Listening to the sea.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TearDropEclipse_EN-US7861293677_UHD.jpg",
       "endDate": "2021-05-27",
@@ -768,5 +777,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622081272524"
+  "updateTime": "1622168397002"
 }
