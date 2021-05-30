@@ -86,9 +86,18 @@
     "20210526": 1,
     "20210527": 1,
     "20210528": 1,
-    "20210529": 1
+    "20210529": 1,
+    "20210530": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RedAlley_EN-US8215991251_UHD.jpg",
+      "endDate": "2021-05-30",
+      "copyright": "Alley and bamboo grove in Wuhou Temple, Chengdu, Sichuan province, China (© Eastimages/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=wuhou+temple+chengdu+china&FORM=hpcapt&filters=HpDate%3a%2220210529_0700%22",
+      "fileName": "2021-05-30_A path into history.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-30_A path into history.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CowbirdsEgg_EN-US8103879720_UHD.jpg",
       "endDate": "2021-05-29",
@@ -786,5 +795,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622255808662"
+  "updateTime": "1622343225482"
 }
