@@ -87,9 +87,18 @@
     "20210527": 1,
     "20210528": 1,
     "20210529": 1,
-    "20210530": 1
+    "20210530": 1,
+    "20210531": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SeaDog_EN-US8346901369_UHD.jpg",
+      "endDate": "2021-05-31",
+      "copyright": "California sea lion in a forest of giant kelp near the Channel Islands of California (© Nature Picture Library/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=California+sea+lion&form=hpcapt&filters=HpDate%3a%2220210530_0700%22",
+      "fileName": "2021-05-31_Who's hiding in the kelp?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-31_Who's hiding in the kelp?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.RedAlley_EN-US8215991251_UHD.jpg",
       "endDate": "2021-05-30",
@@ -795,5 +804,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622343225482"
+  "updateTime": "1622430243026"
 }
