@@ -88,9 +88,18 @@
     "20210528": 1,
     "20210529": 1,
     "20210530": 1,
-    "20210531": 1
+    "20210531": 1,
+    "20210601": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WomensMemorial_EN-US8561851319_UHD.jpg",
+      "endDate": "2021-06-01",
+      "copyright": "Military Women's Memorial, located at the gateway to Arlington National Cemetery, Virginia (© Brycia James/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=military+women%27s+memorial+washington+dc&form=hpcapt&filters=HpDate%3a%2220210531_0700%22",
+      "fileName": "2021-06-01_Here we honor the women who've served.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-01_Here we honor the women who've served.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SeaDog_EN-US8346901369_UHD.jpg",
       "endDate": "2021-05-31",
@@ -804,5 +813,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622430243026"
+  "updateTime": "1622518543690"
 }
