@@ -89,9 +89,18 @@
     "20210529": 1,
     "20210530": 1,
     "20210531": 1,
-    "20210601": 1
+    "20210601": 1,
+    "20210602": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PoetrysCave_EN-US8786875244_UHD.jpg",
+      "endDate": "2021-06-02",
+      "copyright": "Aerial view of the Grotta della Poesia (Poetry's Cave) near Roca, Lecce, Italy (© Amazing Aerial Agency/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=roca+vecchia+italy&FORM=hpcapt&filters=HpDate%3a%2220210601_0700%22",
+      "fileName": "2021-06-02_Pretty poetic for a pit.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-02_Pretty poetic for a pit.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.WomensMemorial_EN-US8561851319_UHD.jpg",
       "endDate": "2021-06-01",
@@ -335,7 +344,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.GGTeaGarden_EN-US1647173456_UHD.jpg",
       "endDate": "2021-05-02",
-      "copyright": "Cherry blossoms at the Japanese Tea Garden in Golden Gate Park, San Francisco, California (© luisascanio/iStock/Getty Images)",
+      "copyright": "Cherry blossoms at the Japanese Tea Garden in Golden Gate Park, San Francisco, California (�� luisascanio/iStock/Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=japanese+tea+garden+san+francisco&form=hpcapt&filters=HpDate%3a%2220210501_0700%22",
       "fileName": "2021-05-02_It's Asian American and Pacific Islander Heritage Month.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-02_It's Asian American and Pacific Islander Heritage Month.jpg"
@@ -813,5 +822,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622518543690"
+  "updateTime": "1622604864939"
 }
