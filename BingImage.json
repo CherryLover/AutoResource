@@ -90,9 +90,18 @@
     "20210530": 1,
     "20210531": 1,
     "20210601": 1,
-    "20210602": 1
+    "20210602": 1,
+    "20210603": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.EstoshaSpringbok_EN-US8878416660_UHD.jpg",
+      "endDate": "2021-06-03",
+      "copyright": "Springboks near a waterhole in Etosha National Park, Namibia (© Charlie Summers/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=springbok+antelope&form=hpcapt&filters=HpDate%3a%2220210602_0700%22",
+      "fileName": "2021-06-03_The dry days of winter in Etosha.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-03_The dry days of winter in Etosha.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PoetrysCave_EN-US8786875244_UHD.jpg",
       "endDate": "2021-06-02",
@@ -822,5 +831,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622604864939"
+  "updateTime": "1622689653689"
 }
