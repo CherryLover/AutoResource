@@ -94,9 +94,18 @@
     "20210603": 1,
     "20210604": 1,
     "20210605": 1,
-    "20210606": 1
+    "20210606": 1,
+    "20210607": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ArromanchesLesBains_EN-US8268306845_UHD.jpg",
+      "endDate": "2021-06-07",
+      "copyright": "Mulberry harbour at Arromanches-les-Bains, Normandy, France (© agefotostock/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=arromanches-les-bains+normandy&form=hpcapt&filters=HpDate%3a%2220210606_0700%22",
+      "fileName": "2021-06-07_On this shore, history was made.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-07_On this shore, history was made.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ToucanRainforest_EN-US8174584515_UHD.jpg",
       "endDate": "2021-06-06",
@@ -858,5 +867,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1622944751258"
+  "updateTime": "1623031204468"
 }
