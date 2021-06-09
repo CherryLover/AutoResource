@@ -96,9 +96,18 @@
     "20210605": 1,
     "20210606": 1,
     "20210607": 1,
-    "20210608": 1
+    "20210608": 1,
+    "20210609": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CortezJacks_EN-US4025428525_UHD.jpg",
+      "endDate": "2021-06-09",
+      "copyright": "Thousands of jack fish swimming together at Cabo Pulmo National Park, Sea of Cortez, Baja California, Mexico (© Christian Vizl/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=world+oceans+day&form=hpcapt&filters=HpDate%3a%2220210608_0700%22",
+      "fileName": "2021-06-09_A day for our oceans.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-09_A day for our oceans.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BuntingBird_EN-US8373607335_UHD.jpg",
       "endDate": "2021-06-08",
@@ -876,5 +885,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1623117190827"
+  "updateTime": "1623202099262"
 }
