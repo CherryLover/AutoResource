@@ -101,9 +101,18 @@
     "20210610": 1,
     "20210611": 1,
     "20210612": 1,
-    "20210613": 1
+    "20210613": 1,
+    "20210614": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.FinlandBrownBear_EN-US9193102113_UHD.jpg",
+      "endDate": "2021-06-14",
+      "copyright": "Eurasian brown bear cub in the taiga forest, Finland (© Jules Cox/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=brown+bear+ursus+arctos&form=hpcapt&filters=HpDate%3a%2220210613_0700%22",
+      "fileName": "2021-06-14_Bear watching in the Finnish forest.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-14_Bear watching in the Finnish forest.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BBNPGrande_EN-US9017603902_UHD.jpg",
       "endDate": "2021-06-13",
@@ -921,5 +930,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1623547104509"
+  "updateTime": "1623633296622"
 }
