@@ -104,9 +104,18 @@
     "20210613": 1,
     "20210614": 1,
     "20210615": 1,
-    "20210616": 1
+    "20210616": 1,
+    "20210617": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.GBRTurtle_EN-US9472992921_UHD.jpg",
+      "endDate": "2021-06-17",
+      "copyright": "Green sea turtle diving, Great Barrier Reef, Queensland, Australia (© imageBROKER/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=green+sea+turtle&form=hpcapt&filters=HpDate%3a%2220210616_0700%22",
+      "fileName": "2021-06-17_Put your flippers in the air….jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-17_Put your flippers in the air….jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.LakePinatubo_EN-US8170111215_UHD.jpg",
       "endDate": "2021-06-16",
@@ -948,5 +957,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1623806187758"
+  "updateTime": "1623892441095"
 }
