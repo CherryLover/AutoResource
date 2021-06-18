@@ -105,9 +105,18 @@
     "20210614": 1,
     "20210615": 1,
     "20210616": 1,
-    "20210617": 1
+    "20210617": 1,
+    "20210618": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BrightEye_EN-US9581825024_UHD.jpg",
+      "endDate": "2021-06-18",
+      "copyright": "Bright Eye sea cave on the Nā Pali Coast, Kauai, Hawaii (© jimkruger/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=Na+Pali+Coast+State+Park&form=hpcapt&filters=HpDate%3a%2220210617_0700%22",
+      "fileName": "2021-06-18_Just another day in paradise.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-18_Just another day in paradise.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.GBRTurtle_EN-US9472992921_UHD.jpg",
       "endDate": "2021-06-17",
@@ -957,5 +966,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1623892441095"
+  "updateTime": "1623979133063"
 }
