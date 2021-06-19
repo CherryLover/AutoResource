@@ -106,9 +106,18 @@
     "20210615": 1,
     "20210616": 1,
     "20210617": 1,
-    "20210618": 1
+    "20210618": 1,
+    "20210619": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ReussRiver_EN-US4195043036_UHD.jpg",
+      "endDate": "2021-06-19",
+      "copyright": "Aerial view of Chapel Bridge over the River Reuss in Lucerne, Switzerland (© Neleman Initiative/Gallery Stock)",
+      "copyRightLink": "https://cn.bing.com/search?q=lucerne+switzerland&form=hpcapt&filters=HpDate%3a%2220210618_0700%22",
+      "fileName": "2021-06-19_A city of bridges.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-19_A city of bridges.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BrightEye_EN-US9581825024_UHD.jpg",
       "endDate": "2021-06-18",
@@ -966,5 +975,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1623979133063"
+  "updateTime": "1624065543448"
 }
