@@ -108,9 +108,18 @@
     "20210617": 1,
     "20210618": 1,
     "20210619": 1,
-    "20210620": 1
+    "20210620": 1,
+    "20210621": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.FatherEagle_EN-US4516693152_UHD.jpg",
+      "endDate": "2021-06-21",
+      "copyright": "Bald eagle pair with a chick in their nest near the Yukon River, Yukon, Canada (© Mark Newman/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=father%27s+day&form=hpcapt&filters=HpDate%3a%2220210620_0700%22",
+      "fileName": "2021-06-21_Happy Father's Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-21_Happy Father's Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BurleighHeads_EN-US4425800469_UHD.jpg",
       "endDate": "2021-06-20",
@@ -984,5 +993,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1624152010209"
+  "updateTime": "1624238520022"
 }
