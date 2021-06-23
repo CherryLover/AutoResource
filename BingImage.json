@@ -110,9 +110,18 @@
     "20210619": 1,
     "20210620": 1,
     "20210621": 1,
-    "20210622": 1
+    "20210622": 1,
+    "20210623": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SouthCoast_EN-US4824290612_UHD.jpg",
+      "endDate": "2021-06-23",
+      "copyright": "Seljalandsfoss waterfall in the South Region of Iceland (© Tom Mackie/plainpicture)",
+      "copyRightLink": "https://cn.bing.com/search?q=Seljalandsfoss+waterfall&form=hpcapt&filters=HpDate%3a%2220210622_0700%22",
+      "fileName": "2021-06-23_Land of the midnight sun.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-23_Land of the midnight sun.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.RothschildGiraffe_EN-US4621962761_UHD.jpg",
       "endDate": "2021-06-22",
@@ -1002,5 +1011,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1624324380145"
+  "updateTime": "1624410431697"
 }
