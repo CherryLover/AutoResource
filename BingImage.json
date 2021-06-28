@@ -115,9 +115,18 @@
     "20210624": 1,
     "20210625": 1,
     "20210626": 1,
-    "20210627": 1
+    "20210627": 1,
+    "20210628": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LCPAPride_EN-US5979726065_UHD.jpg",
+      "endDate": "2021-06-28",
+      "copyright": "Lincoln Center for the Performing Arts lit in Pride colors on June 18, 2020 in New York City (© Alexi Rosenfeld/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=pride+day&form=hpcapt&filters=HpDate%3a%2220210627_0700%22",
+      "fileName": "2021-06-28_Bathing in the light of Pride.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-28_Bathing in the light of Pride.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Shilinxia_EN-US5445196689_UHD.jpg",
       "endDate": "2021-06-27",
@@ -1047,5 +1056,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1624756758940"
+  "updateTime": "1624842799297"
 }
