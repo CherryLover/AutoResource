@@ -118,9 +118,18 @@
     "20210627": 1,
     "20210628": 1,
     "20210629": 1,
-    "20210630": 1
+    "20210630": 1,
+    "20210701": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Manicouagan_EN-US7701393606_UHD.jpg",
+      "endDate": "2021-07-01",
+      "copyright": "Manicouagan Crater in Québec, Canada (© Universal History Archive/Universal Images Group via Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=asteroid+day&form=hpcapt&filters=HpDate%3a%2220210630_0700%22",
+      "fileName": "2021-07-01_An impactful day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-01_An impactful day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.RocksSeychelles_EN-US7406548278_UHD.jpg",
       "endDate": "2021-06-30",
@@ -1074,5 +1083,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1625015753583"
+  "updateTime": "1625102095971"
 }
