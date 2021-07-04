@@ -121,9 +121,18 @@
     "20210630": 1,
     "20210701": 1,
     "20210702": 1,
-    "20210703": 1
+    "20210703": 1,
+    "20210704": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WakatobiNP_EN-US4475854788_UHD.jpg",
+      "endDate": "2021-07-04",
+      "copyright": "Wakatobi National Park, Indonesia (© Fabio Lamanna/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=wakatobi+national+park&form=hpcapt&filters=HpDate%3a%2220210703_0700%22",
+      "fileName": "2021-07-04_Diving into the 'underwater nirvana'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-04_Diving into the 'underwater nirvana'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ShyFive_EN-US4337641438_UHD.jpg",
       "endDate": "2021-07-03",
@@ -1101,5 +1110,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1625274587566"
+  "updateTime": "1625361195016"
 }
