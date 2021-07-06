@@ -123,9 +123,18 @@
     "20210702": 1,
     "20210703": 1,
     "20210704": 1,
-    "20210705": 1
+    "20210705": 1,
+    "20210706": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SerraMalagueta_EN-US4627693270_UHD.jpg",
+      "endDate": "2021-07-06",
+      "copyright": "Serra da Malagueta mountains on Santiago Island, Cabo Verde (© Samuel Borges Photography/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=cabo+verde&FORM=hpcapt&filters=HpDate%3a%2220210705_0700%22",
+      "fileName": "2021-07-06_How green is my valley.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-06_How green is my valley.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SFFireworks_EN-US4561699680_UHD.jpg",
       "endDate": "2021-07-05",
@@ -1119,5 +1128,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1625447474726"
+  "updateTime": "1625534083046"
 }
