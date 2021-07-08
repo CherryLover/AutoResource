@@ -125,9 +125,18 @@
     "20210704": 1,
     "20210705": 1,
     "20210706": 1,
-    "20210707": 1
+    "20210707": 1,
+    "20210708": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LakeUrmia_EN-US4986086287_UHD.jpg",
+      "endDate": "2021-07-08",
+      "copyright": "Kazem Dashi rock formation in Lake Urmia, Iran (© Ali/Adobe Stock)",
+      "copyRightLink": "https://cn.bing.com/search?q=lake+urmia&form=hpcapt&filters=HpDate%3a%2220210707_0700%22",
+      "fileName": "2021-07-08_Back on the rise.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-08_Back on the rise.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TawnyFrogmouth_EN-US4707407967_UHD.jpg",
       "endDate": "2021-07-07",
@@ -1137,5 +1146,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1625620506197"
+  "updateTime": "1625706761118"
 }
