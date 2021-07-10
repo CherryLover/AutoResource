@@ -127,9 +127,18 @@
     "20210706": 1,
     "20210707": 1,
     "20210708": 1,
-    "20210709": 1
+    "20210709": 1,
+    "20210710": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Ortygia_EN-US5940165843_UHD.jpg",
+      "endDate": "2021-07-10",
+      "copyright": "Ortygia, a small island off the coast of Syracuse, Sicily, Italy (© DaLiu/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=%2bOrtygia+syracuse&form=hpcapt&filters=HpDate%3a%2220210709_0700%22",
+      "fileName": "2021-07-10_A center of antiquity on the Mediterranean.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-10_A center of antiquity on the Mediterranean.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AppalachianTrail_EN-US5662298732_UHD.jpg",
       "endDate": "2021-07-09",
@@ -1155,5 +1164,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1625793230500"
+  "updateTime": "1625879427645"
 }
