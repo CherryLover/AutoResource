@@ -132,9 +132,18 @@
     "20210711": 1,
     "20210712": 1,
     "20210713": 1,
-    "20210714": 1
+    "20210714": 1,
+    "20210715": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SharkAwareness_EN-US7444020818_UHD.jpg",
+      "endDate": "2021-07-15",
+      "copyright": "Blacktip reef sharks off the coast of Tahiti, French Polynesia (© Paul Mckenzie/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=shark+awareness+day&form=hpcapt&filters=HpDate%3a%2220210714_0700%22",
+      "fileName": "2021-07-15_A different view of sharks.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-15_A different view of sharks.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MooseVelvet_EN-US7292213302_UHD.jpg",
       "endDate": "2021-07-14",
@@ -1200,5 +1209,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1626224968623"
+  "updateTime": "1626311648270"
 }
