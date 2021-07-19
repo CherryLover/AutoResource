@@ -136,9 +136,18 @@
     "20210715": 1,
     "20210716": 1,
     "20210717": 1,
-    "20210718": 1
+    "20210718": 1,
+    "20210719": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LouvreRiders_EN-US7293709223_UHD.jpg",
+      "endDate": "2021-07-19",
+      "copyright": "Tour de France riders in front of the Louvre Pyramid and Museum in Paris, France, during the 2020 race (© Martin Bureau/AFP via Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=tour+de+france&form=hpcapt&filters=HpDate%3a%2220210718_0700%22",
+      "fileName": "2021-07-19_Grand finish of Le Tour.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-19_Grand finish of Le Tour.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.LoepaOberthuri_EN-US7208560265_UHD.jpg",
       "endDate": "2021-07-18",
@@ -174,7 +183,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.MooseVelvet_EN-US7292213302_UHD.jpg",
       "endDate": "2021-07-14",
-      "copyright": "Moose crossing a pond below Mount Moran, Grand Teton National Park, Wyoming (© Jim Stamates/Minden Pictures)",
+      "copyright": "Moose crossing a pond below Mount Moran, Grand Teton National Park, Wyoming (�� Jim Stamates/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=mount+moran+grand+teton+national+park&form=hpcapt&filters=HpDate%3a%2220210713_0700%22",
       "fileName": "2021-07-14_Through an artist's eyes.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-14_Through an artist's eyes.jpg"
@@ -1236,5 +1245,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1626570947272"
+  "updateTime": "1626657199560"
 }
