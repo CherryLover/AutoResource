@@ -139,9 +139,18 @@
     "20210718": 1,
     "20210719": 1,
     "20210720": 1,
-    "20210721": 1
+    "20210721": 1,
+    "20210722": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CasteldelMonte_EN-US0394527485_UHD.jpg",
+      "endDate": "2021-07-22",
+      "copyright": "Castel del Monte, Apulia, Italy (© Toni Spagone/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=castel+del+monte+apulia+italy&form=hpcapt&filters=HpDate%3a%2220210721_0700%22",
+      "fileName": "2021-07-22_An octagonal architectural treasure.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-22_An octagonal architectural treasure.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PrathameshJaju_EN-US8876008160_UHD.jpg",
       "endDate": "2021-07-21",
@@ -841,7 +850,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.ChollaGarden_EN-US0706816050_UHD.jpg",
       "endDate": "2021-04-25",
-      "copyright": "The Cholla Cactus Garden in Joshua Tree National Park, California (�� Bryan Jolley/Tandem Stills + Motion)",
+      "copyright": "The Cholla Cactus Garden in Joshua Tree National Park, California (��� Bryan Jolley/Tandem Stills + Motion)",
       "copyRightLink": "https://cn.bing.com/search?q=cholla+garden+joshua+tree+national+park&form=hpcapt&filters=HpDate%3a%2220210424_0700%22",
       "fileName": "2021-04-25_A garden of prickly delights.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-25_A garden of prickly delights.jpg"
@@ -1263,5 +1272,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1626830144740"
+  "updateTime": "1626916582414"
 }
