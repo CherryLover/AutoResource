@@ -142,9 +142,18 @@
     "20210721": 1,
     "20210722": 1,
     "20210723": 1,
-    "20210724": 1
+    "20210724": 1,
+    "20210725": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.JavanCousins_EN-US9214957907_UHD.jpg",
+      "endDate": "2021-07-25",
+      "copyright": "Javan tree frogs sitting together on a stalk in Indonesia (© SnapRapid/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=rhacophorus+margaritifer+javan+tree+frog&form=hpcapt&filters=HpDate%3a%2220210724_0700%22",
+      "fileName": "2021-07-25_Can you see the family resemblance?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-25_Can you see the family resemblance?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TokyoMetropolis_EN-US9112375652_UHD.jpg",
       "endDate": "2021-07-24",
@@ -844,7 +853,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.KusamaPumpkin_EN-US1211132220_UHD.jpg",
       "endDate": "2021-04-28",
-      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (�� Wirestock/Alamy)",
+      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (��� Wirestock/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=yayoi+kusama+art&form=hpcapt&filters=HpDate%3a%2220210427_0700%22",
       "fileName": "2021-04-28_'Design for Each and All'.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-28_'Design for Each and All'.jpg"
@@ -1290,5 +1299,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627089225735"
+  "updateTime": "1627175842438"
 }
