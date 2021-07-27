@@ -144,9 +144,18 @@
     "20210723": 1,
     "20210724": 1,
     "20210725": 1,
-    "20210726": 1
+    "20210726": 1,
+    "20210727": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.DancingTrees_EN-US9480266344_UHD.jpg",
+      "endDate": "2021-07-27",
+      "copyright": "Mangrove trees, Walakiri Beach, Sumba Island, Indonesia (© Tengguo Wu/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=mangroves&form=hpcapt&filters=HpDate%3a%2220210726_0700%22",
+      "fileName": "2021-07-27_The 'dancing trees' of Sumba Island.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-27_The 'dancing trees' of Sumba Island.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BruceMunroUluru_EN-US9286495835_UHD.jpg",
       "endDate": "2021-07-26",
@@ -1308,5 +1317,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627262128998"
+  "updateTime": "1627348558024"
 }
