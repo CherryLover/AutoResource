@@ -145,9 +145,18 @@
     "20210724": 1,
     "20210725": 1,
     "20210726": 1,
-    "20210727": 1
+    "20210727": 1,
+    "20210728": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.AdlerPlanetarium_EN-US9558785232_UHD.jpg",
+      "endDate": "2021-07-28",
+      "copyright": "Adler Planetarium near Lake Michigan, Chicago, Illinois (© Amazing Aerial Agency/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=adler+planetarium&form=hpcapt&filters=HpDate%3a%2220210727_0700%22",
+      "fileName": "2021-07-28_Maybe we should be looking up.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-28_Maybe we should be looking up.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.DancingTrees_EN-US9480266344_UHD.jpg",
       "endDate": "2021-07-27",
@@ -311,7 +320,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.TawnyFrogmouth_EN-US4707407967_UHD.jpg",
       "endDate": "2021-07-07",
-      "copyright": "Tawny frogmouth chick, Australia (© SnapRapid/Offset by Shutterstock)",
+      "copyright": "Tawny frogmouth chick, Australia (�� SnapRapid/Offset by Shutterstock)",
       "copyRightLink": "https://cn.bing.com/search?q=tawny+frogmouth+bird&form=hpcapt&filters=HpDate%3a%2220210706_0700%22",
       "fileName": "2021-07-07_The most Instagrammable bird?.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-07_The most Instagrammable bird?.jpg"
@@ -455,7 +464,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.ReussRiver_EN-US4195043036_UHD.jpg",
       "endDate": "2021-06-19",
-      "copyright": "Aerial view of Chapel Bridge over the River Reuss in Lucerne, Switzerland (© Neleman Initiative/Gallery Stock)",
+      "copyright": "Aerial view of Chapel Bridge over the River Reuss in Lucerne, Switzerland (�� Neleman Initiative/Gallery Stock)",
       "copyRightLink": "https://cn.bing.com/search?q=lucerne+switzerland&form=hpcapt&filters=HpDate%3a%2220210618_0700%22",
       "fileName": "2021-06-19_A city of bridges.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-19_A city of bridges.jpg"
@@ -1317,5 +1326,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627348558024"
+  "updateTime": "1627435006158"
 }
