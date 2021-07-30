@@ -147,9 +147,18 @@
     "20210726": 1,
     "20210727": 1,
     "20210728": 1,
-    "20210729": 1
+    "20210729": 1,
+    "20210730": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PantheraTigris_EN-US9729163497_UHD.jpg",
+      "endDate": "2021-07-30",
+      "copyright": "Tiger camouflaged in tall grass, Assam, India (© Sandesh Kadur/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=international+tiger+day&form=hpcapt&filters=HpDate%3a%2220210729_0700%22",
+      "fileName": "2021-07-30_Hiding in plain sight.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-30_Hiding in plain sight.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SeaGoldie_EN-US9625167980_UHD.jpg",
       "endDate": "2021-07-29",
@@ -1335,5 +1344,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627521214470"
+  "updateTime": "1627607797262"
 }
