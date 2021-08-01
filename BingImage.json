@@ -149,9 +149,18 @@
     "20210728": 1,
     "20210729": 1,
     "20210730": 1,
-    "20210731": 1
+    "20210731": 1,
+    "20210801": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.TanzaniaBeeEater_EN-US6785378427_UHD.jpg",
+      "endDate": "2021-08-01",
+      "copyright": "Northern carmine and European bee-eaters in Mkomazi National Park, Tanzania (© webguzs/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=bee-eater&form=hpcapt&filters=HpDate%3a%2220210731_0700%22",
+      "fileName": "2021-08-01_Fashion models of the avian world.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-01_Fashion models of the avian world.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.OtterCliff_EN-US6679872579_UHD.jpg",
       "endDate": "2021-07-31",
@@ -755,7 +764,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Guatape_EN-US7463341939_UHD.jpg",
       "endDate": "2021-05-17",
-      "copyright": "Aerial view of El Peñón de Guatapé, Guatap��, Antioquia, Colombia (© Amazing Aerial Agency/Offset by Shutterstock)",
+      "copyright": "Aerial view of El Peñón de Guatapé, Guatap����, Antioquia, Colombia (© Amazing Aerial Agency/Offset by Shutterstock)",
       "copyRightLink": "https://cn.bing.com/search?q=el+penon+de+guatape&form=hpcapt&filters=HpDate%3a%2220210516_0700%22",
       "fileName": "2021-05-17_A magnificent monolith.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-17_A magnificent monolith.jpg"
@@ -1353,5 +1362,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627693963569"
+  "updateTime": "1627780922043"
 }
