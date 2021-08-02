@@ -150,9 +150,18 @@
     "20210729": 1,
     "20210730": 1,
     "20210731": 1,
-    "20210801": 1
+    "20210801": 1,
+    "20210802": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LammasDay_EN-US7320561829_UHD.jpg",
+      "endDate": "2021-08-02",
+      "copyright": "Barley field in East Lothian, Scotland (© Scott Masterton/plainpicture)",
+      "copyRightLink": "https://cn.bing.com/search?q=lammas+holiday&form=hpcapt&filters=HpDate%3a%2220210801_0700%22",
+      "fileName": "2021-08-02_Welcome to Scotland's garden.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-02_Welcome to Scotland's garden.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.TanzaniaBeeEater_EN-US6785378427_UHD.jpg",
       "endDate": "2021-08-01",
@@ -1362,5 +1371,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1627780922043"
+  "updateTime": "1627866822642"
 }
