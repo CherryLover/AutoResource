@@ -154,9 +154,18 @@
     "20210802": 1,
     "20210803": 1,
     "20210804": 1,
-    "20210805": 1
+    "20210805": 1,
+    "20210806": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SkyPool_EN-US8327769804_UHD.jpg",
+      "endDate": "2021-08-06",
+      "copyright": "The Sky Pool at Embassy Gardens in London, England (© Xinhua News Agency/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=london+england&form=hpcapt&filters=HpDate%3a%2220210805_0700%22",
+      "fileName": "2021-08-06_A swim in the sky.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-06_A swim in the sky.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Neofelis_EN-US8038280591_UHD.jpg",
       "endDate": "2021-08-05",
@@ -1398,5 +1407,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628125992769"
+  "updateTime": "1628212543519"
 }
