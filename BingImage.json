@@ -157,9 +157,18 @@
     "20210805": 1,
     "20210806": 1,
     "20210807": 1,
-    "20210808": 1
+    "20210808": 1,
+    "20210809": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.QuayBridge_EN-US9006727077_UHD.jpg",
+      "endDate": "2021-08-09",
+      "copyright": "Elizabeth Quay Bridge in Perth, Australia (© Amazing Aerial Agency/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Elizabeth+Quay+Bridge&form=hpcapt&filters=HpDate%3a%2220210808_0700%22",
+      "fileName": "2021-08-09_Bridge to infinity.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-09_Bridge to infinity.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SaltCones_EN-US8727302779_UHD.jpg",
       "endDate": "2021-08-08",
@@ -931,7 +940,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.TeacherHeart_EN-US1874465116_UHD.jpg",
       "endDate": "2021-05-04",
-      "copyright": "Poster for Teacher Appreciation Week by 12-year-old Caroline Holt, 7th-grade student at the Bush School, Seattle, Washington (�� Caroline Holt/Eugenia Chang)",
+      "copyright": "Poster for Teacher Appreciation Week by 12-year-old Caroline Holt, 7th-grade student at the Bush School, Seattle, Washington (��� Caroline Holt/Eugenia Chang)",
       "copyRightLink": "https://cn.bing.com/search?q=teacher+appreciation+week&form=hpcapt&filters=HpDate%3a%2220210503_0700%22",
       "fileName": "2021-05-04_It's Teacher Appreciation Week.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-04_It's Teacher Appreciation Week.jpg"
@@ -1425,5 +1434,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628385222225"
+  "updateTime": "1628471591131"
 }
