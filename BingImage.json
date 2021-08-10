@@ -158,9 +158,18 @@
     "20210806": 1,
     "20210807": 1,
     "20210808": 1,
-    "20210809": 1
+    "20210809": 1,
+    "20210810": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MineBay_EN-US9163715590_UHD.jpg",
+      "endDate": "2021-08-10",
+      "copyright": "Māori rock carving by Matahi Whakataka-Brightwell, Lake Taupo, North Island, New Zealand (© Evgueni Zverev/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=ngatoroirangi+mine+bay+rock+carving+lake+taupo&FORM=hpcapt&filters=HpDate%3a%2220210809_0700%22",
+      "fileName": "2021-08-10_A tribute to the ancestors.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-10_A tribute to the ancestors.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.QuayBridge_EN-US9006727077_UHD.jpg",
       "endDate": "2021-08-09",
@@ -972,7 +981,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Mockhorn_EN-US1360987065_UHD.jpg",
       "endDate": "2021-04-30",
-      "copyright": "Aerial view of tidal channels in marshland of the Mockhorn Island State Wildlife Management Area, Virginia (© Shane Gross/Minden Pictures)",
+      "copyright": "Aerial view of tidal channels in marshland of the Mockhorn Island State Wildlife Management Area, Virginia (�� Shane Gross/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=mockhorn+island+state+wildlife+management+area&form=hpcapt&filters=HpDate%3a%2220210429_0700%22",
       "fileName": "2021-04-30_When does the tide come in?.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-30_When does the tide come in?.jpg"
@@ -1434,5 +1443,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628471591131"
+  "updateTime": "1628558075552"
 }
