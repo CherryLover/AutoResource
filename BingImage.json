@@ -159,9 +159,18 @@
     "20210807": 1,
     "20210808": 1,
     "20210809": 1,
-    "20210810": 1
+    "20210810": 1,
+    "20210811": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ArtsandIndustries_EN-US9282950585_UHD.jpg",
+      "endDate": "2021-08-11",
+      "copyright": "The Smithsonian Arts and Industries Building in Washington, DC (© Ron Blunt/Courtesy Smithsonian)",
+      "copyRightLink": "https://cn.bing.com/search?q=smithsonian+institution&form=hpcapt&filters=HpDate%3a%2220210810_0700%22",
+      "fileName": "2021-08-11_A renowned institution celebrates 175 years.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-11_A renowned institution celebrates 175 years.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MineBay_EN-US9163715590_UHD.jpg",
       "endDate": "2021-08-10",
@@ -1443,5 +1452,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628558075552"
+  "updateTime": "1628644326995"
 }
