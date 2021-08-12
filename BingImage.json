@@ -160,9 +160,18 @@
     "20210808": 1,
     "20210809": 1,
     "20210810": 1,
-    "20210811": 1
+    "20210811": 1,
+    "20210812": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.DinoShower_EN-US8295174033_UHD.jpg",
+      "endDate": "2021-08-12",
+      "copyright": "The Perseid meteor shower photographed at the Dinosaur Museum of Erenhot in Inner Mongolia, China (© bjdlzx/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=perseid+meteor+shower&form=hpcapt&filters=HpDate%3a%2220210811_0700%22",
+      "fileName": "2021-08-12_Everyone's watching the Perseids.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-12_Everyone's watching the Perseids.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ArtsandIndustries_EN-US9282950585_UHD.jpg",
       "endDate": "2021-08-11",
@@ -1452,5 +1461,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628644326995"
+  "updateTime": "1628730738227"
 }
