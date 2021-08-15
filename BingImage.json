@@ -163,9 +163,18 @@
     "20210811": 1,
     "20210812": 1,
     "20210813": 1,
-    "20210814": 1
+    "20210814": 1,
+    "20210815": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.UbehebeCrater_EN-US6244876287_UHD.jpg",
+      "endDate": "2021-08-15",
+      "copyright": "Ubehebe Crater in Death Valley National Park, California (© Albert Knapp/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=ubehebe+crater+death+valley&form=hpcapt&filters=HpDate%3a%2220210814_0700%22",
+      "fileName": "2021-08-15_When the desert blew its top.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-15_When the desert blew its top.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Southpaw_EN-US5351899274_UHD.jpg",
       "endDate": "2021-08-14",
@@ -1479,5 +1488,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628903234613"
+  "updateTime": "1628989949351"
 }
