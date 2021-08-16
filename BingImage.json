@@ -164,9 +164,18 @@
     "20210812": 1,
     "20210813": 1,
     "20210814": 1,
-    "20210815": 1
+    "20210815": 1,
+    "20210816": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.StrandbadTiefenbrunnen_EN-US6967556801_UHD.jpg",
+      "endDate": "2021-08-16",
+      "copyright": "Strandbad Tiefenbrunnen, a public pool on the shore of Lake Zürich, Switzerland (© Amazing Aerial Agency/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Strandbad+Tiefenbrunnen&form=hpcapt&filters=HpDate%3a%2220210815_0700%22",
+      "fileName": "2021-08-16_Swim city.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-16_Swim city.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.UbehebeCrater_EN-US6244876287_UHD.jpg",
       "endDate": "2021-08-15",
@@ -554,7 +563,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LCPAPride_EN-US5979726065_UHD.jpg",
       "endDate": "2021-06-28",
-      "copyright": "Lincoln Center for the Performing Arts lit in Pride colors on June 18, 2020 in New York City (�� Alexi Rosenfeld/Getty Images)",
+      "copyright": "Lincoln Center for the Performing Arts lit in Pride colors on June 18, 2020 in New York City (��� Alexi Rosenfeld/Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=pride+day&form=hpcapt&filters=HpDate%3a%2220210627_0700%22",
       "fileName": "2021-06-28_Bathing in the light of Pride.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-28_Bathing in the light of Pride.jpg"
@@ -1488,5 +1497,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1628989949351"
+  "updateTime": "1629076255004"
 }
