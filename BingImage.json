@@ -165,9 +165,18 @@
     "20210813": 1,
     "20210814": 1,
     "20210815": 1,
-    "20210816": 1
+    "20210816": 1,
+    "20210817": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PortAventura_EN-US7476980187_UHD.jpg",
+      "endDate": "2021-08-17",
+      "copyright": "Silhouette of Shambhala roller coaster at sunset in PortAventura Park, Salou, Tarragona, Spain (© Joaquim F. P./Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=roller+coaster+day&form=hpcapt&filters=HpDate%3a%2220210816_0700%22",
+      "fileName": "2021-08-17_Let's ride! It's Roller Coaster Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-17_Let's ride! It's Roller Coaster Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.StrandbadTiefenbrunnen_EN-US6967556801_UHD.jpg",
       "endDate": "2021-08-16",
@@ -1497,5 +1506,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1629076255004"
+  "updateTime": "1629162646464"
 }
