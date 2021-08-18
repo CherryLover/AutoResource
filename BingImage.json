@@ -166,9 +166,18 @@
     "20210814": 1,
     "20210815": 1,
     "20210816": 1,
-    "20210817": 1
+    "20210817": 1,
+    "20210818": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PochuckValley_EN-US7792130272_UHD.jpg",
+      "endDate": "2021-08-18",
+      "copyright": "Stairway to Heaven trail in Wawayanda State Park, New Jersey (© Leembe/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=wawayanda+state+park+new+jersey&form=hpcapt&filters=HpDate%3a%2220210817_0700%22",
+      "fileName": "2021-08-18_Wanderin' Wawayanda.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-18_Wanderin' Wawayanda.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PortAventura_EN-US7476980187_UHD.jpg",
       "endDate": "2021-08-17",
@@ -1506,5 +1515,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1629162646464"
+  "updateTime": "1629249107273"
 }
