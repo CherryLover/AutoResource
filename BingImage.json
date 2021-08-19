@@ -167,9 +167,18 @@
     "20210815": 1,
     "20210816": 1,
     "20210817": 1,
-    "20210818": 1
+    "20210818": 1,
+    "20210819": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.RedRoofTile_EN-US7950086465_UHD.jpg",
+      "endDate": "2021-08-19",
+      "copyright": "The Old Town of Dubrovnik, Croatia (© Jeremy Woodhouse/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=dubrovnik&form=hpcapt&filters=HpDate%3a%2220210818_0700%22",
+      "fileName": "2021-08-19_Pearl of the Adriatic.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-19_Pearl of the Adriatic.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PochuckValley_EN-US7792130272_UHD.jpg",
       "endDate": "2021-08-18",
@@ -1515,5 +1524,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1629249107273"
+  "updateTime": "1629335054954"
 }
