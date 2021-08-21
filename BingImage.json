@@ -169,9 +169,18 @@
     "20210817": 1,
     "20210818": 1,
     "20210819": 1,
-    "20210820": 1
+    "20210820": 1,
+    "20210821": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.EmptyQuarter_EN-US0636903975_UHD.jpg",
+      "endDate": "2021-08-21",
+      "copyright": "Rub' al Khali desert on the border of Oman and the Emirate of Dubai (© Daniel Schoenen/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=rub%27+al+khali+desert&form=hpcapt&filters=HpDate%3a%2220210820_0700%22",
+      "fileName": "2021-08-21_Signs of life in the 'Empty Quarter'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-21_Signs of life in the 'Empty Quarter'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.GiantManta_EN-US0573503252_UHD.jpg",
       "endDate": "2021-08-20",
@@ -1533,5 +1542,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1629421744076"
+  "updateTime": "1629508178985"
 }
