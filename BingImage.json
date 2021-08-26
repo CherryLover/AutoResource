@@ -174,9 +174,18 @@
     "20210822": 1,
     "20210823": 1,
     "20210824": 1,
-    "20210825": 1
+    "20210825": 1,
+    "20210826": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.WalhallaOverlook_EN-US3794328028_UHD.jpg",
+      "endDate": "2021-08-26",
+      "copyright": "Peekaboo view of Angels Window on the North Rim of the Grand Canyon, Arizona (© Tim Fitzharris/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=grand+canyon+national+park&form=hpcapt&filters=HpDate%3a%2220210825_0700%22",
+      "fileName": "2021-08-26_Happy anniversary to the National Park Service!.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-26_Happy anniversary to the National Park Service!.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.HippieTown_EN-US1026712176_UHD.jpg",
       "endDate": "2021-08-25",
@@ -1308,7 +1317,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.SautduBrot_EN-US8410506080_UHD.jpg",
       "endDate": "2021-04-06",
-      "copyright": "Saut du Brot stone bridge in the Areuse Gorge, Neuchâtel, Switzerland (© Andreas Gerth/eStock Photo)",
+      "copyright": "Saut du Brot stone bridge in the Areuse Gorge, Neuch��tel, Switzerland (© Andreas Gerth/eStock Photo)",
       "copyRightLink": "https://cn.bing.com/search?q=Brot-Dessous%2c+Switzerland&form=hpcapt&filters=HpDate%3a%2220210405_0700%22",
       "fileName": "2021-04-06_Once upon a time there was a bridge���.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-06_Once upon a time there was a bridge….jpg"
@@ -1578,5 +1587,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1629853839855"
+  "updateTime": "1629940086535"
 }
