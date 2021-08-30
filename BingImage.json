@@ -178,9 +178,18 @@
     "20210826": 1,
     "20210827": 1,
     "20210828": 1,
-    "20210829": 1
+    "20210829": 1,
+    "20210830": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Ruskeala_EN-US2421855092_UHD.jpg",
+      "endDate": "2021-08-30",
+      "copyright": "Underground lake in Ruskeala Mountain Park, Karelia, Russia (© Konstantin Trubavin/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Ruskeala+Mountain+Park+Karelia+Russia&form=hpcapt&filters=HpDate%3a%2220210829_0700%22",
+      "fileName": "2021-08-30_Notes from an underground lake.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-08-30_Notes from an underground lake.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Mpumalanga_EN-US2361653913_UHD.jpg",
       "endDate": "2021-08-29",
@@ -1128,7 +1137,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LaughingZebras_EN-US1800178960_UHD.jpg",
       "endDate": "2021-05-03",
-      "copyright": "Burchell's zebra stallions, Rietvlei Nature Reserve, South Africa (© Richard Du Toit/Minden Pictures)",
+      "copyright": "Burchell's zebra stallions, Rietvlei Nature Reserve, South Africa (�� Richard Du Toit/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=world+laughter+day&form=hpcapt&filters=HpDate%3a%2220210502_0700%22",
       "fileName": "2021-05-03_Happy World Laughter Day.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-03_Happy World Laughter Day.jpg"
@@ -1168,7 +1177,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.KusamaPumpkin_EN-US1211132220_UHD.jpg",
       "endDate": "2021-04-28",
-      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (����� Wirestock/Alamy)",
+      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (������ Wirestock/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=yayoi+kusama+art&form=hpcapt&filters=HpDate%3a%2220210427_0700%22",
       "fileName": "2021-04-28_'Design for Each and All'.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-28_'Design for Each and All'.jpg"
@@ -1614,5 +1623,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630199704362"
+  "updateTime": "1630285902452"
 }
