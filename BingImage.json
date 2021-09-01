@@ -180,9 +180,18 @@
     "20210828": 1,
     "20210829": 1,
     "20210830": 1,
-    "20210831": 1
+    "20210831": 1,
+    "20210901": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.DjurdjevicaBridge_EN-US2627065806_UHD.jpg",
+      "endDate": "2021-09-01",
+      "copyright": "Đurđevića Tara Bridge in Montenegro (© Hike The World/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=%c4%90ur%c4%91evi%c4%87a+Tara+Bridge&form=hpcapt&filters=HpDate%3a%2220210831_0700%22",
+      "fileName": "2021-09-01_Bridge over the River Tara.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-01_Bridge over the River Tara.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MayonVolcano_EN-US2517637729_UHD.jpg",
       "endDate": "2021-08-31",
@@ -1632,5 +1641,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630372333230"
+  "updateTime": "1630459087517"
 }
