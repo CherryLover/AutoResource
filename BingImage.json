@@ -183,9 +183,18 @@
     "20210831": 1,
     "20210901": 1,
     "20210902": 1,
-    "20210903": 1
+    "20210903": 1,
+    "20210904": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.AlienEggs_EN-US2920727413_UHD.jpg",
+      "endDate": "2021-09-04",
+      "copyright": "The 'Alien Egg Hatchery' in the Bisti/De-Na-Zin Wilderness, New Mexico (© Ian Shive/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=Bisti%2fDe-Na-Zin+Wilderness&form=hpcapt&filters=HpDate%3a%2220210903_0700%22",
+      "fileName": "2021-09-04_Welcome to the 'Alien Egg Hatchery'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-04_Welcome to the 'Alien Egg Hatchery'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PortoFlavia_EN-US2814580222_UHD.jpg",
       "endDate": "2021-09-03",
@@ -1659,5 +1668,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630631565887"
+  "updateTime": "1630718018383"
 }
