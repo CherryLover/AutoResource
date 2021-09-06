@@ -185,9 +185,18 @@
     "20210902": 1,
     "20210903": 1,
     "20210904": 1,
-    "20210905": 1
+    "20210905": 1,
+    "20210906": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.GCVenice_EN-US3101866960_UHD.jpg",
+      "endDate": "2021-09-06",
+      "copyright": "The Regata Storica on the Grand Canal in Venice, Italy (© Alexander Duffner/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=grand+canal+venice&form=hpcapt&filters=HpDate%3a%2220210905_0700%22",
+      "fileName": "2021-09-06_Venice's grand regatta.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-06_Venice's grand regatta.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AnnasHummingbird_EN-US3031304085_UHD.jpg",
       "endDate": "2021-09-05",
@@ -1677,5 +1686,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630804565954"
+  "updateTime": "1630891104109"
 }
