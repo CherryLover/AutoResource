@@ -186,9 +186,18 @@
     "20210903": 1,
     "20210904": 1,
     "20210905": 1,
-    "20210906": 1
+    "20210906": 1,
+    "20210907": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MRInspection_EN-US3269447998_UHD.jpg",
+      "endDate": "2021-09-07",
+      "copyright": "Park service employees inspecting Mount Rushmore National Memorial, South Dakota (© Universal Images Group via Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=mount+rushmore+national+memorial&form=hpcapt&filters=HpDate%3a%2220210906_0700%22",
+      "fileName": "2021-09-07_All in a day's work.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-07_All in a day's work.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.GCVenice_EN-US3101866960_UHD.jpg",
       "endDate": "2021-09-06",
@@ -1686,5 +1695,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630891104109"
+  "updateTime": "1630977027277"
 }
