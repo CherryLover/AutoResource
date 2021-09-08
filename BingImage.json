@@ -187,9 +187,18 @@
     "20210904": 1,
     "20210905": 1,
     "20210906": 1,
-    "20210907": 1
+    "20210907": 1,
+    "20210908": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MassachusettsHumpbacks_EN-US3647778341_UHD.jpg",
+      "endDate": "2021-09-08",
+      "copyright": "Humpback whales off the coast of Massachusetts (© Eric Kulin/plainpicture)",
+      "copyRightLink": "https://cn.bing.com/search?q=humpback+whales&form=hpcapt&filters=HpDate%3a%2220210907_0700%22",
+      "fileName": "2021-09-08_Whale hello there!.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-08_Whale hello there!.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MRInspection_EN-US3269447998_UHD.jpg",
       "endDate": "2021-09-07",
@@ -1695,5 +1704,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1630977027277"
+  "updateTime": "1631063525057"
 }
