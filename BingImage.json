@@ -188,9 +188,18 @@
     "20210905": 1,
     "20210906": 1,
     "20210907": 1,
-    "20210908": 1
+    "20210908": 1,
+    "20210909": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LivrariaLello_EN-US3788215470_UHD.jpg",
+      "endDate": "2021-09-09",
+      "copyright": "Livraria Lello, a bookstore in Porto, Portugal (© Nido Huebl/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Livraria+Lello&form=hpcapt&filters=HpDate%3a%2220210908_0700%22",
+      "fileName": "2021-09-09_Enter the magical world of Livraria Lello.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-09_Enter the magical world of Livraria Lello.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MassachusettsHumpbacks_EN-US3647778341_UHD.jpg",
       "endDate": "2021-09-08",
@@ -1704,5 +1713,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1631063525057"
+  "updateTime": "1631150207230"
 }
