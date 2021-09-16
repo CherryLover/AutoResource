@@ -195,9 +195,18 @@
     "20210912": 1,
     "20210913": 1,
     "20210914": 1,
-    "20210915": 1
+    "20210915": 1,
+    "20210916": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Fronterizos_EN-US7668377030_UHD.jpg",
+      "endDate": "2021-09-16",
+      "copyright": "Artist Jesus 'CIMI' Alvarado painting his mural 'Fronterizos' on a wall of the El Paso Museum of Art, El Paso, Texas (© Paul Ratje/AFP via Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=National+Hispanic+Heritage+Month&form=hpcapt&filters=HpDate%3a%2220210915_0700%22",
+      "fileName": "2021-09-16_It's National Hispanic Heritage Month.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-16_It's National Hispanic Heritage Month.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Aldeyjarfoss_EN-US0170785343_UHD.jpg",
       "endDate": "2021-09-15",
@@ -1767,5 +1776,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1631668446717"
+  "updateTime": "1631755111380"
 }
