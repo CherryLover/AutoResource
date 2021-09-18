@@ -197,9 +197,18 @@
     "20210914": 1,
     "20210915": 1,
     "20210916": 1,
-    "20210917": 1
+    "20210917": 1,
+    "20210918": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BenagilCave_EN-US2996856855_UHD.jpg",
+      "endDate": "2021-09-18",
+      "copyright": "Benagil Cave in the Algarve, Portugal (© Michael Malorny/Offset by Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=benagil+cave+algarve&form=hpcapt&filters=HpDate%3a%2220210917_0700%22",
+      "fileName": "2021-09-18_Eye of the cave.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-18_Eye of the cave.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PalacioArtes_EN-US2524377333_UHD.jpg",
       "endDate": "2021-09-17",
@@ -1785,5 +1794,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1631841758321"
+  "updateTime": "1631927683675"
 }
