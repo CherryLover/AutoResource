@@ -199,9 +199,18 @@
     "20210916": 1,
     "20210917": 1,
     "20210918": 1,
-    "20210919": 1
+    "20210919": 1,
+    "20210920": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.LeCastella_EN-US3410369495_UHD.jpg",
+      "endDate": "2021-09-20",
+      "copyright": "Le Castella at Capo Rizzuto, Italy (© mRGB/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=Capo+Rizzuto+Italy&form=hpcapt&filters=HpDate%3a%2220210919_0700%22",
+      "fileName": "2021-09-20_Arrr! Can you talk like a pirate?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-20_Arrr! Can you talk like a pirate?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Firefox_EN-US3200029768_UHD.jpg",
       "endDate": "2021-09-19",
@@ -1317,7 +1326,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LaughingZebras_EN-US1800178960_UHD.jpg",
       "endDate": "2021-05-03",
-      "copyright": "Burchell's zebra stallions, Rietvlei Nature Reserve, South Africa (�� Richard Du Toit/Minden Pictures)",
+      "copyright": "Burchell's zebra stallions, Rietvlei Nature Reserve, South Africa (��� Richard Du Toit/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=world+laughter+day&form=hpcapt&filters=HpDate%3a%2220210502_0700%22",
       "fileName": "2021-05-03_Happy World Laughter Day.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-03_Happy World Laughter Day.jpg"
@@ -1357,7 +1366,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.KusamaPumpkin_EN-US1211132220_UHD.jpg",
       "endDate": "2021-04-28",
-      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (������ Wirestock/Alamy)",
+      "copyright": "Yayoi Kusama's 'Pumpkin' artwork on Naoshima Island, Japan, in August 2018 (������� Wirestock/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=yayoi+kusama+art&form=hpcapt&filters=HpDate%3a%2220210427_0700%22",
       "fileName": "2021-04-28_'Design for Each and All'.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-28_'Design for Each and All'.jpg"
@@ -1803,5 +1812,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632014105390"
+  "updateTime": "1632100660787"
 }
