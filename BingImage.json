@@ -200,9 +200,18 @@
     "20210917": 1,
     "20210918": 1,
     "20210919": 1,
-    "20210920": 1
+    "20210920": 1,
+    "20210921": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BlackSun_EN-US3611441755_UHD.jpg",
+      "endDate": "2021-09-21",
+      "copyright": "Starlings in the wetlands between Denmark and Germany (© Viking/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=common+starling&form=hpcapt&filters=HpDate%3a%2220210920_0700%22",
+      "fileName": "2021-09-21_Birds of a feather flocking together.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-21_Birds of a feather flocking together.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.LeCastella_EN-US3410369495_UHD.jpg",
       "endDate": "2021-09-20",
@@ -1812,5 +1821,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632100660787"
+  "updateTime": "1632186925757"
 }
