@@ -204,9 +204,18 @@
     "20210921": 1,
     "20210922": 1,
     "20210923": 1,
-    "20210924": 1
+    "20210924": 1,
+    "20210925": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CuscoCathedral_EN-US0974073247_UHD.jpg",
+      "endDate": "2021-09-25",
+      "copyright": "Cusco Cathedral on the Plaza de Armas, Cusco, Peru (© sharptoyou/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=cusco+peru+plaza+de+armas&FORM=hpcapt&filters=HpDate%3a%2220210924_0700%22",
+      "fileName": "2021-09-25_The crossroads of empires.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-25_The crossroads of empires.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BrilliantBlue_EN-US4447486564_UHD.jpg",
       "endDate": "2021-09-24",
@@ -1848,5 +1857,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632446114754"
+  "updateTime": "1632532391459"
 }
