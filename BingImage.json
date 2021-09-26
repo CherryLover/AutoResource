@@ -205,9 +205,18 @@
     "20210922": 1,
     "20210923": 1,
     "20210924": 1,
-    "20210925": 1
+    "20210925": 1,
+    "20210926": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PorkiesTrail_EN-US1052871697_UHD.jpg",
+      "endDate": "2021-09-26",
+      "copyright": "Escarpment Trail in Porcupine Mountains Wilderness State Park, Michigan (© Pat & Chuck Blackley/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Porcupine+Mountains+Wilderness+State+Park&form=hpcapt&filters=HpDate%3a%2220210925_0700%22",
+      "fileName": "2021-09-26_Autumn comes to the Porcupines.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-26_Autumn comes to the Porcupines.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CuscoCathedral_EN-US0974073247_UHD.jpg",
       "endDate": "2021-09-25",
@@ -755,7 +764,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LouvreRiders_EN-US7293709223_UHD.jpg",
       "endDate": "2021-07-19",
-      "copyright": "Tour de France riders in front of the Louvre Pyramid and Museum in Paris, France, during the 2020 race (© Martin Bureau/AFP via Getty Images)",
+      "copyright": "Tour de France riders in front of the Louvre Pyramid and Museum in Paris, France, during the 2020 race (�� Martin Bureau/AFP via Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=tour+de+france&form=hpcapt&filters=HpDate%3a%2220210718_0700%22",
       "fileName": "2021-07-19_Grand finish of Le Tour.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-19_Grand finish of Le Tour.jpg"
@@ -1857,5 +1866,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632532391459"
+  "updateTime": "1632619047304"
 }
