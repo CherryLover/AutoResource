@@ -206,9 +206,18 @@
     "20210923": 1,
     "20210924": 1,
     "20210925": 1,
-    "20210926": 1
+    "20210926": 1,
+    "20210927": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MackenzieRiver_EN-US1123729809_UHD.jpg",
+      "endDate": "2021-09-27",
+      "copyright": "The Mackenzie River in Canada emptying into the Beaufort Sea (© Norman Kuring, GSFC/NASA/USGS Landsat)",
+      "copyRightLink": "https://cn.bing.com/search?q=world+rivers+day&form=hpcapt&filters=HpDate%3a%2220210926_0700%22",
+      "fileName": "2021-09-27_World Rivers Day.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-27_World Rivers Day.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.PorkiesTrail_EN-US1052871697_UHD.jpg",
       "endDate": "2021-09-26",
@@ -1866,5 +1875,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632619047304"
+  "updateTime": "1632705236187"
 }
