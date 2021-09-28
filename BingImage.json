@@ -207,9 +207,18 @@
     "20210924": 1,
     "20210925": 1,
     "20210926": 1,
-    "20210927": 1
+    "20210927": 1,
+    "20210928": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PicoThorn_EN-US1190797847_UHD.jpg",
+      "endDate": "2021-09-28",
+      "copyright": "Thorn bug, Pico Bonito National Park, Honduras (© Mac Stone/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=thorn+bug&form=hpcapt&filters=HpDate%3a%2220210927_0700%22",
+      "fileName": "2021-09-28_Sharp-dressed bug.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-28_Sharp-dressed bug.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MackenzieRiver_EN-US1123729809_UHD.jpg",
       "endDate": "2021-09-27",
@@ -1875,5 +1884,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632705236187"
+  "updateTime": "1632791733274"
 }
