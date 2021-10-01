@@ -210,9 +210,18 @@
     "20210927": 1,
     "20210928": 1,
     "20210929": 1,
-    "20210930": 1
+    "20210930": 1,
+    "20211001": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ContainerShip_EN-US1397689577_UHD.jpg",
+      "endDate": "2021-10-01",
+      "copyright": "Container ship in San Pedro, California (© Cameron Venti/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=container+ship&form=hpcapt&filters=HpDate%3a%2220210930_0700%22",
+      "fileName": "2021-10-01_Global commerce in motion.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-01_Global commerce in motion.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.WoodBison_EN-US1315596860_UHD.jpg",
       "endDate": "2021-09-30",
@@ -1902,5 +1911,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1632964923297"
+  "updateTime": "1633051202597"
 }
