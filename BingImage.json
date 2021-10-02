@@ -211,9 +211,18 @@
     "20210928": 1,
     "20210929": 1,
     "20210930": 1,
-    "20211001": 1
+    "20211001": 1,
+    "20211002": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.HyacinthMacaws_EN-US1453969015_UHD.jpg",
+      "endDate": "2021-10-02",
+      "copyright": "Hyacinth macaws in the Pantanal region of Brazil (© David Pattyn/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=hyacinth+macaw&form=hpcapt&filters=HpDate%3a%2220211001_0700%22",
+      "fileName": "2021-10-02_What's better than a smile?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-02_What's better than a smile?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ContainerShip_EN-US1397689577_UHD.jpg",
       "endDate": "2021-10-01",
@@ -833,7 +842,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.NgoDong_EN-US7569222084_UHD.jpg",
       "endDate": "2021-07-16",
-      "copyright": "Boats float by rice fields on the Ngo Dong River in Ninh B��nh province, Vietnam (© Jeremy Woodhouse/Getty Images)",
+      "copyright": "Boats float by rice fields on the Ngo Dong River in Ninh B��nh province, Vietnam (�� Jeremy Woodhouse/Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=ninh+binh+province&form=hpcapt&filters=HpDate%3a%2220210715_0700%22",
       "fileName": "2021-07-16_A river runs through rice fields.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-16_A river runs through rice fields.jpg"
@@ -1911,5 +1920,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633051202597"
+  "updateTime": "1633137259080"
 }
