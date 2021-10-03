@@ -212,9 +212,18 @@
     "20210929": 1,
     "20210930": 1,
     "20211001": 1,
-    "20211002": 1
+    "20211002": 1,
+    "20211003": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.IvishakRiver_EN-US1566710821_UHD.jpg",
+      "endDate": "2021-10-03",
+      "copyright": "The Ivishak River in the North Slope of Alaska (© Don Paulson/Danita Delimont)",
+      "copyRightLink": "https://cn.bing.com/search?q=Ivishak+River&form=hpcapt&filters=HpDate%3a%2220211002_0700%22",
+      "fileName": "2021-10-03_A river on the tundra.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-03_A river on the tundra.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.HyacinthMacaws_EN-US1453969015_UHD.jpg",
       "endDate": "2021-10-02",
@@ -1920,5 +1929,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633137259080"
+  "updateTime": "1633224064777"
 }
