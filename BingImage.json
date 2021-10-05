@@ -214,9 +214,18 @@
     "20211001": 1,
     "20211002": 1,
     "20211003": 1,
-    "20211004": 1
+    "20211004": 1,
+    "20211005": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Andromeda_EN-US1720805317_UHD.jpg",
+      "endDate": "2021-10-05",
+      "copyright": "Andromeda galaxy (© NASA/JPL-Caltech)",
+      "copyRightLink": "https://cn.bing.com/search?q=andromeda+galaxy&form=hpcapt&filters=HpDate%3a%2220211004_0700%22",
+      "fileName": "2021-10-05_Hey neighbor, it's World Space Week!.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-05_Hey neighbor, it's World Space Week!.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Italica_EN-US1640838317_UHD.jpg",
       "endDate": "2021-10-04",
@@ -1876,7 +1885,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.HarrietTubman_EN-US1054261891_UHD.jpg",
       "endDate": "2021-03-11",
-      "copyright": "'Step on Board,' the Harriet Tubman Memorial, sculpted by Fern Cunningham, in Boston, Massachusetts (�� Anthony Pleva/Alamy)",
+      "copyright": "'Step on Board,' the Harriet Tubman Memorial, sculpted by Fern Cunningham, in Boston, Massachusetts (���� Anthony Pleva/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=Harriet+Tubman+Day&form=hpcapt&filters=HpDate%3a%2220210310_0800%22",
       "fileName": "2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-11_Commemorating the life of a famous 'railroad' conductor.jpg"
@@ -1938,5 +1947,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633310439812"
+  "updateTime": "1633396520864"
 }
