@@ -216,9 +216,18 @@
     "20211003": 1,
     "20211004": 1,
     "20211005": 1,
-    "20211006": 1
+    "20211006": 1,
+    "20211007": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SWColorado_EN-US1870553135_UHD.jpg",
+      "endDate": "2021-10-07",
+      "copyright": "Dallas Divide in southwest Colorado (© Ronda Kimbrow/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=dallas+divide+colorado&form=hpcapt&filters=HpDate%3a%2220211006_0700%22",
+      "fileName": "2021-10-07_A valley view at 9,000 feet.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-07_A valley view at 9,000 feet.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Kindergarteners_EN-US1789862407_UHD.jpg",
       "endDate": "2021-10-06",
@@ -1956,5 +1965,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633482944487"
+  "updateTime": "1633569459930"
 }
