@@ -218,9 +218,18 @@
     "20211005": 1,
     "20211006": 1,
     "20211007": 1,
-    "20211008": 1
+    "20211008": 1,
+    "20211009": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.FriendlyOctopus_EN-US7209624602_UHD.jpg",
+      "endDate": "2021-10-09",
+      "copyright": "Common octopus off the coast of France in the Mediterranean Sea (© BIOSPHOTO/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=common+octopus&form=hpcapt&filters=HpDate%3a%2220211008_0700%22",
+      "fileName": "2021-10-09_An uncommonly cool critter.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-09_An uncommonly cool critter.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.HuayMaeKhamin_EN-US1949606808_UHD.jpg",
       "endDate": "2021-10-08",
@@ -968,7 +977,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.TawnyFrogmouth_EN-US4707407967_UHD.jpg",
       "endDate": "2021-07-07",
-      "copyright": "Tawny frogmouth chick, Australia (�� SnapRapid/Offset by Shutterstock)",
+      "copyright": "Tawny frogmouth chick, Australia (���� SnapRapid/Offset by Shutterstock)",
       "copyRightLink": "https://cn.bing.com/search?q=tawny+frogmouth+bird&form=hpcapt&filters=HpDate%3a%2220210706_0700%22",
       "fileName": "2021-07-07_The most Instagrammable bird?.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-07_The most Instagrammable bird?.jpg"
@@ -1974,5 +1983,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633656011247"
+  "updateTime": "1633741932031"
 }
