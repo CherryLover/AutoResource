@@ -219,9 +219,18 @@
     "20211006": 1,
     "20211007": 1,
     "20211008": 1,
-    "20211009": 1
+    "20211009": 1,
+    "20211010": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SandhillApache_EN-US7367797025_UHD.jpg",
+      "endDate": "2021-10-10",
+      "copyright": "Sandhill cranes and mallard ducks, Bosque del Apache National Wildlife Refuge, New Mexico (© Cathy & Gordon Illg/Jaynes Gallery/DanitaDelimont.com)",
+      "copyRightLink": "https://cn.bing.com/search?q=sandhill+cranes&form=hpcapt&filters=HpDate%3a%2220211009_0700%22",
+      "fileName": "2021-10-10_Birds of a feather.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-10_Birds of a feather.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.FriendlyOctopus_EN-US7209624602_UHD.jpg",
       "endDate": "2021-10-09",
@@ -1169,7 +1178,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.BBNPGrande_EN-US9017603902_UHD.jpg",
       "endDate": "2021-06-13",
-      "copyright": "View of the Rio Grande in Big Bend National Park, Texas (© Ian Shive/Tandem Stills + Motion)",
+      "copyright": "View of the Rio Grande in Big Bend National Park, Texas (�� Ian Shive/Tandem Stills + Motion)",
       "copyRightLink": "https://cn.bing.com/search?q=Big+Bend+National+Park&form=hpcapt&filters=HpDate%3a%2220210612_0700%22",
       "fileName": "2021-06-13_In Texas, even the riverbend is big.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-13_In Texas, even the riverbend is big.jpg"
@@ -1983,5 +1992,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633741932031"
+  "updateTime": "1633828662270"
 }
