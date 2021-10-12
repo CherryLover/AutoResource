@@ -221,9 +221,18 @@
     "20211008": 1,
     "20211009": 1,
     "20211010": 1,
-    "20211011": 1
+    "20211011": 1,
+    "20211012": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ClanHouse_EN-US7625745016_UHD.jpg",
+      "endDate": "2021-10-12",
+      "copyright": "The Clan House at Totem Bight State Historical Park near Ketchikan, Alaska (© Ron Niebrugge/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Totem+Bight+State+Historical+Park&form=hpcapt&filters=HpDate%3a%2220211011_0700%22",
+      "fileName": "2021-10-12_Indigenous living.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-12_Indigenous living.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.AbaloneShell_EN-US7461837233_UHD.jpg",
       "endDate": "2021-10-11",
@@ -955,7 +964,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.SpiralAloe_EN-US6880291357_UHD.jpg",
       "endDate": "2021-07-12",
-      "copyright": "Spiral aloe (© David Madison/Getty Images)",
+      "copyright": "Spiral aloe (�� David Madison/Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=spiral+aloe&form=hpcapt&filters=HpDate%3a%2220210711_0700%22",
       "fileName": "2021-07-12_Why, aloe there.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-07-12_Why, aloe there.jpg"
@@ -2001,5 +2010,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1633915094438"
+  "updateTime": "1634001586793"
 }
