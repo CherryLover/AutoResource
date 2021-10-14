@@ -223,9 +223,18 @@
     "20211010": 1,
     "20211011": 1,
     "20211012": 1,
-    "20211013": 1
+    "20211013": 1,
+    "20211014": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.IchthyosaurFossil_EN-US7828457812_UHD.jpg",
+      "endDate": "2021-10-14",
+      "copyright": "An ichthyosaur fossil of the Jurassic period, Dinosaurland Fossil Museum, Lyme Regis, Dorset, England (© Christopher Jones/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=national+fossil+day&form=hpcapt&filters=HpDate%3a%2220211013_0700%22",
+      "fileName": "2021-10-14_Celebrating a young girl's age-old discovery.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-14_Celebrating a young girl's age-old discovery.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.StMalo_EN-US7686440014_UHD.jpg",
       "endDate": "2021-10-13",
@@ -2019,5 +2028,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634087882880"
+  "updateTime": "1634174208872"
 }
