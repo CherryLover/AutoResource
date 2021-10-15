@@ -224,9 +224,18 @@
     "20211011": 1,
     "20211012": 1,
     "20211013": 1,
-    "20211014": 1
+    "20211014": 1,
+    "20211015": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.SaguaroFamily_EN-US8027040926_UHD.jpg",
+      "endDate": "2021-10-15",
+      "copyright": "Saguaro 'family' and Milky Way, Saguaro National Park, Arizona (© Christian Foto Az/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=saguaro+national+park+arizona+cacti&form=hpcapt&filters=HpDate%3a%2220211014_0700%22",
+      "fileName": "2021-10-15_Happy birthday, Saguaro National Park.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-15_Happy birthday, Saguaro National Park.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.IchthyosaurFossil_EN-US7828457812_UHD.jpg",
       "endDate": "2021-10-14",
@@ -2028,5 +2037,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634174208872"
+  "updateTime": "1634260766975"
 }
