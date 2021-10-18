@@ -227,9 +227,18 @@
     "20211014": 1,
     "20211015": 1,
     "20211016": 1,
-    "20211017": 1
+    "20211017": 1,
+    "20211018": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Whakarewarewa_EN-US8308750685_UHD.jpg",
+      "endDate": "2021-10-18",
+      "copyright": "Redwood Memorial Grove in Whakarewarewa Forest, North Island, New Zealand (© Michael Breitung/Huber/eStock Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=redwood+memorial+grove+Whakarewarewa+Forest&form=hpcapt&filters=HpDate%3a%2220211017_0700%22",
+      "fileName": "2021-10-18_A walk among the giants.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-18_A walk among the giants.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Hatshepsut_EN-US8201096209_UHD.jpg",
       "endDate": "2021-10-17",
@@ -2055,5 +2064,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634433401261"
+  "updateTime": "1634520048461"
 }
