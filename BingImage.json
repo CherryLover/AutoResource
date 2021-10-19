@@ -228,9 +228,18 @@
     "20211015": 1,
     "20211016": 1,
     "20211017": 1,
-    "20211018": 1
+    "20211018": 1,
+    "20211019": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CapelCurig_EN-US8402685568_UHD.jpg",
+      "endDate": "2021-10-19",
+      "copyright": "Capel Curig in Snowdonia National Park, Wales, United Kingdom (© Sebastian Wasek/Sime/eStock Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=snowdonia+national+park+eryri+wales&form=hpcapt&filters=HpDate%3a%2220211018_0700%22",
+      "fileName": "2021-10-19_A Welsh wonder turns 70.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-19_A Welsh wonder turns 70.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Whakarewarewa_EN-US8308750685_UHD.jpg",
       "endDate": "2021-10-18",
@@ -514,7 +523,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.AsianElephants_EN-US9103176506_UHD.jpg",
       "endDate": "2021-09-13",
-      "copyright": "Asian elephants in West Bengal, India (© Avijan Saha/Minden Pictures)",
+      "copyright": "Asian elephants in West Bengal, India (�� Avijan Saha/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=asian+elephant&form=hpcapt&filters=HpDate%3a%2220210912_0700%22",
       "fileName": "2021-09-13_A grand event.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-09-13_A grand event.jpg"
@@ -2064,5 +2073,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634520048461"
+  "updateTime": "1634606386990"
 }
