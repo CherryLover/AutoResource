@@ -229,9 +229,18 @@
     "20211016": 1,
     "20211017": 1,
     "20211018": 1,
-    "20211019": 1
+    "20211019": 1,
+    "20211020": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.FanalMadeira_EN-US8481108715_UHD.jpg",
+      "endDate": "2021-10-20",
+      "copyright": "The Fanal Forest on Madeira Island, Portugal (© Val Thoermer/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=madeira+laurisilva&form=hpcapt&filters=HpDate%3a%2220211019_0700%22",
+      "fileName": "2021-10-20_These laurels are hardy.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-20_These laurels are hardy.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CapelCurig_EN-US8402685568_UHD.jpg",
       "endDate": "2021-10-19",
@@ -2073,5 +2082,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634606386990"
+  "updateTime": "1634692826264"
 }
