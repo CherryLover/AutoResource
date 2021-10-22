@@ -231,9 +231,18 @@
     "20211018": 1,
     "20211019": 1,
     "20211020": 1,
-    "20211021": 1
+    "20211021": 1,
+    "20211022": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.AtchafalayaMoss_EN-US8649119304_UHD.jpg",
+      "endDate": "2021-10-22",
+      "copyright": "Bald cypress and Spanish moss in the Atchafalaya Basin, Louisiana (© Chris Moore/Exploring Light Photography/Tandem Stills + Motion)",
+      "copyRightLink": "https://cn.bing.com/search?q=Atchafalaya+Basin&form=hpcapt&filters=HpDate%3a%2220211021_0700%22",
+      "fileName": "2021-10-22_Here's looking Atchafalaya.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-22_Here's looking Atchafalaya.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.SmileySloth_EN-US8588687884_UHD.jpg",
       "endDate": "2021-10-21",
@@ -2091,5 +2100,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634779474608"
+  "updateTime": "1634866027281"
 }
