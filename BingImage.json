@@ -233,9 +233,18 @@
     "20211020": 1,
     "20211021": 1,
     "20211022": 1,
-    "20211023": 1
+    "20211023": 1,
+    "20211024": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ScopsOwl_EN-US4553071921_UHD.jpg",
+      "endDate": "2021-10-24",
+      "copyright": "Eurasian scops owl in Bohemian Switzerland National Park, Czech Republic (© Milan Zygmunt/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=eurasian+scops+owl&form=hpcapt&filters=HpDate%3a%2220211023_0700%22",
+      "fileName": "2021-10-24_Hoo's there?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-24_Hoo's there?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Neowise_EN-US4428390515_UHD.jpg",
       "endDate": "2021-10-23",
@@ -2071,7 +2080,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Wakodahatchee_EN-US0593250314_UHD.jpg",
       "endDate": "2021-03-08",
-      "copyright": "Great blue herons in the Wakodahatchee Wetlands, Delray Beach, Florida (© Marie Hickman/Getty Images)",
+      "copyright": "Great blue herons in the Wakodahatchee Wetlands, Delray Beach, Florida (�� Marie Hickman/Getty Images)",
       "copyRightLink": "https://cn.bing.com/search?q=great+blue+heron&form=hpcapt&filters=HpDate%3a%2220210307_0800%22",
       "fileName": "2021-03-08_Finding a balance between wetlands and water treatment.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-08_Finding a balance between wetlands and water treatment.jpg"
@@ -2109,5 +2118,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1634952026450"
+  "updateTime": "1635038284831"
 }
