@@ -234,9 +234,18 @@
     "20211021": 1,
     "20211022": 1,
     "20211023": 1,
-    "20211024": 1
+    "20211024": 1,
+    "20211025": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Bavljenac_EN-US8692148480_UHD.jpg",
+      "endDate": "2021-10-25",
+      "copyright": "Bavljenac Island, Croatia (© Julien Duval/Amazing Aerial Agency)",
+      "copyRightLink": "https://cn.bing.com/search?q=bavljenac&form=hpcapt&filters=HpDate%3a%2220211024_0700%22",
+      "fileName": "2021-10-25_This 'fingerprint' is one of a kind.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-25_This 'fingerprint' is one of a kind.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ScopsOwl_EN-US4553071921_UHD.jpg",
       "endDate": "2021-10-24",
@@ -2118,5 +2127,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635038284831"
+  "updateTime": "1635124711109"
 }
