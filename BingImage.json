@@ -235,9 +235,18 @@
     "20211022": 1,
     "20211023": 1,
     "20211024": 1,
-    "20211025": 1
+    "20211025": 1,
+    "20211026": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BulgariaDevilBridge_EN-US4705163344_UHD.jpg",
+      "endDate": "2021-10-26",
+      "copyright": "Dyavolski Most (Devil's Bridge) over the Arda River in Bulgaria (© Petar Mladenov/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=devil%27s+bridge+bulgaria&form=hpcapt&filters=HpDate%3a%2220211025_0700%22",
+      "fileName": "2021-10-26_Does this crossing carry a curse?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-26_Does this crossing carry a curse?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Bavljenac_EN-US8692148480_UHD.jpg",
       "endDate": "2021-10-25",
@@ -1321,7 +1330,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.GlenEtive_EN-US8902001915_UHD.jpg",
       "endDate": "2021-06-12",
-      "copyright": "Small loch in Glen Etive, Scotland (© Oliver Hellowell/Minden Pictures)",
+      "copyright": "Small loch in Glen Etive, Scotland (�� Oliver Hellowell/Minden Pictures)",
       "copyRightLink": "https://cn.bing.com/search?q=glen+etive+highlands+scotland&form=hpcapt&filters=HpDate%3a%2220210611_0700%22",
       "fileName": "2021-06-12_An island in the Highlands.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-06-12_An island in the Highlands.jpg"
@@ -1617,7 +1626,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Cholula_EN-US2015612893_UHD.jpg",
       "endDate": "2021-05-06",
-      "copyright": "The Great Pyramid of Cholula, in Cholula, Puebla, Mexico (© mauritius images GmbH/Alamy)",
+      "copyright": "The Great Pyramid of Cholula, in Cholula, Puebla, Mexico (�� mauritius images GmbH/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=great+pyramid+of+cholula&form=hpcapt&filters=HpDate%3a%2220210505_0700%22",
       "fileName": "2021-05-06_The birthplace of Cinco de Mayo.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-05-06_The birthplace of Cinco de Mayo.jpg"
@@ -2127,5 +2136,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635124711109"
+  "updateTime": "1635210823415"
 }
