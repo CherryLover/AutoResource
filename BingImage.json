@@ -237,9 +237,18 @@
     "20211024": 1,
     "20211025": 1,
     "20211026": 1,
-    "20211027": 1
+    "20211027": 1,
+    "20211028": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.NewtonPumpkins_EN-US4897949591_UHD.jpg",
+      "endDate": "2021-10-28",
+      "copyright": "A pumpkin patch in Newton, Massachusetts (© Frank Debonis/EyeEm/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=pumpkins&form=hpcapt&filters=HpDate%3a%2220211027_0700%22",
+      "fileName": "2021-10-28_In a field of fruits…or vegetables?.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-28_In a field of fruits…or vegetables?.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.RedFoxBlackForest_EN-US4823848176_UHD.jpg",
       "endDate": "2021-10-27",
@@ -2145,5 +2154,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635297219017"
+  "updateTime": "1635383636159"
 }
