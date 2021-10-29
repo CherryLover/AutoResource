@@ -238,9 +238,18 @@
     "20211025": 1,
     "20211026": 1,
     "20211027": 1,
-    "20211028": 1
+    "20211028": 1,
+    "20211029": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Dargavs_EN-US4957085337_UHD.jpg",
+      "endDate": "2021-10-29",
+      "copyright": "Necropolis near Dargavs, North Ossetia, Russia (© Yakov Oskanov/Shutterstock)",
+      "copyRightLink": "https://cn.bing.com/search?q=dargavs+necropolis&form=hpcapt&filters=HpDate%3a%2220211028_0700%22",
+      "fileName": "2021-10-29_Tale from the crypts.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-29_Tale from the crypts.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.NewtonPumpkins_EN-US4897949591_UHD.jpg",
       "endDate": "2021-10-28",
@@ -2154,5 +2163,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635383636159"
+  "updateTime": "1635469930295"
 }
