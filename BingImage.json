@@ -239,9 +239,18 @@
     "20211026": 1,
     "20211027": 1,
     "20211028": 1,
-    "20211029": 1
+    "20211029": 1,
+    "20211030": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.UnkindnessRavens_EN-US5051823062_UHD.jpg",
+      "endDate": "2021-10-30",
+      "copyright": "Ravens in Juneau, Alaska (© Brian Browitt Photo/Adobe Stock)",
+      "copyRightLink": "https://cn.bing.com/search?q=raven+bird&form=hpcapt&filters=HpDate%3a%2220211029_0700%22",
+      "fileName": "2021-10-30_An unkindness of ravens.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-10-30_An unkindness of ravens.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Dargavs_EN-US4957085337_UHD.jpg",
       "endDate": "2021-10-29",
@@ -1773,7 +1782,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.Ceking_EN-US7899895685_UHD.jpg",
       "endDate": "2021-04-21",
-      "copyright": "Tegallalang Rice Terraces, Ubud, Bali, Indonesia (© Michele Falzone/Alamy)",
+      "copyright": "Tegallalang Rice Terraces, Ubud, Bali, Indonesia (�� Michele Falzone/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=%2btegallalang+rice+terrace&FORM=hpcapt&filters=HpDate%3a%2220210420_0700%22",
       "fileName": "2021-04-21_Terraced fields of green.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-21_Terraced fields of green.jpg"
@@ -1829,7 +1838,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.WatPhraSiSanphet_EN-US6931344989_UHD.jpg",
       "endDate": "2021-04-14",
-      "copyright": "Wat Phra Si Sanphet, Ayutthaya Historical Park, Ayutthaya, Thailand (© travelstock44/Alamy)",
+      "copyright": "Wat Phra Si Sanphet, Ayutthaya Historical Park, Ayutthaya, Thailand (�� travelstock44/Alamy)",
       "copyRightLink": "https://cn.bing.com/search?q=wat+phra+si+sanphet&form=hpcapt&filters=HpDate%3a%2220210413_0700%22",
       "fileName": "2021-04-14_Ruins of a royal temple.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-14_Ruins of a royal temple.jpg"
@@ -1997,7 +2006,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LoftedMadagascar_EN-US9720623596_UHD.jpg",
       "endDate": "2021-03-24",
-      "copyright": "Satellite image of the Mania River in Madagascar (�� NASA Earth Observatory image by Joshua Stevens, using Landsat data from the US Geological Survey)",
+      "copyright": "Satellite image of the Mania River in Madagascar (��� NASA Earth Observatory image by Joshua Stevens, using Landsat data from the US Geological Survey)",
       "copyRightLink": "https://cn.bing.com/search?q=meteorology&form=hpcapt&filters=HpDate%3a%2220210323_0700%22",
       "fileName": "2021-03-24_Uncommon clouds are gathering.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-24_Uncommon clouds are gathering.jpg"
@@ -2163,5 +2172,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635469930295"
+  "updateTime": "1635556298959"
 }
