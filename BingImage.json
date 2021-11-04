@@ -244,9 +244,18 @@
     "20211031": 1,
     "20211101": 1,
     "20211102": 1,
-    "20211103": 1
+    "20211103": 1,
+    "20211104": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.MoonJellyDay_EN-US5774626244_UHD.jpg",
+      "endDate": "2021-11-04",
+      "copyright": "Moon jelly and golden jellyfish, Raja Ampat, West Papua, Indonesia (© Alex Mustard/Minden Pictures)",
+      "copyRightLink": "https://cn.bing.com/search?q=world+jellyfish+day&form=hpcapt&filters=HpDate%3a%2220211103_0700%22",
+      "fileName": "2021-11-04_Sunshine on a moon jelly.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-04_Sunshine on a moon jelly.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.MarigoldsLosMuertos_EN-US5597948262_UHD.jpg",
       "endDate": "2021-11-03",
@@ -2208,5 +2217,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1635902027337"
+  "updateTime": "1635988506820"
 }
