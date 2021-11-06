@@ -246,9 +246,18 @@
     "20211102": 1,
     "20211103": 1,
     "20211104": 1,
-    "20211105": 1
+    "20211105": 1,
+    "20211106": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.PontRouge_EN-US8216026982_UHD.jpg",
+      "endDate": "2021-11-06",
+      "copyright": "Pont Rouge (Red Bridge) over the Palmer River in Sainte-Agathe-de-Lotbinière, Quebec, Canada (© Jean Surprenant/Getty Images)",
+      "copyRightLink": "https://cn.bing.com/search?q=covered+bridges&form=hpcapt&filters=HpDate%3a%2220211105_0700%22",
+      "fileName": "2021-11-06_A bridge to the past.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-06_A bridge to the past.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.DiwaliLights_EN-US5962582715_UHD.jpg",
       "endDate": "2021-11-05",
@@ -2226,5 +2235,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636074858849"
+  "updateTime": "1636161112545"
 }
