@@ -251,9 +251,18 @@
     "20211107": 1,
     "20211108": 1,
     "20211109": 1,
-    "20211110": 1
+    "20211110": 1,
+    "20211111": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.CumberlandSeashore_EN-US8862017440_UHD.jpg",
+      "endDate": "2021-11-11",
+      "copyright": "Cumberland Island National Seashore, Georgia (© Wilsilver77/Getty Images Plus)",
+      "copyRightLink": "https://cn.bing.com/search?q=Cumberland+Island+National+Seashore&FORM=hpcapt&filters=HpDate%3a%2220211110_0800%22",
+      "fileName": "2021-11-11_An island 'where nature and history meet'.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-11_An island 'where nature and history meet'.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.DalyanTombs_EN-US8809333529_UHD.jpg",
       "endDate": "2021-11-10",
@@ -2105,7 +2114,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.LoftedMadagascar_EN-US9720623596_UHD.jpg",
       "endDate": "2021-03-24",
-      "copyright": "Satellite image of the Mania River in Madagascar (��� NASA Earth Observatory image by Joshua Stevens, using Landsat data from the US Geological Survey)",
+      "copyright": "Satellite image of the Mania River in Madagascar (����� NASA Earth Observatory image by Joshua Stevens, using Landsat data from the US Geological Survey)",
       "copyRightLink": "https://cn.bing.com/search?q=meteorology&form=hpcapt&filters=HpDate%3a%2220210323_0700%22",
       "fileName": "2021-03-24_Uncommon clouds are gathering.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-24_Uncommon clouds are gathering.jpg"
@@ -2271,5 +2280,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636506850993"
+  "updateTime": "1636593318736"
 }
