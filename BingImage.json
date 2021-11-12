@@ -252,9 +252,18 @@
     "20211108": 1,
     "20211109": 1,
     "20211110": 1,
-    "20211111": 1
+    "20211111": 1,
+    "20211112": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.Veterans2021_EN-US8913164564_UHD.jpg",
+      "endDate": "2021-11-12",
+      "copyright": "Sailors on the amphibious assault ship USS Iwo Jima on New York's Hudson River during Veterans Week, 2016 (© Apple White/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=veterans+day&form=hpcapt&filters=HpDate%3a%2220211111_0800%22",
+      "fileName": "2021-11-12_Honoring our veterans.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-12_Honoring our veterans.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.CumberlandSeashore_EN-US8862017440_UHD.jpg",
       "endDate": "2021-11-11",
@@ -2280,5 +2289,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636593318736"
+  "updateTime": "1636679736758"
 }
