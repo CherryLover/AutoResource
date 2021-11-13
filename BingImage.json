@@ -253,9 +253,18 @@
     "20211109": 1,
     "20211110": 1,
     "20211111": 1,
-    "20211112": 1
+    "20211112": 1,
+    "20211113": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.BeaversBend_EN-US8963318493_UHD.jpg",
+      "endDate": "2021-11-13",
+      "copyright": "Beavers Bend Resort Park near Broken Bow, Oklahoma (© Inge Johnsson/Alamy)",
+      "copyRightLink": "https://cn.bing.com/search?q=Beavers+Bend+Resort+Park+Oklahoma&form=hpcapt&filters=HpDate%3a%2220211112_0800%22",
+      "fileName": "2021-11-13_A vivid scene from Beavers Bend.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-13_A vivid scene from Beavers Bend.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.Veterans2021_EN-US8913164564_UHD.jpg",
       "endDate": "2021-11-12",
@@ -1867,7 +1876,7 @@
     {
       "url": "https://cn.bing.com/th?id=OHR.ChollaGarden_EN-US0706816050_UHD.jpg",
       "endDate": "2021-04-25",
-      "copyright": "The Cholla Cactus Garden in Joshua Tree National Park, California (��� Bryan Jolley/Tandem Stills + Motion)",
+      "copyright": "The Cholla Cactus Garden in Joshua Tree National Park, California (���� Bryan Jolley/Tandem Stills + Motion)",
       "copyRightLink": "https://cn.bing.com/search?q=cholla+garden+joshua+tree+national+park&form=hpcapt&filters=HpDate%3a%2220210424_0700%22",
       "fileName": "2021-04-25_A garden of prickly delights.jpg",
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-04-25_A garden of prickly delights.jpg"
@@ -2289,5 +2298,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636679736758"
+  "updateTime": "1636765996733"
 }
