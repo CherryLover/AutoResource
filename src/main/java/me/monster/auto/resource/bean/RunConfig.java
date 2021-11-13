@@ -12,6 +12,7 @@ public class RunConfig {
     private BingConfig Bing;
     private UnsplashConfig Unsplash;
     private AliOssConfig AliOss;
+    private TelegramConfig Telegram;
 
     public BingConfig getBing() {
         return Bing;
@@ -23,6 +24,10 @@ public class RunConfig {
 
     public AliOssConfig getAliOss() {
         return AliOss;
+    }
+
+    public TelegramConfig getTelegram() {
+        return Telegram;
     }
 
     public static class BingConfig {
@@ -96,6 +101,40 @@ public class RunConfig {
                     && StringUtils.isNotEmpty(ossSecret)
                     && StringUtils.isNotEmpty(bucketName)
                     && StringUtils.isNotEmpty(ossSaveFolder);
+        }
+    }
+
+    public static class TelegramConfig {
+        private String chatId;
+        private String botToken;
+        private boolean send = false;
+
+        public String getChatId() {
+            return chatId == null ? "" : chatId;
+        }
+
+        public void setChatId(String chatId) {
+            this.chatId = chatId;
+        }
+
+        public String getBotToken() {
+            return botToken == null ? "" : botToken;
+        }
+
+        public void setBotToken(String botToken) {
+            this.botToken = botToken;
+        }
+
+        public boolean isSend() {
+            return send;
+        }
+
+        public void setSend(boolean send) {
+            this.send = send;
+        }
+
+        public boolean isAvailable() {
+            return StringUtils.isNotEmpty(chatId) && StringUtils.isNotEmpty(botToken);
         }
     }
 }

@@ -7,6 +7,7 @@ import me.monster.auto.resource.action.UnsplashImgAutoAction;
 import me.monster.auto.resource.bean.RunConfig;
 import me.monster.auto.resource.tool.DataHolder;
 import me.monster.auto.resource.tool.FileUtils;
+import me.monster.auto.resource.tool.NotificationHelper;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,7 +24,7 @@ public class Entrance {
     public static final String ACTION_BING = "Bing";
     public static final String ACTION_UNSPLASH = "Unsplash";
 
-    // args order: ossKey ossSecret unsplash_client_id
+    // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken
     public static void main(String[] args) {
         try {
             String config = FileUtils.getContent("RunConfig.json");
@@ -39,12 +40,21 @@ public class Entrance {
                     case 2:
                         runConfig.getUnsplash().setClientId(args[i]);
                         break;
+                    case 3:
+                        runConfig.getTelegram().setChatId(args[i]);
+                        break;
+                    case 4:
+                        runConfig.getTelegram().setBotToken(args[i]);
+                        break;
                 }
             }
             DataHolder.getInstance().setRunConfig(runConfig);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        final NotificationHelper notificationHelper = new NotificationHelper();
+        System.out.println("init notification helper");
 
         List<String> actionList = new ArrayList<>();
         actionList.add(ACTION_BING);

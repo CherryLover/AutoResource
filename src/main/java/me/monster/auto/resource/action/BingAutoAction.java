@@ -92,6 +92,7 @@ public class BingAutoAction implements AutoAction {
     private void storePicture(Gson gson, BingImageVo bingImageVo) throws IOException {
         RspBingVo.RspBingImgEle lastImg = mRspBingVo.getLast();
         BingImageVo.BingImageElement newElement = xferBingImageVo(mRspBingVo.getLast());
+        addToNotification(newElement);
         if (bingImageVo.containDay(lastImg.getEnddate())) {
             System.out.println("contain " + lastImg.getEnddate() +" now finish current action run");
             writeJsonStoreFile(gson, bingImageVo);
@@ -105,6 +106,14 @@ public class BingAutoAction implements AutoAction {
 
         writeJsonStoreFile(gson, bingImageVo);
         writeMdPreviewFile(bingImageVo);
+    }
+
+    private void addToNotification(BingImageVo.BingImageElement newElement) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("日期：").append(newElement.endDate).append('\n')
+                .append("图片地址：").append(newElement.url).append('\n')
+                .append("关于：").append(newElement.copyright);
+        TelegramNotificationList.getInstance().addNotification(sb.toString());
     }
 
     private String checkSaveOss(String url, String fileName) {

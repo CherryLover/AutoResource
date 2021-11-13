@@ -12,5 +12,10 @@
     "ossSecret": "",
     "bucketName": "monster-image-backup",
     "ossSaveFolder": "auto_image_store"
+  },
+  "Telegram": {
+    "chatId": "",
+    "botToken": "",
+    "send": true
   }
 }
