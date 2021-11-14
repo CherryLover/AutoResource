@@ -254,9 +254,18 @@
     "20211110": 1,
     "20211111": 1,
     "20211112": 1,
-    "20211113": 1
+    "20211113": 1,
+    "20211114": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.ElTajo_EN-US9027914209_UHD.jpg",
+      "endDate": "2021-11-14",
+      "copyright": "Aerial view of El Tajo gorge and the Puente Nuevo bridge in Ronda, Málaga, Spain (© Jude Newkirk/Amazing Aerial Agency)",
+      "copyRightLink": "https://cn.bing.com/search?q=ronda+spain&form=hpcapt&filters=HpDate%3a%2220211113_0800%22",
+      "fileName": "2021-11-14_A gorge-ous town divided.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-14_A gorge-ous town divided.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.BeaversBend_EN-US8963318493_UHD.jpg",
       "endDate": "2021-11-13",
@@ -2298,5 +2307,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636765996733"
+  "updateTime": "1636852612384"
 }
