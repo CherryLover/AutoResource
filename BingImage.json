@@ -255,9 +255,18 @@
     "20211111": 1,
     "20211112": 1,
     "20211113": 1,
-    "20211114": 1
+    "20211114": 1,
+    "20211115": 1
   },
   "dayInfoList": [
+    {
+      "url": "https://cn.bing.com/th?id=OHR.FirstCliff_EN-US9082558650_UHD.jpg",
+      "endDate": "2021-11-15",
+      "copyright": "First Cliff Walk on First near Grindelwald, Switzerland (© Hans-Georg Eiben/eStock Photo)",
+      "copyRightLink": "https://cn.bing.com/search?q=First+Cliff+Walk+by+Tissot&form=hpcapt&filters=HpDate%3a%2220211114_0800%22",
+      "fileName": "2021-11-15_Walking on air.jpg",
+      "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-11-15_Walking on air.jpg"
+    },
     {
       "url": "https://cn.bing.com/th?id=OHR.ElTajo_EN-US9027914209_UHD.jpg",
       "endDate": "2021-11-14",
@@ -2307,5 +2316,5 @@
       "ossPath": "https://monster-image-backup.oss-cn-shanghai.aliyuncs.com/auto_image_store/bing/2021-03-04_Climb a tree for wild animals and plants.jpg"
     }
   ],
-  "updateTime": "1636852612384"
+  "updateTime": "1636938861822"
 }
