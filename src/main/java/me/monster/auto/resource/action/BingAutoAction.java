@@ -77,7 +77,7 @@ public class BingAutoAction implements AutoAction {
 
     private BingImageVo.BingImageElement xferBingImageVo(RspBingVo.RspBingImgEle image) throws IOException {
         String url = BING_URL + image.getUrl();
-        url = url.substring(0, url.indexOf("&"));
+//        url = url.substring(0, url.indexOf("&"));
         BingImageVo.BingImageElement element = new BingImageVo.BingImageElement(url, TimeUtils.formatEndDate(image.getEnddate()), image.getCopyright());
         element.copyRightLink = BING_URL + image.getCopyrightlink();
 
