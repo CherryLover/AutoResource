@@ -2,14 +2,8 @@ package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import me.monster.auto.resource.bean.RunConfig;
-import me.monster.auto.resource.tool.DataHolder;
-import me.monster.auto.resource.tool.FileUtils;
-import me.monster.auto.resource.tool.TimeUtils;
-import me.monster.auto.resource.bean.MdImage;
-import me.monster.auto.resource.bean.RspUnsplash;
-import me.monster.auto.resource.bean.UnsplashImageVo;
-import me.monster.auto.resource.tool.UnsplashExecutor;
+import me.monster.auto.resource.bean.*;
+import me.monster.auto.resource.tool.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -93,6 +87,7 @@ public class UnsplashImgAutoAction implements AutoAction {
             }
             for (UnsplashImageVo.ImgVo img : newVo.getImgs()) {
                 img.setDate(TimeUtils.currentDay());
+                addNotification(img);
             }
             storeImgVo.insertAllImg(newVo.getImgs());
             storeImgVo.update();
@@ -115,6 +110,20 @@ public class UnsplashImgAutoAction implements AutoAction {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private void addNotification(UnsplashImageVo.ImgVo img) {
+        StringBuilder sb = new StringBuilder();
+        sb.append(img.getDesc()).append('\n')
+                .append("摄影师：").append(img.getUserName()).append('\n')
+                .append("下载量：").append(img.getDownload()).append('\n')
+                .append("喜欢：").append(img.getLike()).append('\n')
+                .append(img.getImgPage());
+        final NotificationVo notificationVo = new NotificationVo(sb.toString());
+        notificationVo.setSource("unsplash");
+        notificationVo.setAttachmentFileName(TimeUtils.currentTime() + ".jpg");
+        notificationVo.setAttachmentUrl(img.getImgs().getRaw());
+        TelegramNotificationList.getInstance().addNotification(notificationVo);
     }
 
     private UnsplashImageVo coverVoObj(Map<String, RspUnsplash> store) throws IOException {
