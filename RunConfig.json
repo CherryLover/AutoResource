@@ -1,9 +1,11 @@
 {
   "Bing": {
-    "saveOss": true
+    "saveOss": true,
+    "saveMarkdown": false
   },
   "Unsplash": {
-    "clientId": ""
+    "clientId": "",
+    "saveMarkdown": false
   },
   "AliOss": {
     "endPoint": "oss-cn-shanghai.aliyuncs.com",

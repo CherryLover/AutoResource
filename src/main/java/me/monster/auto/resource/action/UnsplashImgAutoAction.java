@@ -79,15 +79,19 @@ public class UnsplashImgAutoAction implements AutoAction {
         try {
             UnsplashImageVo newVo = coverVoObj(store);
 
+            for (UnsplashImageVo.ImgVo img : newVo.getImgs()) {
+                img.setDate(TimeUtils.currentDay());
+                addNotification(img);
+            }
+            if (!DataHolder.getInstance().getRunConfig().getUnsplash().isSaveMarkdown()) {
+                System.err.println("Unsplash 跳过保存 Markdown");
+                return;
+            }
             String json = FileUtils.getContent(getStoreFilePath().toString());
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
             UnsplashImageVo storeImgVo = gson.fromJson(json, UnsplashImageVo.class);
             if (storeImgVo == null) {
                 storeImgVo = new UnsplashImageVo();
-            }
-            for (UnsplashImageVo.ImgVo img : newVo.getImgs()) {
-                img.setDate(TimeUtils.currentDay());
-                addNotification(img);
             }
             storeImgVo.insertAllImg(newVo.getImgs());
             storeImgVo.update();

@@ -70,6 +70,11 @@ public class BingAutoAction implements AutoAction {
             bingImageVo.appendList(element);
             bingImageVo.appendDay(image.getEnddate());
         }
+        if (!DataHolder.getInstance().getRunConfig().getBing().isSaveMarkdown()) {
+            System.err.println("Bing 跳过保存 Markdown For First Fetch Bing");
+            storePicture(gson, bingImageVo);
+            return;
+        }
 
         writeJsonStoreFile(gson, bingImageVo);
         writeMdPreviewFile(bingImageVo);
@@ -94,6 +99,10 @@ public class BingAutoAction implements AutoAction {
         RspBingVo.RspBingImgEle lastImg = mRspBingVo.getLast();
         BingImageVo.BingImageElement newElement = xferBingImageVo(mRspBingVo.getLast());
         addToNotification(newElement);
+        if (!DataHolder.getInstance().getRunConfig().getBing().isSaveMarkdown()) {
+            System.err.println("Bing 跳过保存 Markdown For Single Fetch Bing.");
+            return;
+        }
         if (bingImageVo.containDay(lastImg.getEnddate())) {
             System.out.println("contain " + lastImg.getEnddate() +" now finish current action run");
             writeJsonStoreFile(gson, bingImageVo);
@@ -133,12 +142,18 @@ public class BingAutoAction implements AutoAction {
     }
 
     private void writeJsonStoreFile(Gson gson, BingImageVo bingImageVo) throws IOException {
+        if (!DataHolder.getInstance().getRunConfig().getBing().isSaveMarkdown()) {
+            return;
+        }
         bingImageVo.setUpdateTime(System.currentTimeMillis() + "");
         String json = gson.toJson(bingImageVo);
         FileUtils.rewriteFile(getStoreFilePath(), json);
     }
 
     private void writeMdPreviewFile(BingImageVo bingImageVo) throws IOException {
+        if (!DataHolder.getInstance().getRunConfig().getBing().isSaveMarkdown()) {
+            return;
+        }
         List<MdImage> images = new ArrayList<>(bingImageVo.getDayInfoList().size());
         for (BingImageVo.BingImageElement bingImageElement : bingImageVo.getDayInfoList()) {
             images.add(new MdImage(MdImage.SOURCE_BING, bingImageElement.copyright, bingImageElement.endDate, bingImageElement.url));

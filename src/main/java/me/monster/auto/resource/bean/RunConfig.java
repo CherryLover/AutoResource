@@ -32,18 +32,27 @@ public class RunConfig {
 
     public static class BingConfig {
         private boolean saveOss;
-
+        private boolean saveMarkdown;
 
         public boolean isSaveOss() {
             return saveOss;
+        }
+
+        public boolean isSaveMarkdown() {
+            return saveMarkdown;
         }
     }
 
     public static class UnsplashConfig {
         private String clientId;
+        private boolean saveMarkdown;
 
         public void setClientId(String clientId) {
             this.clientId = clientId;
+        }
+
+        public boolean isSaveMarkdown() {
+            return saveMarkdown;
         }
 
         public boolean isAvailable() {
