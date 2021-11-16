@@ -16,6 +16,9 @@
   "Telegram": {
     "chatId": "",
     "botToken": "",
-    "send": true
+    "send": true,
+    "callbackHttpProtocol": "http",
+    "callbackUrlHost": "",
+    "callbackUrlPath": "/tel/callback/invoke/save_image"
   }
 }

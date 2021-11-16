@@ -24,7 +24,7 @@ public class Entrance {
     public static final String ACTION_BING = "Bing";
     public static final String ACTION_UNSPLASH = "Unsplash";
 
-    // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken
+    // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
         try {
             String config = FileUtils.getContent("RunConfig.json");
@@ -45,6 +45,9 @@ public class Entrance {
                         break;
                     case 4:
                         runConfig.getTelegram().setBotToken(args[i]);
+                        break;
+                    case 5:
+                        runConfig.getTelegram().setCallbackUrlHost(args[i]);
                         break;
                 }
             }

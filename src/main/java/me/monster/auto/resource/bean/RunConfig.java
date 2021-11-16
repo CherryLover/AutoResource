@@ -108,6 +108,18 @@ public class RunConfig {
         private String chatId;
         private String botToken;
         private boolean send = false;
+        /**
+         * http or https
+         */
+        private String callbackHttpProtocol = "http";
+        /**
+         * 通知响应的回调域名，不带 http 协议
+         */
+        private String callbackUrlHost;
+        /**
+         * 通知响应的回调 path，不带 host
+         */
+        private String callbackUrlPath;
 
         public String getChatId() {
             return chatId == null ? "" : chatId;
@@ -133,8 +145,36 @@ public class RunConfig {
             this.send = send;
         }
 
+        public String getCallbackHttpProtocol() {
+            return callbackHttpProtocol == null ? "" : callbackHttpProtocol;
+        }
+
+        public void setCallbackHttpProtocol(String callbackHttpProtocol) {
+            this.callbackHttpProtocol = callbackHttpProtocol;
+        }
+
+        public String getCallbackUrlHost() {
+            return callbackUrlHost == null ? "" : callbackUrlHost;
+        }
+
+        public void setCallbackUrlHost(String callbackUrlHost) {
+            this.callbackUrlHost = callbackUrlHost;
+        }
+
+        public String getCallbackUrlPath() {
+            return callbackUrlPath == null ? "" : callbackUrlPath;
+        }
+
+        public void setCallbackUrlPath(String callbackUrlPath) {
+            this.callbackUrlPath = callbackUrlPath;
+        }
+
         public boolean isAvailable() {
-            return StringUtils.isNotEmpty(chatId) && StringUtils.isNotEmpty(botToken);
+            return send &&
+                    StringUtils.isNotEmpty(chatId) &&
+                    StringUtils.isNotEmpty(botToken) &&
+                    StringUtils.isNotEmpty(callbackUrlHost) &&
+                    StringUtils.isNotEmpty(callbackUrlPath);
         }
     }
 }

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import me.monster.auto.resource.bean.BingImageVo;
 import me.monster.auto.resource.bean.MdImage;
+import me.monster.auto.resource.bean.NotificationVo;
 import me.monster.auto.resource.bean.RspBingVo;
 import me.monster.auto.resource.tool.*;
 
@@ -109,11 +110,14 @@ public class BingAutoAction implements AutoAction {
     }
 
     private void addToNotification(BingImageVo.BingImageElement newElement) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("日期：").append(newElement.endDate).append('\n')
-                .append("图片地址：").append(newElement.url).append('\n')
-                .append("关于：").append(newElement.copyright);
-        TelegramNotificationList.getInstance().addNotification(sb.toString());
+        String sb = "日期：" + newElement.endDate + '\n' +
+                "关于：" + newElement.copyright + '\n' +
+                "图片地址：" + newElement.url;
+        final NotificationVo notificationVo = new NotificationVo(sb);
+        notificationVo.setSource("bing");
+        notificationVo.setAttachmentFileName(newElement.fileName);
+        notificationVo.setAttachmentUrl(newElement.url);
+        TelegramNotificationList.getInstance().addNotification(notificationVo);
     }
 
     private String checkSaveOss(String url, String fileName) {

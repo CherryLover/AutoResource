@@ -83,6 +83,7 @@ public class HttpUtils {
                 .post(bodyBuilder.build())
                 .build();
         final Response response = client.newCall(request).execute();
+        System.out.println(request.method() + " -> " + url + " with " + response.code() + " " + response.message());
         if (response.isSuccessful()) {
             final ResponseBody body = response.body();
             if (body == null) {

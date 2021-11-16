@@ -1,9 +1,11 @@
 package me.monster.auto.resource.tool;
 
+import me.monster.auto.resource.bean.NotificationVo;
+
 import java.util.LinkedList;
 
 public class TelegramNotificationList {
-    private final LinkedList<String> notificationTextList;
+    private final LinkedList<NotificationVo> notificationTextList;
     private OnStartListener mOnStartListener;
 
     private TelegramNotificationList() {
@@ -14,10 +16,10 @@ public class TelegramNotificationList {
         return Holder.holder;
     }
 
-    public void addNotification(String text) {
-        System.out.println("add notification " + text);
+    public void addNotification(NotificationVo notification) {
+        System.out.println("add notification " + notification.toString());
         boolean invokeStar = isEmpty();
-        notificationTextList.offer(text);
+        notificationTextList.offer(notification);
         if (invokeStar) {
             if (mOnStartListener != null) {
                 mOnStartListener.onStart();
@@ -25,10 +27,10 @@ public class TelegramNotificationList {
         }
     }
 
-    public String getNotification() {
-        final String poll = notificationTextList.poll();
+    public NotificationVo getNotification() {
+        final NotificationVo poll = notificationTextList.poll();
         System.out.println("get notification " + poll);
-        return StringUtils.isEmpty(poll) ? "" : poll;
+        return poll;
     }
 
     public boolean isEmpty() {
