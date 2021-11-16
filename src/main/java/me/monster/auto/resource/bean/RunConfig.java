@@ -40,15 +40,10 @@ public class RunConfig {
     }
 
     public static class UnsplashConfig {
-        private boolean saveOss;
         private String clientId;
 
         public void setClientId(String clientId) {
             this.clientId = clientId;
-        }
-
-        public boolean isSaveOss() {
-            return saveOss;
         }
 
         public boolean isAvailable() {

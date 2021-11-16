@@ -3,7 +3,6 @@
     "saveOss": true
   },
   "Unsplash": {
-    "saveOss": false,
     "clientId": ""
   },
   "AliOss": {
