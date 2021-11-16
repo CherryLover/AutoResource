@@ -30,17 +30,18 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{secrets.UNSPLASH_CLIENT_ID}}
-    - name: Commit files
-      run: |
-        git config --local user.email "jiangjiwei0322@outlook.com"
-        git config --local user.name "jiangjiwei"
-        git add BingImage.json
-        git add BingImage.md
-        git commit -m "update bing image and preivew file"
-        git add UnsplashImage.json
-        git add UnsplashImage.md
-        git commit -m "update unsplash image and preivew file"
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{secrets.UNSPLASH_CLIENT_ID}} ${{secrets.TEL_CHAT_ID}} ${{secrets.TEL_CHAT_TOKEN}} ${{secrets.SERVER_HOST}}
+#    暂不使用 markdown 进行保存自动化结果
+#    - name: Commit files
+#      run: |
+#        git config --local user.email "jiangjiwei0322@outlook.com"
+#        git config --local user.name "jiangjiwei"
+#        git add BingImage.json
+#        git add BingImage.md
+#        git commit -m "update bing image and preivew file"
+#        git add UnsplashImage.json
+#        git add UnsplashImage.md
+#        git commit -m "update unsplash image and preivew file"
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
