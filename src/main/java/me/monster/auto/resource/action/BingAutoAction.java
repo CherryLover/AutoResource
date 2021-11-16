@@ -113,8 +113,7 @@ public class BingAutoAction implements AutoAction {
         String sb = "日期：" + newElement.endDate + '\n' +
                 "关于：" + newElement.copyright + '\n' +
                 "图片地址：" + newElement.url;
-        final NotificationVo notificationVo = new NotificationVo(sb);
-        notificationVo.setSource("bing");
+        final NotificationVo notificationVo = new NotificationVo(sb, NotificationVo.SOURCE_BING);
         notificationVo.setAttachmentFileName(newElement.fileName);
         notificationVo.setAttachmentUrl(newElement.url);
         TelegramNotificationList.getInstance().addNotification(notificationVo);

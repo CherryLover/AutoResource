@@ -1,6 +1,8 @@
 package me.monster.auto.resource.bean;
 
 public class NotificationVo {
+    public static final String SOURCE_BING = "bing";
+    public static final String SOURCE_UNSPLASH = "unsplash";
     /**
      * 通知需要展示的文本
      */
@@ -16,8 +18,9 @@ public class NotificationVo {
      */
     private String source;
 
-    public NotificationVo(String text) {
+    public NotificationVo(String text, String source) {
         this.text = text;
+        setSource(source);
     }
 
     public String getText() {
@@ -44,7 +47,7 @@ public class NotificationVo {
         return source == null ? "" : source;
     }
 
-    public void setSource(String source) {
+    private void setSource(String source) {
         this.source = source;
     }
 

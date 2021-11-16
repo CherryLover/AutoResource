@@ -119,8 +119,7 @@ public class UnsplashImgAutoAction implements AutoAction {
                 .append("下载量：").append(img.getDownload()).append('\n')
                 .append("喜欢：").append(img.getLike()).append('\n')
                 .append(img.getImgPage());
-        final NotificationVo notificationVo = new NotificationVo(sb.toString());
-        notificationVo.setSource("unsplash");
+        final NotificationVo notificationVo = new NotificationVo(sb.toString(), NotificationVo.SOURCE_UNSPLASH);
         notificationVo.setAttachmentFileName(TimeUtils.currentTime() + ".jpg");
         notificationVo.setAttachmentUrl(img.getImgs().getRaw());
         TelegramNotificationList.getInstance().addNotification(notificationVo);
