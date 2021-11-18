@@ -1,22 +1,10 @@
 # AutoResource
-这是一个利用 GitHub Action 自动抓取图片转存至阿里云 oss 的代码仓库。灵感及部分工具类源码来自于[niumoo 的 bing-wallpaper](https://github.com/niumoo/bing-wallpaper)。
-
-## 思路
-1. 找到合适资源接口
-2. 编写程序访问接口获取图片信息
-3. 转存图片至阿里云，备份图片信息
-4. 配置 GitHub Action 进行自动化执行 
+这是一个利用 GitHub Action 自动采集信息并进行消息通知、存储的代码仓库。灵感及部分工具类源码来自于[niumoo 的 bing-wallpaper](https://github.com/niumoo/bing-wallpaper)。
 
 ## 功能
-- [X] ~~抓取 [Bing](https://cn.bing.com/) 每日图片~~
-
-- [X] ~~抓取 [Unsplash](https://unsplash.com/) 每日图片~~
-
-- [ ] 抓取极客阅读
-
-- [ ] 抓取知乎日报
-
-- [ ] 抓取微博热点话题
+- [x] ~~抓取 [Bing](https://cn.bing.com/) 每日图片~~
+- [x] ~~抓取 [Unsplash](https://unsplash.com/) 每日图片~~
+- [x] ~~发送通知到 Telegram~~
 
 ## 使用
 ### 自行搭建
@@ -43,11 +31,21 @@
    - MY_GIT_TOKEN
 
      用于更新仓库所用，[去生成](https://github.com/settings/tokens/new?description=AutoResourceActionGitCommitToken&scopes=repo%2Cgist%2Cread%3Aorg)。
-
-### 直接下载
-前往 [Bing 图片预览](BingImage.md) 或 [Unsplash 图片预览](UnsplashImage.md)页面选择图片进行下载。
+   
+   - TEL_CHAT_ID
+     Telegram 私聊对象 id
+     
+   - TEL_CHAT_TOKEN
+     Telegram 机器人 Token
+     
+   - SERVER_HOST
+   Telegram 消息回调服务
 
 ## 更新历史
+
+### v1.0.2
+
+支持发送 Telegram 通知消息
 
 ### v1.0.1
 
