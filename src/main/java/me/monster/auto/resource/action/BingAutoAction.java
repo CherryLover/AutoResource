@@ -29,7 +29,7 @@ public class BingAutoAction implements AutoAction {
     @Override
     public void fetchInfo() {
         try {
-            String httpContent = HttpUtils.getHttpContent(BING_API);
+            String httpContent = HttpUtils.sendGetRequest(BING_API);
             mRspBingVo = new Gson().fromJson(httpContent, RspBingVo.class);
         } catch (IOException e) {
             e.printStackTrace();

@@ -17,7 +17,7 @@ public class TelegramNotificationList {
     }
 
     public void addNotification(NotificationVo notification) {
-        System.out.println("add notification " + notification.toString());
+        System.out.println("add notification " + notification.getText().length() + " chars from " + notification.getSource());
         boolean invokeStar = isEmpty();
         notificationTextList.offer(notification);
         if (invokeStar) {
@@ -28,9 +28,7 @@ public class TelegramNotificationList {
     }
 
     public NotificationVo getNotification() {
-        final NotificationVo poll = notificationTextList.poll();
-        System.out.println("get notification " + poll);
-        return poll;
+        return notificationTextList.poll();
     }
 
     public boolean isEmpty() {

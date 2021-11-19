@@ -65,13 +65,7 @@ public class UnsplashImgAutoAction implements AutoAction {
             urlArray[i] = url;
         }
         UnsplashExecutor.getInstance()
-                .setStoreListener(new UnsplashExecutor.OnResourceStoreListener() {
-                    @Override
-                    public void onStore(Map<String, RspUnsplash> store) {
-                        System.out.println("get Response size " + store.size() + " " + store.keySet().toString());
-                        storeInJsonAndMd(store);
-                    }
-                })
+                .setStoreListener(this::storeInJsonAndMd)
                 .getContent(urlArray);
     }
 

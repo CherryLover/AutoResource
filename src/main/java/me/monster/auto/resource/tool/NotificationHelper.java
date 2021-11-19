@@ -45,8 +45,7 @@ public class NotificationHelper {
         params.put("text", notificationVo.getText());
         params.put("reply_markup", generateReplyMarkUp(notificationVo.getSource(), notificationVo.getAttachmentUrl(), notificationVo.getAttachmentFileName()));
         try {
-            String httpContent = HttpUtils.getPostResponse(generateSendMessageUrl(), params);
-            System.out.println("post notification response " + httpContent);
+            HttpUtils.getPostResponse(generateSendMessageUrl(), params);
         } catch (IOException e) {
             e.printStackTrace();
         }

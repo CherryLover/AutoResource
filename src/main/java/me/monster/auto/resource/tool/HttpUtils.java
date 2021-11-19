@@ -1,11 +1,8 @@
 package me.monster.auto.resource.tool;
 
 import okhttp3.*;
-import java.io.BufferedInputStream;
+
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.Map;
 
 /**
@@ -20,57 +17,14 @@ public class HttpUtils {
 
     private final static OkHttpClient client = new OkHttpClient.Builder().build();
 
-    /**
-     * 获取 HTTP 连接
-     *
-     * @param url
-     * @return
-     * @throws IOException
-     */
-    public static HttpURLConnection getGetConnection(String url) throws IOException {
-        URL httpUrl = new URL(url);
-        HttpURLConnection httpConnection = (HttpURLConnection)httpUrl.openConnection();
-        httpConnection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36");
-        return httpConnection;
-    }
-
-    public static HttpURLConnection getPostConnection(String url, String method, Map<String, String> params) throws IOException {
-        URL httpUrl = new URL(url);
-        HttpURLConnection httpConnection = (HttpURLConnection) httpUrl.openConnection();
-        httpConnection.setRequestMethod(method);
-        httpConnection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36");
-        return httpConnection;
-    }
-
-    /**
-     * 请求指定 URL 返回内容
-     *
-     * @param url
-     * @return
-     * @throws IOException
-     */
-    public static String getHttpContent(String url) throws IOException {
-        return getGetResponse(url);
-    }
-
-    private static String getGetResponse(String url) throws IOException {
-        HttpURLConnection httpUrlConnection = getGetConnection(url);
-        StringBuilder stringBuilder = new StringBuilder();
-        // 获得输入流
-        try (InputStream input = httpUrlConnection.getInputStream(); BufferedInputStream bis = new BufferedInputStream(
-            input);) {
-            byte[] buffer = new byte[1024];
-            int len = -1;
-            // 读到文件末尾则返回-1
-            while ((len = bis.read(buffer)) != -1) {
-                stringBuilder.append(new String(buffer, 0, len));
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            httpUrlConnection.disconnect();
-        }
-        return stringBuilder.toString();
+    public static String sendGetRequest(String url) throws IOException {
+        final Request request = new Request.Builder()
+                .url(url)
+                .get()
+                .build();
+        final Response response = client.newCall(request).execute();
+        printHttpInfo(request, response);
+        return tryGetResponse(response);
     }
 
     public static String getPostResponse(String url, Map<String, String> params) throws IOException {
@@ -83,7 +37,11 @@ public class HttpUtils {
                 .post(bodyBuilder.build())
                 .build();
         final Response response = client.newCall(request).execute();
-        System.out.println(request.method() + " -> " + url + " with " + response.code() + " " + response.message());
+        printHttpInfo(request, response);
+        return tryGetResponse(response);
+    }
+
+    private static String tryGetResponse(Response response) throws IOException {
         if (response.isSuccessful()) {
             final ResponseBody body = response.body();
             if (body == null) {
@@ -94,6 +52,10 @@ public class HttpUtils {
         } else {
             return "";
         }
+    }
+
+    private static void printHttpInfo(Request request, Response response) {
+        System.out.println(request.method() + " -> " + request.url().toString() + " with " + response.code() + " " + response.message());
     }
 
 }

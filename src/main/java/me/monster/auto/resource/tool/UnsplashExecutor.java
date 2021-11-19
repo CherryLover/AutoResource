@@ -33,7 +33,6 @@ public class UnsplashExecutor {
                 public void onStore(Map<String, RspUnsplash> store) {
                     allStoreMap.putAll(store);
                     if (allStoreMap.size() == urls.length) {
-                        System.out.println("finished " + store.keySet().toString());
                         resourceGetTimeDown.cancel();
                         finishGetData(unsplashExecutor);
                     }
@@ -44,7 +43,7 @@ public class UnsplashExecutor {
         resourceGetTimeDown.schedule(new TimerTask() {
             @Override
             public void run() {
-                System.out.println("--- Timer Down ---");
+                System.out.println("--- Unsplash Timer Down ---");
                 finishGetData(unsplashExecutor);
             }
         }, DELAY_TIME);
@@ -103,15 +102,13 @@ public class UnsplashExecutor {
         @Override
         public void run() {
             try {
-                System.out.println("prepare request " + url + " for " + keyType);
-                String httpContent = HttpUtils.getHttpContent(url);
+                String httpContent = HttpUtils.sendGetRequest(url);
                 Type type = new TypeToken<ArrayList<RspUnsplash>>() {
                 }.getType();
                 List<RspUnsplash> unsplashList = new Gson().fromJson(httpContent, type);
                 if (unsplashList == null || unsplashList.isEmpty()) {
                     System.err.println(url + " response has no data for " + keyType);
                 } else {
-                    System.out.println("request " + url + " has response save for " + keyType);
                     storeMap.put(keyType, unsplashList.get(0));
                     if (mListener != null) {
                         mListener.onStore(storeMap);
