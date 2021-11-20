@@ -62,8 +62,8 @@ public class Entrance {
         System.out.println("init notification helper");
 
         List<String> actionList = new ArrayList<>();
-        actionList.add(ACTION_BING);
-        actionList.add(ACTION_UNSPLASH);
+//        actionList.add(ACTION_BING);
+//        actionList.add(ACTION_UNSPLASH);
         actionList.add(ACTION_DAY_REMINDER);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
