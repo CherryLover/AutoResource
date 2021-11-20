@@ -6,9 +6,9 @@ name: Java CI with Gradle
 on:
   schedule:
 #    定时执行 00:10 UTC, 08:10 GMT+8
-    - cron: '10 0,4,10 * * 0-6'
+    - cron: '10 0 * * 0-6'
   push:
-    branches: [ master ]
+    branches: [ feature/auto_run ]
 #   pull_request:
 #     branches: [ master ]
 #  issue_comment:
@@ -30,7 +30,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} -1
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} 0
 #    暂不使用 markdown 进行保存自动化结果
 #    - name: Commit files
 #      run: |

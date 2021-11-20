@@ -9,12 +9,10 @@ import me.monster.auto.resource.bean.RunConfig;
 import me.monster.auto.resource.tool.DataHolder;
 import me.monster.auto.resource.tool.FileUtils;
 import me.monster.auto.resource.tool.NotificationHelper;
+import me.monster.auto.resource.tool.StringUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @description
@@ -22,12 +20,15 @@ import java.util.Map;
  */
 public class Entrance {
 
-    public static final String ACTION_BING = "Bing";
-    public static final String ACTION_UNSPLASH = "Unsplash";
-    public static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
+    private static final String ACTION_BING = "Bing";
+    private static final String ACTION_UNSPLASH = "Unsplash";
+    private static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
+
+    private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER};
 
     // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
+        List<String> actionList = new ArrayList<>();
         try {
             String config = FileUtils.getContent("RunConfig.json");
             RunConfig runConfig = new Gson().fromJson(config, RunConfig.class);
@@ -51,6 +52,9 @@ public class Entrance {
                     case 5:
                         runConfig.getTelegram().setCallbackUrlHost(args[i]);
                         break;
+                    case 6:
+                        actionList.addAll(applyRunAction(args[i]));
+                        break;
                 }
             }
             DataHolder.getInstance().setRunConfig(runConfig);
@@ -58,13 +62,13 @@ public class Entrance {
             e.printStackTrace();
         }
 
+        if (actionList.isEmpty()) {
+            System.err.println("no action to run");
+            System.exit(0);
+        }
+
         final NotificationHelper notificationHelper = new NotificationHelper();
         System.out.println("init notification helper");
-
-        List<String> actionList = new ArrayList<>();
-//        actionList.add(ACTION_BING);
-//        actionList.add(ACTION_UNSPLASH);
-        actionList.add(ACTION_DAY_REMINDER);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
@@ -83,6 +87,17 @@ public class Entrance {
                 autoAction.storeMetaInfo();
             }
         }
+    }
 
+    private static List<String> applyRunAction(String actionPosition) {
+        List<String> actions = new ArrayList<>();
+        final String[] split = actionPosition.split(",");
+        for (String s : split) {
+            final int position = StringUtils.parseInt(s, -1);
+            if (position >= 0 && position < ALL_ACTION.length) {
+                actions.add(ALL_ACTION[position]);
+            }
+        }
+        return actions;
     }
 }
