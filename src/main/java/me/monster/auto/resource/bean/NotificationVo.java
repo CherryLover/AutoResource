@@ -1,8 +1,11 @@
 package me.monster.auto.resource.bean;
 
+import me.monster.auto.resource.tool.StringUtils;
+
 public class NotificationVo {
     public static final String SOURCE_BING = "bing";
     public static final String SOURCE_UNSPLASH = "unsplash";
+    public static final String SOURCE_DAY_REMINDER = "day_reminder";
     /**
      * 通知需要展示的文本
      */
@@ -49,6 +52,10 @@ public class NotificationVo {
 
     private void setSource(String source) {
         this.source = source;
+    }
+
+    public boolean hasAttachment() {
+        return StringUtils.isNotEmpty(getAttachmentFileName()) && StringUtils.isNotEmpty(getAttachmentUrl());
     }
 
     @Override

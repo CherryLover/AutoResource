@@ -3,6 +3,7 @@ package me.monster.auto.resource;
 import com.google.gson.Gson;
 import me.monster.auto.resource.action.AutoAction;
 import me.monster.auto.resource.action.BingAutoAction;
+import me.monster.auto.resource.action.DayReminderAction;
 import me.monster.auto.resource.action.UnsplashImgAutoAction;
 import me.monster.auto.resource.bean.RunConfig;
 import me.monster.auto.resource.tool.DataHolder;
@@ -23,6 +24,7 @@ public class Entrance {
 
     public static final String ACTION_BING = "Bing";
     public static final String ACTION_UNSPLASH = "Unsplash";
+    public static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
 
     // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
@@ -62,10 +64,12 @@ public class Entrance {
         List<String> actionList = new ArrayList<>();
         actionList.add(ACTION_BING);
         actionList.add(ACTION_UNSPLASH);
+        actionList.add(ACTION_DAY_REMINDER);
 
         Map<String, AutoAction> actionMap = new HashMap<>();
         actionMap.put(ACTION_BING, new BingAutoAction());
         actionMap.put(ACTION_UNSPLASH, new UnsplashImgAutoAction());
+        actionMap.put(ACTION_DAY_REMINDER, new DayReminderAction());
 
 
         for (String action : actionList) {

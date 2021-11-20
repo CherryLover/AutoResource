@@ -43,7 +43,9 @@ public class NotificationHelper {
         Map<String, String> params = new HashMap<>();
         params.put("chat_id", telegramConfig.getChatId());
         params.put("text", notificationVo.getText());
-        params.put("reply_markup", generateReplyMarkUp(notificationVo.getSource(), notificationVo.getAttachmentUrl(), notificationVo.getAttachmentFileName()));
+        if (notificationVo.hasAttachment()) {
+            params.put("reply_markup", generateReplyMarkUp(notificationVo.getSource(), notificationVo.getAttachmentUrl(), notificationVo.getAttachmentFileName()));
+        }
         try {
             HttpUtils.getPostResponse(generateSendMessageUrl(), params);
         } catch (IOException e) {

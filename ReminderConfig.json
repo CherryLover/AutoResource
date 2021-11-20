@@ -1,0 +1,44 @@
+{
+  "days": [
+    {
+      "event": "遇见",
+      "time": "2019.01.01 00:00",
+      "action": "记得睡前说晚安哦"
+    },
+    {
+      "event": "奔现",
+      "time": "2019.06.01 00:00",
+      "action": "记得睡前说晚安哦"
+    }
+  ],
+  "days_record": [
+    {
+      "amount": 1000,
+      "unit": "day"
+    },
+    {
+      "amount": 1500,
+      "unit": "day"
+    },
+    {
+      "amount": 2000,
+      "unit": "day"
+    },
+    {
+      "amount": 3,
+      "unit": "year"
+    },
+    {
+      "amount": 4,
+      "unit": "year"
+    },
+    {
+      "amount": 5,
+      "unit": "year"
+    },
+    {
+      "amount": 6,
+      "unit": "year"
+    }
+  ]
+}
