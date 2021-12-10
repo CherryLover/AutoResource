@@ -13,6 +13,7 @@ public class RunConfig {
     private UnsplashConfig Unsplash;
     private AliOssConfig AliOss;
     private TelegramConfig Telegram;
+    private LoveyConfig Lovely;
 
     public BingConfig getBing() {
         return Bing;
@@ -28,6 +29,10 @@ public class RunConfig {
 
     public TelegramConfig getTelegram() {
         return Telegram;
+    }
+
+    public LoveyConfig getLovely() {
+        return Lovely;
     }
 
     public static class BingConfig {
@@ -179,6 +184,18 @@ public class RunConfig {
                     StringUtils.isNotEmpty(botToken) &&
                     StringUtils.isNotEmpty(callbackUrlHost) &&
                     StringUtils.isNotEmpty(callbackUrlPath);
+        }
+    }
+
+    public static class LoveyConfig {
+        private int randomChoice = 3;
+
+        public int getRandomChoice() {
+            return randomChoice;
+        }
+
+        public void setRandomChoice(int randomChoice) {
+            this.randomChoice = randomChoice;
         }
     }
 }

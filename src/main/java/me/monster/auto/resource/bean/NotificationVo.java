@@ -6,6 +6,7 @@ public class NotificationVo {
     public static final String SOURCE_BING = "bing";
     public static final String SOURCE_UNSPLASH = "unsplash";
     public static final String SOURCE_DAY_REMINDER = "day_reminder";
+    public static final String SOURCE_LOVELY = "lovely";
     /**
      * 通知需要展示的文本
      */

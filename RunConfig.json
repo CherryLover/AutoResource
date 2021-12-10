@@ -21,5 +21,8 @@
     "callbackHttpProtocol": "http",
     "callbackUrlHost": "",
     "callbackUrlPath": "/tel/callback/invoke/save_image"
+  },
+  "Lovely": {
+    "randomChoice": 2
   }
 }

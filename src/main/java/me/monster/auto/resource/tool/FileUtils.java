@@ -3,6 +3,7 @@ package me.monster.auto.resource.tool;
 import me.monster.auto.resource.bean.MdImage;
 
 import java.io.*;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

@@ -1,10 +1,7 @@
 package me.monster.auto.resource;
 
 import com.google.gson.Gson;
-import me.monster.auto.resource.action.AutoAction;
-import me.monster.auto.resource.action.BingAutoAction;
-import me.monster.auto.resource.action.DayReminderAction;
-import me.monster.auto.resource.action.UnsplashImgAutoAction;
+import me.monster.auto.resource.action.*;
 import me.monster.auto.resource.bean.RunConfig;
 import me.monster.auto.resource.tool.DataHolder;
 import me.monster.auto.resource.tool.FileUtils;
@@ -23,8 +20,9 @@ public class Entrance {
     private static final String ACTION_BING = "Bing";
     private static final String ACTION_UNSPLASH = "Unsplash";
     private static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
+    private static final String ACTION_LOVELY = "LOVELY";
 
-    private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER};
+    private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER, ACTION_LOVELY};
 
     // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
@@ -74,9 +72,11 @@ public class Entrance {
         actionMap.put(ACTION_BING, new BingAutoAction());
         actionMap.put(ACTION_UNSPLASH, new UnsplashImgAutoAction());
         actionMap.put(ACTION_DAY_REMINDER, new DayReminderAction());
+        actionMap.put(ACTION_LOVELY, new LovelyAction());
 
 
         for (String action : actionList) {
+            System.out.println("now execute " + action);
             AutoAction autoAction = actionMap.get(action);
 
             if (autoAction == null) {
