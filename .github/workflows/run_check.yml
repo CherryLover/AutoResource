@@ -30,7 +30,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} 0,1,2,3
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} 0,1,2,3,4
 #    暂不使用 markdown 进行保存自动化结果
 #    - name: Commit files
 #      run: |
