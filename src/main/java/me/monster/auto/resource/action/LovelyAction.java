@@ -9,8 +9,8 @@ import me.monster.auto.resource.tool.TelegramNotificationList;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.net.URL;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,22 +18,17 @@ public class LovelyAction implements AutoAction {
 
     @Override
     public void fetchInfo() {
-        final URL resource = this.getClass().getClassLoader().getResource("lovely.json");
-        if (resource != null) {
-            String fileName = resource.getFile();
-            if (fileName != null) {
-                try {
-                    String content = FileUtils.getContent(fileName);
-                    Type type = new TypeToken<ArrayList<String>>() {
-                    }.getType();
-                    List<String> lovelyList = new Gson().fromJson(content, type);
-                    final String randomLovely = Lists.getRandom(lovelyList).replace("|", "\n");
-                    final NotificationVo notification = new NotificationVo("小情话：\n" + randomLovely, NotificationVo.SOURCE_LOVELY);
-                    TelegramNotificationList.getInstance().addNotification(notification);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+        String fileName = Paths.get(System.getProperty("user.dir") + "/action_lovely.json").toString();
+        try {
+            String content = FileUtils.getContent(fileName);
+            Type type = new TypeToken<ArrayList<String>>() {
+            }.getType();
+            List<String> lovelyList = new Gson().fromJson(content, type);
+            final String randomLovely = Lists.getRandom(lovelyList).replace("|", "\n");
+            final NotificationVo notification = new NotificationVo("小情话：\n" + randomLovely, NotificationVo.SOURCE_LOVELY);
+            TelegramNotificationList.getInstance().addNotification(notification);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
