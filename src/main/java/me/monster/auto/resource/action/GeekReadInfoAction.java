@@ -12,6 +12,7 @@ import me.monster.auto.resource.tool.TimeUtils;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
 
 public class GeekReadInfoAction implements AutoAction {
 
@@ -22,7 +23,7 @@ public class GeekReadInfoAction implements AutoAction {
     @Override
     public void fetchInfo() {
         try {
-            String response = HttpUtils.getHttpContent(URL, HttpUtils.METHOD_POST);
+            String response = HttpUtils.getPostResponse(URL, new HashMap<>(), new HashMap<>());
             RspGeekHotList rspGeekHotList = new Gson().fromJson(response, RspGeekHotList.class);
             if (rspGeekHotList.isSuccess()) {
                 mGeekStoreNew = new GeekStore();
@@ -46,6 +47,7 @@ public class GeekReadInfoAction implements AutoAction {
                     mGeekStoreNew.addInfo(store);
                 }
                 System.out.println("Count: " + rspGeekHotList.getData().size());
+                System.out.println(rspGeekHotList.toString());
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -54,32 +56,32 @@ public class GeekReadInfoAction implements AutoAction {
 
     @Override
     public void storeMetaInfo() {
-        try {
-            String oldInfo = FileUtils.getContent(getStoreFilePath().toString());
-            Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-            GeekStore oldStore = gson.fromJson(oldInfo, GeekStore.class);
-            if (oldStore == null) {
-                oldStore = new GeekStore();
-            }
-            oldStore.addNewInfo(mGeekStoreNew);
-
-            String newGeekInfo = gson.toJson(oldStore);
-            FileUtils.rewriteFile(getStoreFilePath(), newGeekInfo);
-
-            MdInfo mdInfo = new MdInfo();
-            mdInfo.setFileTitle(TITLE_PREVIEW_FILE);
-            mdInfo.setTableTitle("日期", "内容", "备注");
-            for (GeekStore.GeekStoreBean geekStoreBean : oldStore.getInfoList()) {
-                MdInfo.MdInfoItem item = new MdInfo.MdInfoItem();
-                item.setDate(TimeUtils.formatDay(geekStoreBean.getTimestamp()));
-                item.setContent(geekStoreBean.getPreviewContent());
-                mdInfo.appendItem(item);
-            }
-            mdInfo.refresh();
-            FileUtils.writeInfoMdFile(getPreviewFilePath(), mdInfo);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            String oldInfo = FileUtils.getContent(getStoreFilePath().toString());
+//            Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+//            GeekStore oldStore = gson.fromJson(oldInfo, GeekStore.class);
+//            if (oldStore == null) {
+//                oldStore = new GeekStore();
+//            }
+//            oldStore.addNewInfo(mGeekStoreNew);
+//
+//            String newGeekInfo = gson.toJson(oldStore);
+//            FileUtils.rewriteFile(getStoreFilePath(), newGeekInfo);
+//
+//            MdInfo mdInfo = new MdInfo();
+//            mdInfo.setFileTitle(TITLE_PREVIEW_FILE);
+//            mdInfo.setTableTitle("日期", "内容", "备注");
+//            for (GeekStore.GeekStoreBean geekStoreBean : oldStore.getInfoList()) {
+//                MdInfo.MdInfoItem item = new MdInfo.MdInfoItem();
+//                item.setDate(TimeUtils.formatDay(geekStoreBean.getTimestamp()));
+//                item.setContent(geekStoreBean.getPreviewContent());
+//                mdInfo.appendItem(item);
+//            }
+//            mdInfo.refresh();
+//            FileUtils.writeInfoMdFile(getPreviewFilePath(), mdInfo);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     @Override

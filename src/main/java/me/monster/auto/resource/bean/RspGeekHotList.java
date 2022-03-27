@@ -17,6 +17,15 @@ public class RspGeekHotList {
         return data == null ? new ArrayList<>() : data;
     }
 
+    @Override
+    public String toString() {
+        return "RspGeekHotList{" +
+                "statusCode=" + statusCode +
+                ", message='" + message + '\'' +
+                ", data=" + data +
+                '}';
+    }
+
     public static class GeekInfoBean {
 
         private ArrayList<String> authors;

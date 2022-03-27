@@ -41,6 +41,23 @@ public class HttpUtils {
         return tryGetResponse(response);
     }
 
+    public static String getPostResponse(String url, Map<String, String> headers, Map<String, String> params) throws IOException {
+        final FormBody.Builder bodyBuilder = new FormBody.Builder();
+        for (String s : params.keySet()) {
+            bodyBuilder.add(s, params.get(s));
+        }
+        Request.Builder requestBuilder = new Request.Builder()
+                .url(url)
+                .post(bodyBuilder.build());
+        for (String key : headers.keySet()) {
+            requestBuilder.addHeader(key, headers.get(key));
+        }
+        final Request request = requestBuilder.build();
+        final Response response = client.newCall(request).execute();
+        printHttpInfo(request, response);
+        return tryGetResponse(response);
+    }
+
     private static String tryGetResponse(Response response) throws IOException {
         if (response.isSuccessful()) {
             final ResponseBody body = response.body();
