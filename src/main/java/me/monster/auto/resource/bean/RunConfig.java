@@ -187,6 +187,7 @@ public class RunConfig {
         }
     }
 
+    @Deprecated
     public static class LoveyConfig {
         private int randomChoice = 3;
 
