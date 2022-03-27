@@ -21,8 +21,9 @@ public class Entrance {
     private static final String ACTION_UNSPLASH = "Unsplash";
     private static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
     private static final String ACTION_LOVELY = "LOVELY";
+    private static final String ACTION_GEEK_NEWS = "GEEK_READ";
 
-    private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER, ACTION_LOVELY};
+    private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER, ACTION_LOVELY, ACTION_GEEK_NEWS};
 
     // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
@@ -73,6 +74,7 @@ public class Entrance {
         actionMap.put(ACTION_UNSPLASH, new UnsplashImgAutoAction());
         actionMap.put(ACTION_DAY_REMINDER, new DayReminderAction());
         actionMap.put(ACTION_LOVELY, new LovelyAction());
+        actionMap.put(ACTION_GEEK_NEWS, new GeekReadInfoAction());
 
 
         for (String action : actionList) {
