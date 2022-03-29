@@ -2,6 +2,7 @@ package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import me.monster.auto.resource.Entrance;
 import me.monster.auto.resource.bean.GeekStore;
 import me.monster.auto.resource.bean.MdInfo;
 import me.monster.auto.resource.bean.NotificationVo;
@@ -85,5 +86,15 @@ public class GeekReadInfoAction implements AutoAction {
     @Override
     public boolean isSync() {
         return false;
+    }
+
+    @Override
+    public String name() {
+        return Entrance.ACTION_GEEK_NEWS;
+    }
+
+    @Override
+    public int priority() {
+        return 20;
     }
 }

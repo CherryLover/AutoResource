@@ -1,6 +1,7 @@
 package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
+import me.monster.auto.resource.Entrance;
 import me.monster.auto.resource.bean.NotificationVo;
 import me.monster.auto.resource.bean.Reminder;
 import me.monster.auto.resource.bean.ReminderConfig;
@@ -134,5 +135,15 @@ public class DayReminderAction implements AutoAction {
     @Override
     public boolean isSync() {
         return false;
+    }
+
+    @Override
+    public String name() {
+        return Entrance.ACTION_DAY_REMINDER;
+    }
+
+    @Override
+    public int priority() {
+        return 10;
     }
 }

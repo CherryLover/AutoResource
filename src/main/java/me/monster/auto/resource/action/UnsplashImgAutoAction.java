@@ -2,6 +2,7 @@ package me.monster.auto.resource.action;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import me.monster.auto.resource.Entrance;
 import me.monster.auto.resource.bean.*;
 import me.monster.auto.resource.tool.*;
 
@@ -210,5 +211,15 @@ public class UnsplashImgAutoAction implements AutoAction {
     @Override
     public boolean isSync() {
         return true;
+    }
+
+    @Override
+    public String name() {
+        return Entrance.ACTION_UNSPLASH;
+    }
+
+    @Override
+    public int priority() {
+        return 40;
     }
 }

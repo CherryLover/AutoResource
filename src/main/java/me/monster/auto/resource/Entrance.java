@@ -17,16 +17,20 @@ import java.util.*;
  */
 public class Entrance {
 
-    private static final String ACTION_BING = "Bing";
-    private static final String ACTION_UNSPLASH = "Unsplash";
-    private static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
-    private static final String ACTION_LOVELY = "LOVELY";
-    private static final String ACTION_GEEK_NEWS = "GEEK_READ";
+    public static final String ACTION_BING = "Bing";
+    public static final String ACTION_UNSPLASH = "Unsplash";
+    public static final String ACTION_DAY_REMINDER = "DAY_REMINDER";
+    public static final String ACTION_LOVELY = "LOVELY";
+    public static final String ACTION_GEEK_NEWS = "GEEK_READ";
 
     private static final String[] ALL_ACTION = {ACTION_BING, ACTION_UNSPLASH, ACTION_DAY_REMINDER, ACTION_LOVELY, ACTION_GEEK_NEWS};
 
     // args order: ossKey ossSecret unsplash_client_id telegram_ChatId telegram_botToken 服务器地址
     public static void main(String[] args) {
+        System.out.println("args size: " + args.length);
+        for (String arg : args) {
+            System.out.print(" " + arg + " ");
+        }
         List<String> actionList = new ArrayList<>();
         try {
             String config = FileUtils.getContent("RunConfig.json");
@@ -77,13 +81,18 @@ public class Entrance {
         actionMap.put(ACTION_GEEK_NEWS, new GeekReadInfoAction());
 
 
+        final List<AutoAction> runnerList = new ArrayList<>(actionList.size());
         for (String action : actionList) {
-            System.out.println("now execute " + action);
             AutoAction autoAction = actionMap.get(action);
 
             if (autoAction == null) {
                 throw new IllegalArgumentException("no " + action + " AutoAction implement");
             }
+            runnerList.add(autoAction);
+        }
+        Collections.sort(runnerList, (o1, o2) -> Integer.compare(o1.priority(), o2.priority()));
+        for (AutoAction autoAction : runnerList) {
+            System.out.println("now execute " + autoAction.name());
             autoAction.fetchInfo();
             if (!autoAction.isSync()) {
                 autoAction.storeMetaInfo();

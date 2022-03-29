@@ -34,4 +34,16 @@ public interface AutoAction {
      * @return true 异步 false 同步
      */
     boolean isSync();
+
+    /**
+     * 名称
+     * @return
+     */
+    String name();
+
+    /**
+     * 执行优先级，越小，优先级越大
+     * @return 正数数字
+     */
+    int priority();
 }
