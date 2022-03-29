@@ -1,14 +1,14 @@
 # This workflow will build a Java project with Gradle
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
-name: Run Day Reminder Action
+name: Run Unsplash Action
 
 on:
   schedule:
 #    定时执行 00:10 UTC, 08:10 GMT+8
-    - cron: '40 0 * * 0-6'
+    - cron: '30 0,4,9 * * 0-6'
 #  push:
-#    branches: [ feature/auto_run ]
+#    branches: [ master ]
 #   pull_request:
 #     branches: [ master ]
 #  issue_comment:
@@ -30,7 +30,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew jar
     - name: Run jar file
-      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} 2
+      run: java -jar build/libs/AutoResource-1.0-SNAPSHOT.jar ${{ secrets.OSS_KEY }} ${{ secrets.OSS_SECRET }} ${{ secrets.UNSPLASH_CLIENT_ID }} ${{ secrets.TEL_CHAT_ID }} ${{ secrets.TEL_CHAT_TOKEN }} ${{ secrets.SERVER_HOST }} 1
 #    暂不使用 markdown 进行保存自动化结果
 #    - name: Commit files
 #      run: |
