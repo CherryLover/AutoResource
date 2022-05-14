@@ -22,7 +22,8 @@ public class UnsplashImgAutoAction implements AutoAction {
     public static final String URL_ARGS_COUNT = "count";
     public static final String URL_ARGS_ORIENTATION = "orientation";
     public static final String URL_ARGS_QUERY = "query";
-    public static final String[] ORIENTATION_ITEMS = {"landscape", "portrait", "squarish"};
+    public static final String[] ORIENTATION_SIGNS = {"landscape", "portrait", "squarish"};
+    public static final String[] ORIENTATION_ITEMS = {"landscape"};
     public static final String[] QUERY_ITEMS = {"wallpapers", "nature", "people", "architecture", "current-events", "fashion", "film", "travel", "textures-patterns", "animals", "food-drink"};
     public static final String UNSPLASH_TITLE = "Unsplash Images";
     public static final String CLIENT_ID = "client_id";
@@ -59,7 +60,7 @@ public class UnsplashImgAutoAction implements AutoAction {
             return;
         }
         queryMap.put(CLIENT_ID, runConfig.getUnsplash().getClientId());
-        String[] urlArray = new String[3];
+        String[] urlArray = new String[ORIENTATION_ITEMS.length];
         for (int i = 0; i < ORIENTATION_ITEMS.length; i++) {
             queryMap.put(URL_ARGS_ORIENTATION, ORIENTATION_ITEMS[i]);
             String url = formatUrl(queryMap);
@@ -125,30 +126,23 @@ public class UnsplashImgAutoAction implements AutoAction {
     }
 
     private UnsplashImageVo coverVoObj(Map<String, RspUnsplash> store) throws IOException {
-        RspUnsplash landscape = store.get(ORIENTATION_ITEMS[0]);
-        RspUnsplash portrait = store.get(ORIENTATION_ITEMS[1]);
-        RspUnsplash squarish = store.get(ORIENTATION_ITEMS[2]);
+        RspUnsplash landscape = store.get(ORIENTATION_SIGNS[0]);
+        RspUnsplash portrait = store.get(ORIENTATION_SIGNS[1]);
+        RspUnsplash squarish = store.get(ORIENTATION_SIGNS[2]);
 
-        UnsplashImageVo.ImgVo lanVo, portraitVo, squarishVo;
-        if (landscape == null) {
-            lanVo = getDefaultVo(ORIENTATION_ITEMS[0]);
-        } else {
-            lanVo = covert2Vo(ORIENTATION_ITEMS[0], landscape);
-        }
-        if (portrait == null) {
-            portraitVo = getDefaultVo(ORIENTATION_ITEMS[1]);
-        } else {
-            portraitVo = covert2Vo(ORIENTATION_ITEMS[1], portrait);
-        }
-        if (squarish == null) {
-            squarishVo = getDefaultVo(ORIENTATION_ITEMS[2]);
-        } else {
-            squarishVo = covert2Vo(ORIENTATION_ITEMS[2], squarish);
-        }
         UnsplashImageVo vo = new UnsplashImageVo();
-        vo.addImage(lanVo);
-        vo.addImage(portraitVo);
-        vo.addImage(squarishVo);
+        if (landscape != null) {
+            UnsplashImageVo.ImgVo lanVo = covert2Vo(ORIENTATION_SIGNS[0], landscape);
+            vo.addImage(lanVo);
+        }
+        if (portrait != null) {
+            UnsplashImageVo.ImgVo portraitVo = covert2Vo(ORIENTATION_SIGNS[1], portrait);
+            vo.addImage(portraitVo);
+        }
+        if (squarish != null) {
+            UnsplashImageVo.ImgVo  squarishVo = covert2Vo(ORIENTATION_SIGNS[2], squarish);
+            vo.addImage(squarishVo);
+        }
         return vo;
     }
 
